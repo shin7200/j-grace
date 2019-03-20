@@ -1,3 +1,12 @@
 .carousel {
     padding-top: 5em;
 }
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #34495E;
+    margin-right: 10px;
+    margin-left: 10px;
+}

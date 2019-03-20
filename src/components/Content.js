@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 export default class Content extends Component {
     render() {
         return(
-            <Carousel slide="false" fade="true" interval={1000}>
+            <Carousel slide="false" fade="true" pauseOnHover="false" interval={3000}>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
