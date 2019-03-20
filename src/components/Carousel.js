@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/content.css';
+import '../styles/carousel.css';
 import Test from '../images/test.jpeg'
 import Test2 from '../images/test2.jpeg'
 import Carousel from 'react-bootstrap/Carousel'
@@ -7,7 +7,7 @@ import Carousel from 'react-bootstrap/Carousel'
 export default class Content extends Component {
     render() {
         return(
-            <Carousel slide="false" fade="true" pauseOnHover="false" interval={3000}>
+            <Carousel fade={true} pauseOnHover={false} interval={4000}>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"

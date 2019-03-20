@@ -4,5 +4,19 @@
     width: 100%;
     justify-content: space-between;
     z-index: 2;
-    background-color: #34495E
+    background-color: #34495E;
+    height: 70px;
+    align-items: center;
+    border-bottom: 1.5px solid #ECF0F1;
+}
+
+.nav {
+    padding-right: 4em;
+}
+
+.nav-link {
+    color: #ECF0F1;
+    padding-right: 3em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
 }

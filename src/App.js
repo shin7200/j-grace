@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import NavBar from './components/Navbar';
-import Content from './components/Content';
+import Carousel from './components/Carousel';
 import Footer from './components/Footer';
-
+import Mission from './components/Mission';
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <NavBar />
-        <Content />
+        <Carousel />
+        <Mission />
         <Footer />
       </React.Fragment>
     );

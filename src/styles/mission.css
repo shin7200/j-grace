@@ -1,0 +1,12 @@
+.mission-container {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 5em;
+}
+
+.mission-statement {
+    display: flex;
+    flex-direction: column;
+
+}
