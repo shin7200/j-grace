@@ -32,15 +32,15 @@ export default class Mission extends Component {
                     <h2 className="service">예배안내</h2>
                     <div className="service-time-container">
                         <div className="service-sunday">
-                            <p>주일예배</p>
+                            <p className="service-type">주일예배</p>
                             <p>일요일 1시</p>
                         </div>
                         <div className="service-saturday">
-                            <p>새벽예배</p>
+                            <p className="service-type">새벽기도</p>
                             <p>시간</p>
                         </div>
                         <div className="service-friday">
-                            <p>금요예배</p>
+                            <p className="service-type">금요예배</p>
                             <p>시간</p>
                         </div>
                     </div>
