@@ -14,16 +14,26 @@ export default class Content extends Component {
                     className="d-block w-100"
                     alt="image-one"
                     src={Test}
-                    style={{width:'100%', height:'700px'}}
+                    style={{width:'100%', height:'700px', webkitFilter: 'brightness(60%)'}}
                     />
                     <Carousel.Caption>
                     <div className="carousel-one">
-                        <h1>그레이스교회에서 7번째 <br/>분립개척하는 주은혜교회가<br/>2019년 4월 21일 부활주일부터 시작합니다<br/><br/><p>장소<br/>7837 Canada Way</p></h1>
+                        <div className="carousel-one-title">
+                            <span>그레이스교회 7번째 개척교회</span>
+                        </div>
+                        <div className="carousel-one-subtitle">
+                            <span>4월 21일 부활주일부터</span><br/>
+                            <span>첫 예배를 드립니다</span>
+                        </div>
+                        <div className="carousel-one-content">
+                            <span>장소<br/>7837 Canada Way</span><br/>
+                            <a href="/location">오시는 길</a>
+                        </div>
                         
                     </div>
                     </Carousel.Caption>
                 </Carousel.Item>
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <img
                     className="d-block w-100"
                     src="image-two"
@@ -45,7 +55,7 @@ export default class Content extends Component {
                     <h3>Test</h3>
                     <p>test</p>
                     </Carousel.Caption>
-                </Carousel.Item>
+                </Carousel.Item> */}
             </Carousel>
         )
     }

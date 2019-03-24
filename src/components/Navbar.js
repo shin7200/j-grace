@@ -15,7 +15,7 @@ export default class NavBar extends Component {
         const initialScroll = this.state.initialScroll;
         const currentScroll = window.scrollY;
         if (currentScroll > initialScroll) {
-            this.setState({ background: '#fff', color: '#333' })
+            this.setState({ background: '#fff', color: '#333', opacity: 0.8 })
         } else if (currentScroll < 1){
             this.setState({ background: 'transparent', color: '#fff' })
         }
@@ -23,8 +23,8 @@ export default class NavBar extends Component {
 
     render() {
         return(
-            <div onScroll={this.handleScroll} className="nav-container" style={{background: this.state.background}}>
-                <a className="nav-home" href="/">주은혜교회<br/>JGCC</a>
+            <div onScroll={this.handleScroll} className="nav-container" style={{background: this.state.background, opacity: this.state.opacity}}>
+                <a style={{color: this.state.color}}className="nav-home" href="/">주은혜교회<br/>JGCC</a>
                 {/* <a className="nav-home" href="/"><img className="nav-logo" alt="logo" src={Logo} /></a> */}
                 <ul className="nav">
                     <li className="nav-item">
