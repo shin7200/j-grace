@@ -8,7 +8,7 @@ export default class Location extends Component {
             <div>
                 <div className="location-header">
                     {/* <h1 id="korean">오시는 길</h1> */}
-                    <h2>Come Visit!</h2>
+                    <h2>Come Visit !</h2>
                 </div>
                 <div className="location-reason" style={{paddingBottom: '0'}}>
                         <p>저희 교회는 ....</p>
