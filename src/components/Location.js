@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/location.css'
-import LocationImage from '../images/location.png'
+// import LocationImage from '../images/location.png'
 
 export default class Location extends Component {
     render() {
