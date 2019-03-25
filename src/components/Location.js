@@ -17,7 +17,7 @@ export default class Location extends Component {
                     <div className="location-description">
                         <div id="korean" className="parking"><h3>주차안내</h3>
                         <p>외부 주차장은 Canada Way 거리에서 진입 가능합니다.<br/>
-                        지하 주차장은 외부 주차장 끝편에서부터 진입하실 수 있습니다.</p>
+                        지하 주차장은 외부 주차장 진입 후 끝편에서부터 진입하실 수 있습니다.</p>
                         </div><br/>
                         
                         <div className="address"><h3>Address</h3><p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p></div><br/>

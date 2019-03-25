@@ -18,13 +18,13 @@ export default class Content extends Component {
     render() {
         return(
             <div>
-                <Carousel fade={true} interval={4000}>
-                    {/* <Carousel.Item>
+                <Carousel fade={true} pauseOnHover={false} interval={5000}>
+                    <Carousel.Item>
                         <img
                         className="d-block w-100"
                         alt="image-one"
                         src={Test}
-                        style={{width:'100%', height:'700px', webkitFilter: 'brightness(60%)'}}
+                        style={{width:'100%', height:'750px', webkitFilter: 'brightness(60%)'}}
                         />
                         <Carousel.Caption>
                         <div className="carousel-one">
@@ -33,7 +33,7 @@ export default class Content extends Component {
                             </div>
                             <div className="carousel-one-subtitle">
                                 <span>4월 21일 부활주일부터</span><br/>
-                                <span>첫 예배를 드립니다</span>
+                                <span>1시에 첫 예배를 드립니다</span>
                             </div>
                             <div className="carousel-one-content">
                                 <p>장소<br/>7837 Canada Way</p>
@@ -42,13 +42,13 @@ export default class Content extends Component {
                             
                         </div>
                         </Carousel.Caption>
-                    </Carousel.Item> */}
+                    </Carousel.Item>
                     <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src="image-two"
                         src={Test2}
-                        style={{width:'100%', height:'700px', webkitFilter: 'brightness(60%)'}}
+                        style={{width:'100%', height:'750px', webkitFilter: 'brightness(60%)'}}
                         />
                         <Carousel.Caption>
                         <div className="carousel-two">
@@ -66,17 +66,17 @@ export default class Content extends Component {
                         </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    {/* <Carousel.Item>
+                    <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src={Test3}
-                        style={{width:'100%', height:'700px'}}
+                        style={{width:'100%', height:'750px'}}
                         />
                         <Carousel.Caption>
                         <h3>Test</h3>
                         <p>test</p>
                         </Carousel.Caption>
-                    </Carousel.Item> */}
+                    </Carousel.Item>
                 </Carousel>
                 {this.state.carouselPopup ? <CarouselPopup popupClose={this.popupClose} /> : null}
             </div>
