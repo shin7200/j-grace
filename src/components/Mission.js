@@ -5,7 +5,7 @@ export default class Mission extends Component {
     render() {
         return(
             <div className="outer-mission-container">
-                <div className="mission-container">
+                <div className="mission-container" data-aos="fade-up" data-aos-easing="linear">
                     <div className="vision-logo-container">
                         {/* <i id="cross" className="fas fa-cross"></i> */}
                         {/* <i className="fas fa-church"></i> */}
@@ -17,7 +17,7 @@ export default class Mission extends Component {
                         <p id="korean"><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는 <span style={{background: '#E67E22', color: '#333'}}>가족 공동체 교회</span></p>
                     </div>
                 </div>
-                <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}>
+                <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-right" data-aos-easing="linear">
                     <div id="korean" className="mission-statement">
                         <p>하나님의 은혜와 영광을 경험하는<br/><span>예배 공동체</span></p>
                         <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>나눔 공동체</span></p>
@@ -31,10 +31,10 @@ export default class Mission extends Component {
                 </div>
                 <div className="outer-service-container">
                     <div className="service-liner"></div>
-                    <p className="service">예배 안내</p>
+                    <p className="service" data-aos="fade-down">예배 안내</p>
                     <div id="korean" className="service-container">
                         {/* <p className="service">예배안내</p> */}
-                        <div className="service-time-container">
+                        <div className="service-time-container" data-aos="fade-down">
                             {/* <div className="service-sunday"> */}
                                 <p className="service-type">주일예배 | <span>일요일 1시</span></p>
                                 {/* <p className="service-time">일요일 1시</p> */}
@@ -48,7 +48,7 @@ export default class Mission extends Component {
                                 {/* <p className="service-time">시간</p> */}
                             {/* </div> */}
                         </div>
-                        <div className="main-page-location-container">
+                        <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
                                 <i class="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
                                 <ul>

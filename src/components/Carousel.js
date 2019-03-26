@@ -17,7 +17,7 @@ export default class Content extends Component {
 
     render() {
         return(
-            <div>
+            <div data-aos="fade-down" data-aos-duration="1500"> 
                 <Carousel fade={true} pauseOnHover={false} interval={5000}>
                     <Carousel.Item>
                         <img

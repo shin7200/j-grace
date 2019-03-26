@@ -6,16 +6,16 @@ export default class Location extends Component {
     render() {
         return(
             <div>
-                <div className="location-header">
+                <div className="location-header" data-aos="fade-down" data-aos-duration="1500">
                     {/* <h1 id="korean">오시는 길</h1> */}
-                    <h2>Come Visit !</h2>
+                    <h2>Come Visit <span>!!</span></h2>
                 </div>
                 <div className="location-wrapper">
                     <div className="location-reason" style={{paddingBottom: '0'}}>
                             <p>저희 교회는 ....</p>
                     </div>
                     <div className="google-map">
-                        <div className="location-description">
+                        <div className="location-description" data-aos="fade-up" data-aos-duration="1300">
                             <div id="korean" className="parking"><h3>주차안내</h3>
                             <p>외부 주차장은 Canada Way 거리에서 진입 가능합니다.<br/>
                             지하 주차장은 외부 주차장 진입 후 끝편에서부터 진입하실 수 있습니다.</p>
