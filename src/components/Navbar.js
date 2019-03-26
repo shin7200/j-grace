@@ -37,7 +37,7 @@ export default class NavBar extends Component {
                         <a style={{color: this.state.color}} className="nav-link" href="/news">교회소식</a>
                     </li>
                     <li className="nav-item">
-                        <a style={{color: this.state.color}} className="nav-link" href="/location">오시는길</a>
+                        <a style={{color: this.state.color}} className="nav-link" href="/location">오시는 길</a>
                     </li>
                 </ul>
             </div>
