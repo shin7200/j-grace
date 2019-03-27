@@ -66,7 +66,7 @@ export default class Content extends Component {
                         </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-                    <Carousel.Item>
+                    {/* <Carousel.Item>
                         <img
                         className="d-block w-100"
                         src={Test3}
@@ -76,7 +76,7 @@ export default class Content extends Component {
                         <h3>Test</h3>
                         <p>test</p>
                         </Carousel.Caption>
-                    </Carousel.Item>
+                    </Carousel.Item> */}
                 </Carousel>
                 {this.state.carouselPopup ? <CarouselPopup popupClose={this.popupClose} /> : null}
             </div>

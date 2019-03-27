@@ -11,19 +11,17 @@ export default class Location extends Component {
                     <h2>Come Visit <span>!!</span></h2>
                 </div>
                 <div className="location-wrapper">
-                    <div className="location-reason" style={{paddingBottom: '0'}}>
-                            <p>저희 교회는 ....</p>
-                    </div>
+                    {/* <div className="location-reason" style={{paddingBottom: '0'}}> */}
+                            {/* <p>저희 교회는 ....</p> */}
+                    {/* </div> */}
                     <div className="google-map">
-                        <div className="location-description" data-aos="fade-up" data-aos-duration="1300">
+                        <div className="location-description" data-aos="fade-down" data-aos-duration="1300">
+                            <div className="address"><h3>Address</h3><p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p></div><br/>
                             <div id="korean" className="parking"><h3>주차안내</h3>
                             <p>외부 주차장은 Canada Way 거리에서 진입 가능합니다.<br/>
                             지하 주차장은 외부 주차장 진입 후 끝편에서부터 진입하실 수 있습니다.</p>
                             </div><br/>
-                            
-                            <div className="address"><h3>Address</h3><p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p></div><br/>
                             <div className="email"><h3>Email</h3><p>jgrace.info@gmail.com</p></div><br/>
-                            
                             <div className="phone"><h3>Phone</h3></div>
                         </div>
                         <iframe  

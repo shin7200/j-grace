@@ -33,24 +33,14 @@ export default class Mission extends Component {
                     <div className="service-liner"></div>
                     <p className="service" data-aos="fade-down">예배 안내</p>
                     <div id="korean" className="service-container">
-                        {/* <p className="service">예배안내</p> */}
                         <div className="service-time-container" data-aos="fade-down">
-                            {/* <div className="service-sunday"> */}
-                                <p className="service-type">주일예배 | <span>일요일 1시</span></p>
-                                {/* <p className="service-time">일요일 1시</p> */}
-                            {/* </div> */}
-                            {/* <div className="service-saturday"> */}
-                                <p className="service-type">새벽기도 | <span>미정</span></p>
-                                {/* <p className="service-time">시간</p> */}
-                            {/* </div> */}
-                            {/* <div className="service-friday"> */}
-                                <p className="service-type">금요예배 | <span>미정</span></p>
-                                {/* <p className="service-time">시간</p> */}
-                            {/* </div> */}
+                            <p className="service-type">주일예배 | <span>일요일 1시</span></p>
+                            <p className="service-type">새벽기도 | <span>미정</span></p>
+                            <p className="service-type">금요예배 | <span>미정</span></p>
                         </div>
                         <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
-                                <i class="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
+                                <i className="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
                                 <ul>
                                     <li><b>location (장소) <a href="/location">오시는 길</a></b></li>
                                     <li>Burnaby Hall</li>
@@ -58,26 +48,28 @@ export default class Mission extends Component {
                                 </ul>
                             </div>
                             <div className="main-page-email">
-                                <i class="far fa-envelope" style={{fontSize: '16px', marginTop: '0.4em'}}></i>
+                                <i className="far fa-envelope" style={{fontSize: '16px', marginTop: '0.4em'}}></i>
                                 <ul>
                                     <li><b>email</b></li>
                                     <li><a href="mailto:jgrace.info@gmail.com">jgrace.info@gmail.com</a></li>
                                 </ul>
                             </div>
                             <div className="main-page-phone">
-                                <i class="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
+                                <i className="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
                                 <ul>
                                     <li>604-123-1234</li>
                                 </ul>
                             </div>
                         </div>
-                        {/* <div className="main-page-email">
-                            
-                        </div> */}
                     </div>
                 </div>
-                <div className="this-month">
-                        
+                <div className="this-month-container">
+                    <h1>3월 말씀과 찬양</h1>
+                    <div id="korean" className="this-month-scripture">
+                        <b>잠언 25:13</b>
+                        <p>충성된 사자는 그를 보낸 이에게 마치 추수하는 날에 얼음 냉수 같아서 능히 그 주인의 마음을 시원하게 하느니라</p>
+                        <p>찬송가 481장 십자가를 질 수 있나</p>
+                    </div>
                 </div>
             </div>
         )

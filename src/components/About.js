@@ -21,7 +21,18 @@ export default class About extends Component {
                     </div>  
                 </div>
                 <div className="new-family-container">
-                    
+                    <h1>새가족</h1>
+                    <div className="new-family">    
+                        <div className="box">
+                            
+                        </div>
+                        <div className="box">
+                            
+                        </div>
+                        <div className="box">
+                            
+                        </div>
+                    </div>
                 </div>
                 
             </div>
