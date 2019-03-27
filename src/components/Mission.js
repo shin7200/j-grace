@@ -64,10 +64,14 @@ export default class Mission extends Component {
                     </div>
                 </div>
                 <div className="this-month-container">
-                    <h1>3월 말씀과 찬양</h1>
+                    <div className="this-month-title">
+                        <h1>3월 말씀과 찬양</h1>
+                    </div>
                     <div id="korean" className="this-month-scripture">
                         <b>잠언 25:13</b>
                         <p>충성된 사자는 그를 보낸 이에게 마치 추수하는 날에 얼음 냉수 같아서 능히 그 주인의 마음을 시원하게 하느니라</p>
+                    </div>
+                    <div id="korean" className="this-month-hymn">
                         <p>찬송가 481장 십자가를 질 수 있나</p>
                     </div>
                 </div>
