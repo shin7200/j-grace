@@ -9,6 +9,7 @@ export default class Location extends Component {
                 <div className="location-header" data-aos="fade-down" data-aos-duration="1500">
                     {/* <h1 id="korean">오시는 길</h1> */}
                     <h2>Come Visit <span>!!</span></h2>
+                    <i className="fas fa-chevron-down"></i>
                 </div>
                 <div className="location-wrapper">
                     {/* <div className="location-reason" style={{paddingBottom: '0'}}> */}
