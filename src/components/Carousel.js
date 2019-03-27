@@ -17,8 +17,10 @@ export default class Content extends Component {
 
     render() {
         return(
-            <div data-aos="fade-down" data-aos-duration="1500"> 
+            <div data-aos="fade-down" data-aos-duration="1500">
+                <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a>
                 <Carousel fade={true} pauseOnHover={false} interval={4000}>
+                    
                     <Carousel.Item>
                         <img
                         className="d-block w-100"

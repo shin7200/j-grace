@@ -9,13 +9,13 @@ export default class Location extends Component {
                 <div className="location-header" data-aos="fade-down" data-aos-duration="1500">
                     {/* <h1 id="korean">오시는 길</h1> */}
                     <h2>Come Visit <span>!!</span></h2>
-                    <i className="fas fa-chevron-down"></i>
+                    <a href="#location"><i className="fas fa-chevron-down"></i></a>
                 </div>
                 <div className="location-wrapper">
                     {/* <div className="location-reason" style={{paddingBottom: '0'}}> */}
                             {/* <p>저희 교회는 ....</p> */}
                     {/* </div> */}
-                    <div className="google-map">
+                    <div id="location" className="google-map">
                         <div className="location-description" data-aos="fade-down" data-aos-duration="1300">
                             <div className="address"><h3>Address</h3><p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p></div><br/>
                             <div id="korean" className="parking"><h3>주차안내</h3>

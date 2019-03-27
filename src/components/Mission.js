@@ -4,7 +4,7 @@ import '../styles/mission.css'
 export default class Mission extends Component {
     render() {
         return(
-            <div className="outer-mission-container">
+            <div id="mission" className="outer-mission-container">
                 <div className="mission-container" data-aos="fade-right" data-aos-easing="linear">
                     <div className="vision-logo-container">
                         {/* <i id="cross" className="fas fa-cross"></i> */}
