@@ -10,14 +10,20 @@ export default class About extends Component {
                     <p className="header-pop">한 영혼<span><i class="fas fa-quote-right" style={{fontSize: '40px', paddingLeft: '20px', position: 'absolute'}}></i></span></p>
                 </div>
                 <div className="about-mission-statement-container">
-                    <div className="about-mission-statement">
-                        <p>저희 교회는..</p>
-
-                    </div>
-                    <div>
+                    <div className="about-mission-statement-welcome">
                         <p>Welcome!</p>
+                        <p style={{fontFamily: 'Nanum Pen Script, cursive'}}>환영합니다!</p>
                     </div>
+                    <div className="about-liner"></div>
+                    <div id="korean" className="about-mission-statement">
+                        <p>주은혜교회는...</p>
+                        <p>내용</p>
+                    </div>  
                 </div>
+                <div className="new-family-container">
+                    
+                </div>
+                
             </div>
 
         )

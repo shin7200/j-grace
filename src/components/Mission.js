@@ -5,7 +5,7 @@ export default class Mission extends Component {
     render() {
         return(
             <div className="outer-mission-container">
-                <div className="mission-container" data-aos="fade-up" data-aos-easing="linear">
+                <div className="mission-container" data-aos="fade-right" data-aos-easing="linear">
                     <div className="vision-logo-container">
                         {/* <i id="cross" className="fas fa-cross"></i> */}
                         {/* <i className="fas fa-church"></i> */}
@@ -65,7 +65,7 @@ export default class Mission extends Component {
                                 </ul>
                             </div>
                             <div className="main-page-phone">
-                                <i class="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', marginRight: '3.5px'}}></i>
+                                <i class="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
                                 <ul>
                                     <li>604-123-1234</li>
                                 </ul>
