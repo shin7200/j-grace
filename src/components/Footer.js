@@ -7,7 +7,7 @@ export default class Footer extends Component {
         return(
             <div className="footer-container">
                 <div className="footer-left">
-                    <img src={Logo} alt="logo" style={{width: '100px', height: '60px'}}/>
+                    <img src={Logo} alt="logo" style={{width: '130px', height: '60px'}}/>
                     {/* <p>&copy; 2019 J-Grace Community Church</p> */}
                 </div>
                 <div className="footer-middle">
