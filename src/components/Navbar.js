@@ -24,7 +24,7 @@ export default class NavBar extends Component {
     render() {
         return(
             <div onScroll={this.handleScroll} className="nav-container" style={{background: this.state.background, opacity: this.state.opacity}}>
-                <a style={{color: this.state.color}}className="nav-home" href="/">주은혜교회<br/><span>J</span>-<span>G</span>race <span>C</span>ommunity <span>C</span>hurch</a>
+                <a style={{color: this.state.color}}className="nav-home" href="/">주은혜교회<br/><div className="JGCC"><span>J</span>-<span>G</span>race <span>C</span>ommunity <span>C</span>hurch</div></a>
                 {/* <a className="nav-home" href="/"><img className="nav-logo" alt="logo" src={Logo} /></a> */}
                 <ul className="nav">
                     <li className="nav-item">
