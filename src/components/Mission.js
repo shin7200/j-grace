@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import '../styles/mission.css'
+import '../styles/mission.css';
+import MissionCommunity from '../images/mission.png';
 
 export default class Mission extends Component {
     render() {
@@ -18,7 +19,7 @@ export default class Mission extends Component {
                     </div>
                 </div>
                 <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-right" data-aos-easing="linear">
-                    <div id="korean" className="mission-statement">
+                    {/* <div id="korean" className="mission-statement">
                         <p>하나님의 은혜와 영광을 경험하는<br/><span>예배 공동체</span></p>
                         <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>나눔 공동체</span></p>
                         <p>약속의 말씀에 기쁨으로 순종하는<br/><span>제자 공동체</span></p>
@@ -27,7 +28,8 @@ export default class Mission extends Component {
                     </div>
                     <div className="vision-community-logo-container">
                         <i className="fas fa-church"></i>
-                    </div>
+                    </div> */}
+                    <img src={MissionCommunity} alt="mission" style={{width: '800px', height: '400px'}}/>
                 </div>
                 <div className="outer-service-container">
                     <div className="service-liner"></div>
