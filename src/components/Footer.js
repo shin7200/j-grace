@@ -17,12 +17,14 @@ export default class Footer extends Component {
 
                 <div className="footer-right">
                     <div className="contact">
-                        <p>Address<span>|</span></p>
+                        <p>예배장소<span>|</span></p>
+                        <p>비젼센터(사무실)<span>|</span></p>
                         <p>Email<span>|</span></p>
                         <p>Phone<span>|</span></p>
                     </div>
                     <div className="contact-info">
                         <p>7837 Canada Way Burnaby BC</p>
+                        <p>#208-931 Brunette Ave. Coquitlam BC</p>
                         <p>jgrace.info@gmail.com</p>
                         <p>604 123 1234</p>
                     </div>
