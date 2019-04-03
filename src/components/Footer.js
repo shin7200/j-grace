@@ -18,7 +18,7 @@ export default class Footer extends Component {
                 <div className="footer-right">
                     <div className="contact">
                         <p>예배장소<span>|</span></p>
-                        <p>비젼센터(사무실)<span>|</span></p>
+                        <p>비전센터(사무실)<span>|</span></p>
                         <p>Email<span>|</span></p>
                         <p>Phone<span>|</span></p>
                     </div>

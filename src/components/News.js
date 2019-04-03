@@ -11,12 +11,12 @@ export default class News extends Component {
                     </div>
                 </div>
                 <div className="announcement-outer-container">
-                    <div className="announcement-container">
+                    <div className="announcement-container" data-aos="fade-down">
                         <div id="korean" className="announcement-header" data-aos="fade-down">
                             <h1>교회소식 <i style={{fontSize: '40px'}}className="far fa-newspaper"></i></h1>
                         </div>
                         {/* <div className="news-liner"></div> */}
-                        <div id="korean" className="announcements" data-aos="fade-down">
+                        <div id="korean" className="announcements">
                             <div className="date-box">
                                 4/4 목<br/>7 PM
                             </div>
@@ -25,7 +25,7 @@ export default class News extends Component {
                                 <span className="announcements-detail">주은혜교회 마지막 기도모임</span>
                             </div>
                         </div>
-                        <div id="korean" className="announcements" data-aos="fade-down">
+                        <div id="korean" className="announcements">
                             <div className="date-box">
                                 4/17 수<br/>to<br/>4/19 금
                             </div>
