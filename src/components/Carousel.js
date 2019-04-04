@@ -27,7 +27,7 @@ export default class Content extends Component {
                             className="d-block w-100"
                             alt="image-one"
                             src={Test}
-                            style={{width:'100%', height:'750px', webkitFilter: 'brightness(60%)'}}
+                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(60%)'}}
                             />
                             <Carousel.Caption>
                             <div className="carousel-one">
@@ -51,7 +51,7 @@ export default class Content extends Component {
                             className="d-block w-100"
                             src="image-two"
                             src={Test2}
-                            style={{width:'100%', height:'750px', webkitFilter: 'brightness(60%)'}}
+                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(60%)'}}
                             />
                             <Carousel.Caption>
                             <div className="carousel-two">
