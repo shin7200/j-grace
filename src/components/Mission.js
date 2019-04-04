@@ -29,7 +29,7 @@ export default class Mission extends Component {
                     <div className="vision-community-logo-container">
                         <i className="fas fa-church"></i>
                     </div> */}
-                    <img src={MissionCommunity} alt="mission" style={{width: '800px', height: '400px'}}/>
+                    <img className="mission-image" src={MissionCommunity} alt="mission" />
                 </div>
                 <div className="outer-service-container">
                     <div className="service-liner"></div>
