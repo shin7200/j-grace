@@ -3,14 +3,35 @@ import NavBar from './components/Navbar';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
 import Mission from './components/Mission';
+import About from './components/About'
+import Location from './components/Location';
+import News from './components/News';
+import { BrowserRouter, Route } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 class App extends Component {
   render() {
+    AOS.init();
     return (
       <React.Fragment>
-        <NavBar />
+        {/* <NavBar />
         <Carousel />
         <Mission />
-        <Footer />
+        <Footer /> */}
+        <BrowserRouter>
+          <NavBar />
+          {/* <Route exact path="/" component={NavBar} /> */}
+          <Route exact path="/" component={Carousel} />
+          <Route exact path="/" component={Mission} />
+          {/* <Route exact path="/" component={Footer} /> */}
+          
+          <Route exact path="/about/" component={About} />
+          <Route exact path="/location" component={Location} />
+          <Route exact path="/news" component={News} />
+          <Footer />
+        </BrowserRouter>
       </React.Fragment>
     );
   }

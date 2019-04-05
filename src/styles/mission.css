@@ -1,12 +1,214 @@
-.mission-container {
+.mission-container, .mission-community-container {
     display: flex;
     justify-content: space-around;
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 6em;
+    color: #333;
+}
 
-    margin-top: 5em;
+.outer-mission-container {
+    background: #ECE9E6;  
+    background: -webkit-linear-gradient(to right, #FFF, #ECE9E9); 
+    background: linear-gradient(to right, #FFF, #ECE9E9); 
+    padding-top: 10em
 }
 
 .mission-statement {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
+}
 
+.mission-statement h2, .mission-statement span {
+    width: fit-content;
+    background: #154360;
+    color: #fff;
+    padding: 0.05em 0.5em;
+    margin-bottom: 1em;
+    border-radius: 3px;
+}
+
+.vision-logo-container, .vision-community-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    font-size: 110px;
+}
+
+.mission-image {
+    width: 800px;
+    height: 400px
+}
+
+.outer-service-container {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/service.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 9em;
+    padding-bottom: 9em;
+    color: #ECF0F1;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.service {
+    font-size: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0.5em 0 3em;
+}
+
+.service-liner {
+    content: "";
+    width: 5%;
+    border-top: 5px solid #fff;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.service-time-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-sunday, .service-saturday, .service-friday {
+    border-bottom: 1px solid;
+    padding: 1em;
+}
+
+.service-type {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    width: fit-content;
+}
+
+.service-type span {
+    font-size: 25px;
+    font-weight: normal;
+    padding-left: 1em;
+}
+
+.service-time {
+    font-size: 20px;
+}
+
+.main-page-location-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.main-page-location, .main-page-email, .main-page-phone {
+    display: flex;
+}
+
+.main-page-location ul, .main-page-email ul, .main-page-phone ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.main-page-location b, .main-page-email b {
+    padding-bottom: 0.3em;
+}
+
+.main-page-email a, .main-page-location a {
+    text-decoration: none;
+    color: #ECF0F1;
+    transition: 0.3s;
+}
+
+.main-page-email a:hover, .main-page-location a:hover {
+    color: #5499C7;
+}
+
+.this-month-container {
+    /* background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
+    background: linear-gradient(to right, #3A6073, #16222A);  */
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/thisMonth.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0 5em 0;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+
+.this-month-title {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    padding-bottom: 3em;
+}
+
+.this-month-scripture, .this-month-hymn {
+    border-left: 5px solid;
+    width: 63%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.this-month-word {
+    width: 63%;
+    margin: 0 auto;
+    font-size: 20px;
+    /* line-height: 1.5em; */
+}
+
+
+.this-month-scripture > *, .this-month-hymn > *, .this-month-word > * {
+    padding-left: 2em;
+}
+
+@media only screen and (max-width: 1100px) {
+    .mission-image {
+        width: 600px;
+        height: 400px;
+    }
+    .mission-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-statement {
+        align-items: center;
+        margin-top: 3em;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .mission-container {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mission-image {
+        width: 400px;
+        height: 300px;
+    }
+    .mission-statement {
+        text-align: center;
+    }
+    .mission-statement p {
+        line-height: 2em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mission-image {
+        width: 360px;
+        height: 300px;
+    }
 }
