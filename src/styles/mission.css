@@ -187,10 +187,45 @@ i {
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 1024px) {
     .mission-container {
-        width: 100%
+        width: 100%;
     }
+    .service-container {
+        width: 90%;
+    }
+    .service-type {
+        font-size: 25px;
+    }
+    .this-month-title {
+        width: 100%;
+    }
+    .this-month-scripture, .this-month-hymn, .this-month-word {
+        width: 90%;
+        text-align: center;
+        border-left: none;
+
+    }
+    .this-month-scripture > p, .this-month-hymn > p, .this-month-word > p {
+        padding-top: 1em;
+        padding-left: 0;
+        
+    }
+    .this-month-scripture b, .this-month-hymn b {
+        border-bottom: 2px solid #fff;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .service-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-time-container {
+        margin-bottom: 3em;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
