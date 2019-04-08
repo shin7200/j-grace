@@ -8,9 +8,8 @@
 }
 
 .outer-mission-container {
-    background: #ECE9E6;  
-    background: -webkit-linear-gradient(to right, #FFF, #ECE9E9); 
-    background: linear-gradient(to right, #FFF, #ECE9E9); 
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
     padding-top: 10em
 }
 
@@ -201,10 +200,10 @@ i {
         width: 100%;
     }
     .this-month-scripture, .this-month-hymn, .this-month-word {
-        width: 90%;
-        text-align: center;
+        width: 70%;
+        /* text-align: center; */
         border-left: none;
-
+        margin-top: 1em;
     }
     .this-month-scripture > p, .this-month-hymn > p, .this-month-word > p {
         padding-top: 1em;
@@ -247,10 +246,7 @@ i {
         width: 360px;
         height: 300px;
     }
-    .nav-home {
-        margin-left: 1em;
-    }
-    .nav-menu {
-        padding-right: 1em;
+    .this-month-scripture, .this-month-hymn, .this-month-word {
+        width: 90%;
     }
 }

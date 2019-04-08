@@ -26,10 +26,10 @@
     text-align: center;
     left: 0;
     right: 0;
-    top: 3em;
+    top: 4em;
     color: #fff;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 60px;
     transition: 0.5s;
 }
 
@@ -43,8 +43,8 @@
 }
 
 .location-wrapper {
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E9); 
-    background: linear-gradient(to right, #FFFFFF, #ECE9E9); 
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
 }
 
 .google-map, .location-reason {
@@ -57,16 +57,98 @@
 
 }
 
+.google-map-api {
+    width: 500px;
+    height: 400px;
+    border: none;
+    margin: auto 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
 .location-description {
     font-size: 20px;
     color: #333;
 }
 
 .location-description h3 {
-    border-left: 4px solid #333;
+    border-left: 4px solid;
     padding-left: 15px;
+}
+
+.address, .address-office, .parking, .email, .phone {
+    padding-bottom: 1em;
+}
+
+.address h3, .address-office h3 {
+    border-color: #229954;
+}
+
+.parking h3 {
+    border-color: #E67E22;
+}
+
+.email h3, .phone h3 {
+    border-color: #2471A3
 }
 
 .location-description p {
     padding-left: 19px;
+}
+
+@media only screen and (max-width: 1440px) {
+    .google-map {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .google-map {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    /* .phone {
+        margin-bottom: 3em;
+    } */
+    .google-map-api {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .location-header::after {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url("../images/locationSmall.png");
+        background-repeat: no-repeat;
+        -ms-background-size: cover;
+        background-size: cover;
+    }
+    
+    .address, .address-office, .parking, .email, .phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        /* padding-bottom: 1em; */
+        width: 90%;
+        margin: 0 auto;
+    }
+    .location-description h3 {
+        line-height: 0.5em;
+        padding: 0.2em 0.4em;
+    }
+    .location-description p {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .location-header::after {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url("../images/locationSmaller.png");
+        background-repeat: no-repeat;
+        -ms-background-size: cover;
+        background-size: cover;
+    }
+    .location-header h2 {
+        font-size: 50px;
+    }
 }

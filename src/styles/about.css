@@ -54,8 +54,8 @@
 .about-mission-statement-container {
     padding: 8em 0 8em 0;
     width: 100%;    
-    background: -webkit-linear-gradient(to right, #FFF, #ECE9E9); 
-    background: linear-gradient(to right, #FFF, #ECE9E9); 
+    background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
+    background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
 }
 
 .about-mission-statement-welcome {

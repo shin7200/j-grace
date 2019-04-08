@@ -12,13 +12,15 @@ export default class News extends Component {
                 </div>
                 <div className="announcement-outer-container">
                     <div className="announcement-container" data-aos="fade-down">
-                        <div id="korean" className="announcement-header" data-aos="fade-down">
+                        <div className="announcement-header">
                             <h1>교회소식 <i style={{fontSize: '40px'}}className="far fa-newspaper"></i></h1>
                         </div>
                         {/* <div className="news-liner"></div> */}
                         <div id="korean" className="announcements">
-                            <div className="date-box">
-                                4/4 목<br/>7 PM
+                            <div className="date-box-container">
+                                <div className="date-box">
+                                    4/4 목<br/>7 PM
+                                </div>
                             </div>
                             <div className="announcements-place-detail-container">
                                 <span className="announcements-place">@ 샬롬홀</span><br/>
@@ -26,8 +28,10 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div id="korean" className="announcements">
-                            <div className="date-box">
-                                4/17 수<br/>to<br/>4/19 금
+                            <div className="date-box-container">
+                                <div className="date-box">
+                                    4/17 수<br/>to<br/>4/19 금
+                                </div>
                             </div>
                             <div className="announcements-place-detail-container">
                                 <span className="announcements-place">@ 비전센터(사무실)</span><br/>
@@ -35,7 +39,7 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div className="weekly-paper">
-                            <button>이전 주 주보</button>
+                            <span>이전 주 주보</span>
                         </div>
                     </div>
                     <div className="announcements-other">
