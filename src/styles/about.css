@@ -109,3 +109,12 @@
     width: 100px;
     background: #fff;
 }
+
+@media only screen and (max-width: 850px) {
+    .about-header {
+        margin-left: 0;
+    }
+    .header-pop {
+        left: 40%;
+    }
+}

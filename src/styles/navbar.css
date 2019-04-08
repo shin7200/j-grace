@@ -28,12 +28,12 @@
     border-right: 2px solid;
 }
 
-.nav-link:hover, .nav-home:hover {
+.nav-link:hover, .nav-home:hover, .resp-nav-home:hover {
     color: #5499C7 !important;
     text-decoration: none;
 }
 
-.nav-home {
+.nav-home, .resp-nav-home {
     margin-left: 10em;
     text-align: center;
     font-size: 18px;
@@ -41,6 +41,10 @@
     transition: 0.5s;
     color: #fff;
     line-height: 1em;
+}
+
+.resp-nav-home {
+    display: none;
 }
 
 .JGCC {
@@ -71,5 +75,23 @@
     }
     .nav-menu {
         display: initial;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .resp-nav-home {
+        display: initial;
+    }
+    .nav-home {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .resp-nav-home {
+        margin-left: 3em;
+    }
+    .nav-menu {
+        padding-right: 3em;
     }
 }

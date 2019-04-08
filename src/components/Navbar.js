@@ -41,6 +41,7 @@ export default class NavBar extends Component {
         return(
             <nav onScroll={this.handleScroll} className="nav-container navbar-expand-xl" style={{background: this.state.background, opacity: this.state.opacity}}>
                 <a style={{color: this.state.color}}className="nav-home" href="/">주은혜교회<br/><div className="JGCC"><span>J</span>-<span>G</span>race <span>C</span>ommunity <span>C</span>hurch</div></a>
+                <a style={{color: this.state.color}}className="resp-nav-home" href="/">주은혜교회<br/><div className="JGCC"><span>JGCC</span></div></a>
                 {/* <a className="nav-home" href="/"><img className="nav-logo" alt="logo" src={Logo} /></a> */}
                 <i onClick={this.respNavClicked} className="fas fa-bars nav-menu"></i>
                 {this.state.respNavClicked ? <RespNav /> : null}

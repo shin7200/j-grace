@@ -225,6 +225,7 @@ i {
     .service-time-container {
         margin-bottom: 3em;
     }
+    
 
 }
 
@@ -245,5 +246,11 @@ i {
     .mission-image {
         width: 360px;
         height: 300px;
+    }
+    .nav-home {
+        margin-left: 1em;
+    }
+    .nav-menu {
+        padding-right: 1em;
     }
 }
