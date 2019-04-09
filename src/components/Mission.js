@@ -65,21 +65,23 @@ export default class Mission extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="this-month-container" data-aos="fade-down">
-                    <div className="this-month-title" data-aos-easing="linear">
-                        <h1>3월 말씀과 찬양</h1>
-                    </div>
-                    <div id="korean" className="this-month-scripture" >
-                        <b>잠언 25:13</b>
-                        <p>충성된 사자는 그를 보낸 이에게 마치 추수하는 날에 얼음 냉수 같아서 <br/>능히 그 주인의 마음을 시원하게 하느니라</p>
-                    </div>
-                    <div id="korean" className="this-month-hymn">
-                        <b>찬송가 481장</b> 
-                        <p>십자가를 질 수 있나</p>
-                    </div>
-                    <div id="korean" className="this-month-word">
-                        <p>"기도는 하늘에 계신 아버지의 품 안에서 영혼이 호흡하는 것이다"</p>
-                        <p className="this-month-word-author">토마스 왓슨</p>
+                <div className="this-month-container">
+                    <div data-aos="fade-down">
+                        <div className="this-month-title">
+                            <h1>3월 말씀과 찬양</h1>
+                        </div>
+                        <div id="korean" className="this-month-scripture" >
+                            <b>잠언 25:13</b>
+                            <p>충성된 사자는 그를 보낸 이에게 마치 추수하는 날에 얼음 냉수 같아서 <br/>능히 그 주인의 마음을 시원하게 하느니라</p>
+                        </div>
+                        <div id="korean" className="this-month-hymn">
+                            <b>찬송가 481장</b> 
+                            <p>십자가를 질 수 있나</p>
+                        </div>
+                        <div id="korean" className="this-month-word">
+                            <p>"기도는 하늘에 계신 아버지의 품 안에서 영혼이 호흡하는 것이다"</p>
+                            <p className="this-month-word-author">토마스 왓슨</p>
+                        </div>
                     </div>
                 </div>
             </div>

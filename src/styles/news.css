@@ -29,6 +29,8 @@
 
 .announcement-container {
     width: 70%;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
 }
 
 .announcement-header {
@@ -103,7 +105,7 @@
 .announcements-other {
     width: 30%;
     border-left: 2px solid #333;
-
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .announcements-other-header {
