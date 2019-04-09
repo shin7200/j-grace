@@ -42,11 +42,10 @@ export default class Content extends Component {
                                     <p>장소<br/>7837 Canada Way</p>
                                     <a href="/location">오시는 길</a>
                                 </div>
-                                
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <img
                             className="d-block w-100"
                             src="image-two"
@@ -68,7 +67,7 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
                         {/* <Carousel.Item>
                             <img
                             className="d-block w-100"

@@ -13,22 +13,21 @@
 }
 
 .carousel-one {
-    padding-bottom: 7em;
+    padding-bottom: 9em;
     text-align: left;
     color: #fff;
     width: 80%;
     margin: 0 auto;
-    font-family: 'Rubik', sans-serif;
 }
 
 .carousel-one-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     padding-bottom: 1em;
 }
 
 .carousel-one-subtitle {
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 1em;
     border-top: 1px solid;
     width: fit-content;
@@ -96,4 +95,31 @@
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     /* transition: all 0.3s ease; */
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-one, .carousel-one-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .carousel-one-subtitle {
+        padding-bottom: 1em;
+    }
+    .carousel-one-content {
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .carousel-one-title {
+        font-size: 25px;
+    }
+    .carousel-one-subtitle {
+        font-size: 20px
+    }
+    .carousel-one-content {
+        font-size: 17px;
+    }
 }
