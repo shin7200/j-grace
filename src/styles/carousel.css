@@ -12,6 +12,12 @@
     margin-left: 10px;
 }
 
+.carousel-one-image {
+    background: url('../images/carouselOne.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .carousel-one {
     padding-bottom: 9em;
     text-align: left;
@@ -51,6 +57,12 @@
 .carousel-one-content a:hover {
     background: #fff;
     color: #333;
+}
+
+.carousel-two-image {
+    background: url('../images/carouselTwo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .carousel-two {
@@ -98,6 +110,17 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .carousel-one-image {
+        background: url('../images/carouselOneSmall.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .carousel-two-image {
+        background: url('../images/carouselTwoSmall.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
     .carousel-one, .carousel-one-content {
         display: flex;
         flex-direction: column;

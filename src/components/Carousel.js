@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/carousel.css';
-import Test from '../images/test.jpeg'
-import Test2 from '../images/test2.jpeg'
-import Test3 from '../images/test3.jpeg'
+// import CarouselOne from '../images/carouselOne.jpeg'
+// import CarouselTwo from '../images/carouselTwo.jpeg'
+// import Test3 from '../images/test3.jpeg'
 import Carousel from 'react-bootstrap/Carousel'
 import CarouselPopup from './CarouselPopup'
 
@@ -23,12 +23,12 @@ export default class Content extends Component {
                     <Carousel fade={true} pauseOnHover={false} interval={3800}>
                         
                         <Carousel.Item>
-                            <img
-                            className="d-block w-100"
+                            <div
+                            className="d-block w-100 carousel-one-image"
                             alt="image-one"
-                            src={Test}
                             style={{width:'100%', height:'750px', WebkitFilter: 'brightness(60%)'}}
-                            />
+                            >
+                            </div>
                             <Carousel.Caption>
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
@@ -45,13 +45,13 @@ export default class Content extends Component {
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        {/* <Carousel.Item>
-                            <img
-                            className="d-block w-100"
+                        <Carousel.Item>
+                            <div
+                            className="d-block w-100 carousel-two-image"
                             src="image-two"
-                            src={Test2}
                             style={{width:'100%', height:'750px', WebkitFilter: 'brightness(60%)'}}
-                            />
+                            >
+                            </div>
                             <Carousel.Caption>
                             <div className="carousel-two">
                                 <div className="carousel-two-title">
@@ -67,7 +67,7 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item> */}
+                        </Carousel.Item>
                         {/* <Carousel.Item>
                             <img
                             className="d-block w-100"
