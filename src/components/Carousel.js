@@ -57,12 +57,13 @@ export default class Content extends Component {
                                 <div className="carousel-two-title">
                                     <p>주은혜교회</p>
                                     <p>7 가지 기도제목</p>
-                                    <div className="carousel-two-scripture">
-                                        <p className="carousel-two-top-scripture">골로새서 4:2<br/></p>
-                                        <p>기도를 계속하고 기도에 감사함으로 깨어 있으라</p>
-                                    </div>
                                 </div>
                                 <div className="carousel-two-subtitle">
+                                    <p className="carousel-two-top-subtitle">골로새서 4:2<br/></p>
+                                    <p>기도를 계속하고 기도에 감사함으로 깨어 있으라</p>
+                                </div>
+                                
+                                <div className="carousel-two-button">
                                     <p onClick={()=> this.setState({ carouselPopup: true })}>기도제목 보기</p>
                                 </div>
                             </div>

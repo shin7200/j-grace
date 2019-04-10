@@ -68,7 +68,7 @@ export default class Mission extends Component {
                 <div className="this-month-container">
                     <div data-aos="fade-down">
                         <div className="this-month-title">
-                            <h1>3월 말씀과 찬양</h1>
+                            <p>3월 말씀과 찬양</p>
                         </div>
                         <div id="korean" className="this-month-scripture" >
                             <b>잠언 25:13</b>

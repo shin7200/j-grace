@@ -67,22 +67,22 @@
 
 .carousel-two {
     text-align: center;
-    padding-bottom: 8em;
+    padding-bottom: 10em;
     
 }
 
 .carousel-two-title {
     margin: 0 auto;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-size: 30px;
     width: fit-content;
 }
 
-.carousel-two-scripture {
+.carousel-two-subtitle {
     font-size: 20px;
 }
 
-.carousel-two-top-scripture {
+.carousel-two-top-subtitle {
     border-top: 1px solid;
     padding-top: 1em;
     width: fit-content;
@@ -90,19 +90,20 @@
 }
 
 
-.carousel-two-subtitle p {
-    padding: 1em 2em;
+.carousel-two-button p {
+    padding: 0.5em 1em;
     background: #E67E22;
     color: #333;
-    border-radius: 5px;
-    font-size: 18px;
+    /* border-radius: 5px; */
+    font-size: 20px;
     cursor: pointer;
     transition: 0.3s;
     width: fit-content;
     margin: 0 auto;
+    margin-top: 1em;
 }
 
-.carousel-two-subtitle p:hover {
+.carousel-two-button p:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -136,7 +137,7 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .carousel-one-title {
+    .carousel-one-title, .carousel-two-title {
         font-size: 25px;
     }
     .carousel-one-subtitle {

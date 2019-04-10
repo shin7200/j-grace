@@ -6,7 +6,7 @@ export default class News extends Component {
         return(
             <div>
                 <div className="news-header" data-aos="fade-down" data-aos-duration="1500">
-                    <div className="news-title">
+                    <div className="news-title" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                         <p>"하나님이 나의 증인이 되시거니와 <br/>항상 내 기도에 쉬지 않고"</p>
                     </div>
                 </div>
