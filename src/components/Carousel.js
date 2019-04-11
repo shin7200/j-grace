@@ -32,7 +32,7 @@ export default class Content extends Component {
                             <Carousel.Caption>
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
-                                    <span>그레이스교회 7번째 개척교회</span>
+                                    <span>그레이스교회 7번째 <br/>개척교회</span>
                                 </div>
                                 <div className="carousel-one-subtitle">
                                     <span>4월 21일 부활주일부터</span><br/>

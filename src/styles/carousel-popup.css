@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: center;
     z-index: 10000;
+
 }
 
 .carousel-popup-container {
@@ -34,4 +35,10 @@
 
 .close:hover {
     color: #E67E22;
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel-popup-container {
+        width: 85%;
+    }
 }

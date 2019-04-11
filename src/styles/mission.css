@@ -124,7 +124,8 @@ i {
 }
 
 .main-page-email a, .main-page-location a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-position: under;
     color: #ECF0F1;
     transition: 0.3s;
 }
@@ -247,7 +248,13 @@ i {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 525px) {
+    .mission-statement span {
+        display: block;
+        margin: 0 auto;
+        /* padding: 0.05em 0.5em; */
+        line-height: 1.3em;
+    }
     .mission-image {
         width: 360px;
         height: 300px;
