@@ -1,7 +1,30 @@
 import React, { Component } from 'react';
 import '../styles/news.css';
+import LastWeeklyUpdatePopup from './LastWeeklyUpdatePopup';
 
 export default class News extends Component {
+    state = {
+        lastWeeklyUpdateClicked: false,
+    }
+    
+    componentDidMount() {
+        document.addEventListener("keydown", this.escFunction);
+    }
+
+    componentWillUnmount() {
+        document.addEventListener("keydown", this.escFunction);
+    }
+    
+    escFunction = (event) => {
+        if (event.keyCode === 27) {
+            this.setState({lastWeeklyUpdateClicked: false})
+        }
+    }
+
+    onClickLastWeek = () => {
+        this.setState({lastWeeklyUpdateClicked: !this.state.lastWeeklyUpdateClicked});
+        // console.log(this.state.lastWeeklyUpdateClicked);
+    }
     render() {
         return(
             <div>
@@ -39,7 +62,7 @@ export default class News extends Component {
                             </div>
                         </div>
                         <div className="weekly-paper">
-                            <span>이전 주 주보</span>
+                            <span onClick={() => this.onClickLastWeek()}>이전 주 주보</span>
                         </div>
                     </div>
                     <div className="announcements-other">
@@ -48,8 +71,7 @@ export default class News extends Component {
                         </div>
                     </div>
                 </div>
-
-
+                {this.state.lastWeeklyUpdateClicked ? <LastWeeklyUpdatePopup /> : null }
             </div>
         )
     }

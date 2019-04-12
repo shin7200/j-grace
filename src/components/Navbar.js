@@ -19,11 +19,11 @@ export default class NavBar extends Component {
         const initialScroll = this.state.initialScroll;
         const currentScroll = window.scrollY;
         if (currentScroll > initialScroll) {
-            this.setState({ background: '#333', color: '#fff', opacity: 0.8 })
+            this.setState({ background: '#333', color: '#fff', opacity: 0.85 })
         } else if (this.state.respNavClicked) {
             this.setState({ background: '#333'})
         } else if (currentScroll < 1) {
-            this.setState({ background: 'transparent', color: '#fff', opacity: 0.8 })
+            this.setState({ background: 'transparent', color: '#fff', opacity: 0.85 })
         }
     };
 
