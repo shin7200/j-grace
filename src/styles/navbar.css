@@ -43,12 +43,20 @@
     line-height: 1em;
 }
 
+.nav-home img, .resp-nav-home img {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 0.25em;
+    margin-right: 0.5em;
+}
+
 .resp-nav-home {
     display: none;
 }
 
 .JGCC {
     font-size: 15px;
+    margin-left: 22px;
 }
 
 .JGCC span {

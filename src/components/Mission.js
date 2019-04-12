@@ -80,7 +80,7 @@ export default class Mission extends Component {
                         </div>
                         <div id="korean" className="this-month-word">
                             <p>"기도는 하늘에 계신 아버지의 품 안에서 영혼이 호흡하는 것이다"</p>
-                            <p className="this-month-word-author">토마스 왓슨</p>
+                            <p className="this-month-word-author">- 토마스 왓슨</p>
                         </div>
                     </div>
                 </div>
