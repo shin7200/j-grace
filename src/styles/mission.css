@@ -3,7 +3,7 @@
     justify-content: space-around;
     width: 70%;
     margin: 0 auto;
-    padding-bottom: 6em;
+    padding-bottom: 3em;
     color: #333;
 }
 
@@ -13,10 +13,11 @@
     padding-top: 10em
 }
 
-.mission-statement {
+.mission-statement, .vision-statement {
     display: flex;
     flex-direction: column;
     font-size: 20px;
+    justify-content: center;
 }
 
 .mission-statement h2, .mission-statement span {
@@ -24,11 +25,11 @@
     background: #154360;
     color: #fff;
     padding: 0.05em 0.5em;
-    margin-bottom: 1em;
-    border-radius: 3px;
+    /* margin-bottom: 1em; */
+    /* border-radius: 3px; */
 }
 
-.vision-logo-container, .vision-community-logo-container {
+.vision-logo-container {
     display: flex;
     align-items: center;
 }
@@ -38,8 +39,9 @@ i {
 }
 
 .mission-image {
-    width: 800px;
-    height: 400px
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .outer-service-container {
@@ -176,6 +178,17 @@ i {
     padding-left: 2em;
 }
 
+@media only screen and (max-width: 1500px) {
+    .mission-community-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mission-statement {
+        padding-bottom: 2em;
+    }
+}
+
 @media only screen and (max-width: 1100px) {
     .mission-image {
         width: 600px;
@@ -185,7 +198,7 @@ i {
         flex-direction: column;
         align-items: center;
     }
-    .mission-statement {
+    .vision-statement {
         align-items: center;
         margin-top: 3em;
     }
@@ -236,23 +249,35 @@ i {
 }
 
 @media only screen and (max-width: 700px) {
+    .mission-community-container {
+        width: 100%;
+    }
     .mission-image {
         width: 400px;
         height: 300px;
     }
-    .mission-statement {
+    .mission-statement, .vision-statement {
         text-align: center;
+        font-size: 18px;
+        width: 85%;
     }
     .mission-statement p {
-        line-height: 2em;
+        line-height: 1.5em;
     }
 }
 
-@media only screen and (max-width: 525px) {
-    .mission-statement span {
+@media only screen and (max-width: 565px) {
+    .mission-statement, .vision-statement {
+        font-size: 16px;
+    }
+    .mission-statement {
+        width: 100%;
+    }
+    .mission-statement span, .vision-statement span {
         display: block;
         margin: 0 auto;
-        /* padding: 0.05em 0.5em; */
+        width: fit-content;
+        margin-top: 0.5em;
         line-height: 1.3em;
     }
     .mission-image {

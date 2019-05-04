@@ -6,7 +6,7 @@ import Mission from './components/Mission';
 import About from './components/About'
 import Location from './components/Location';
 import News from './components/News';
-import ErrorPage from './components/ErrorPage';
+// import ErrorPage from './components/ErrorPage';
 import { BrowserRouter, Route } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';

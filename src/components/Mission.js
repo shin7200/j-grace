@@ -12,23 +12,20 @@ export default class Mission extends Component {
                         {/* <i className="fas fa-church"></i> */}
                         <i id="hand-heart" className="fas fa-hand-holding-heart"></i>
                     </div>
-                    <div className="mission-statement">
+                    <div className="vision-statement">
                         <h2>Vision Statement</h2>
                         <p>A church that transforms homes into Christ-centered families</p>
-                        <p id="korean"><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는 <span style={{background: '#E67E22', color: '#333'}}>가족 공동체 교회</span></p>
+                        <p id="korean"><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는 <span style={{background: '#E67E22', color: '#333', padding: '0.3em'}}>가족 공동체 교회</span></p>
                     </div>
                 </div>
                 <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-down" data-aos-easing="linear">
-                    {/* <div id="korean" className="mission-statement">
+                    <div id="korean" className="mission-statement">
                         <p>하나님의 은혜와 영광을 경험하는<br/><span>예배 공동체</span></p>
                         <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>나눔 공동체</span></p>
                         <p>약속의 말씀에 기쁨으로 순종하는<br/><span>제자 공동체</span></p>
                         <p>하나님 나라의 소원이 이루어지게 하는<br/><span>미션 공동체</span></p>
 
                     </div>
-                    <div className="vision-community-logo-container">
-                        <i className="fas fa-church"></i>
-                    </div> */}
                     <img className="mission-image" src={MissionCommunity} alt="mission" />
                 </div>
                 <div className="outer-service-container">
@@ -68,7 +65,7 @@ export default class Mission extends Component {
                 <div className="this-month-container">
                     <div data-aos="fade-down">
                         <div className="this-month-title">
-                            <p>3월 말씀과 찬양</p>
+                            <p>5월 말씀과 찬양</p>
                         </div>
                         <div id="korean" className="this-month-scripture" >
                             <b>잠언 25:13</b>

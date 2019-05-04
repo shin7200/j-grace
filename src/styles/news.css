@@ -28,9 +28,13 @@
 }
 
 .announcement-container {
-    width: 70%;
+    width: 100%;
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.announcements-place-detail-container {
+    font-size: 25px;
 }
 
 .announcement-header {
@@ -60,17 +64,20 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     background-color: #333;
     color: #fff;
     font-weight: bold;
+    font-size: 23px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.announcements-place-detail-container span {
-    line-height: 2em;
+.announcements-place-detail-container p {
+    /* line-height: 0em; */
     padding-left: 2em;
+    margin-bottom: 0.3em;
+
 }
 
 .announcements-num {
@@ -79,7 +86,7 @@
     color: #fff; */
 }
 
-.announcements-date-place, .announcements-place {
+.announcements-date-place, .announcements-title {
     font-weight: bold;
 }
 
@@ -152,7 +159,7 @@
     .announcements {
         width: 100%;
         justify-content: center;
-        font-size: 18px;
+        font-size: 15px;
     }
     .date-box-container {
         width: 25%;
@@ -164,7 +171,7 @@
         height: 150px;
     }
     .announcements-place-detail-container {
-        width: 50%;
+        width: 80%;
     }
 }
 
@@ -174,12 +181,17 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+    .date-box {
+        height: 200px;
+        font-size: 20px;
+    }
+
     .announcement-outer-container {
         padding: 10em 0 10em 0;
     }
     .announcements-place-detail-container {
         text-align: center;
+        font-size: 20px;
     }
     .announcements {
         justify-content: space-around;
@@ -191,5 +203,14 @@
         width: 100%;
         text-align: end;
         font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .announcements {
+        padding-left: 15em;
+    }
+    .announcement-header {
+        padding-left: 17em;
     }
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/lastWeeklyUpdatePopup.css';
-import LastWeeklyUpdateImage from '../images/LastWeeklyUpdate.pdf'
+import LastWeeklyUpdateImage from '../images/05_05_19Weekly.pdf'
 
 export default function LastWeeklyUpdatePopup() {
     ;
