@@ -52,7 +52,7 @@
 }
 
 .about-mission-statement-container {
-    padding: 8em 0 8em 0;
+    padding: 0em 0 8em 0;
     width: 100%;    
     background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
     background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
@@ -60,11 +60,18 @@
 
 .about-mission-statement-welcome {
     display: flex;
+    height: 450px;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Indie Flower', cursive;
     font-size: 60px;
-    padding-bottom: 1em;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamily.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #fff;
+    color: #fff;
 }
 
 .about-liner {
@@ -72,6 +79,7 @@
     width: 10%;
     margin: 0 auto;
     margin-bottom: 5em;
+    margin-top: 5em;
 }
 
 .about-mission-statement {
@@ -134,11 +142,63 @@
     background: #fff;
 }
 
+@media only screen and (max-width: 1200px) {
+    .about-mission-statement-welcome {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmall.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
 @media only screen and (max-width: 850px) {
     .about-header {
         margin-left: 0;
     }
     .header-pop {
         left: 40%;
+    }
+    .about-mission-statement h3 {
+        font-size: 22px;
+    }
+    .about-mission-statement {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .about-mission-statement-welcome {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmaller.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .about-mission-statement {
+        width: 90%;
+    }
+    .about-mission-statement p {
+        font-size: 14px;
+    }
+    
+    .about-mission-statement h3 {
+        font-size: 20px;
+    }
+    .about-images-container {
+        display: flex;
+        justify-content: center;
+    }
+    .pastor-image {
+        width: 180px;
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hover-space {
+        border: 150px solid transparent;
+    }
+    
+    .about-mission-statement h3 {
+        font-size: 18px;
     }
 }

@@ -35,7 +35,7 @@ export default class About extends Component {
                         <p>송관빈 목사 드림</p>
                     </div>  
                 </div>
-                <div className="new-family-container">
+                {/* <div className="new-family-container">
                     <h1>새가족</h1>
                     <div className="new-family">    
                         <div className="box">
@@ -48,7 +48,7 @@ export default class About extends Component {
                             
                         </div>
                     </div>
-                </div>
+                </div> */}
                 
             </div>
 

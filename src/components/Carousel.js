@@ -32,16 +32,17 @@ export default class Content extends Component {
                             <Carousel.Caption>
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
-                                    <span>그레이스교회 7번째 <br/>개척교회</span>
+                                    <span style={{fontSize: '20px'}}>주일예배</span><br/>
+                                    <span>하나님의 마음</span>
                                 </div>
                                 <div className="carousel-one-subtitle">
-                                    <span>4월 21일 부활주일부터</span><br/>
-                                    <span>1시에 첫 예배를 드립니다</span>
+                                    <span>예레미아 29장 11-14절</span><br/><br/>
+                                    <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>김낙선 목사</span>
                                 </div>
-                                <div className="carousel-one-content">
+                                {/* <div className="carousel-one-content">
                                     <p>장소<br/>7837 Canada Way</p>
                                     <a href="/location">오시는 길</a>
-                                </div>
+                                </div> */}
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>

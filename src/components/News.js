@@ -46,7 +46,7 @@ export default class News extends Component {
                                 </div>
                             </div>
                             <div className="announcements-place-detail-container">
-                                <p className="announcements-title">주은혜교회에 오신 여러분들을 환영합니다!</p>
+                                <p className="announcements-title">환영합니다!</p>
                                 <p className="announcements-detail">주은혜교회 새교우로 등록하시길 원하시는 분은 새교우실로 오셔서</p>
                                 <p className="announcements-detail">등록카드를 작성해 주시기 바랍니다</p>
                                 <p className="announcements-detail">(문의: 김영훈 권사 604.781.3535)</p>
