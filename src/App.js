@@ -21,7 +21,7 @@ class App extends Component {
         <Carousel />
         <Mission />
         <Footer /> */}
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           {/* <NavBar /> */}
           <Route path="/" component={NavBar} />
           <Route exact path="/" component={Carousel} />

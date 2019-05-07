@@ -20,7 +20,7 @@ export default class Content extends Component {
             <div>
                 <div data-aos="fade-down" data-aos-duration="1500">
                     <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a>
-                    <Carousel fade={true} pauseOnHover={false} interval={3800}>
+                    <Carousel fade={true} pauseOnHover={false} interval={4500}>
                         
                         <Carousel.Item>
                             <div
@@ -46,7 +46,7 @@ export default class Content extends Component {
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-two-image"
                             src="image-two"
@@ -69,7 +69,7 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
                         {/* <Carousel.Item>
                             <img
                             className="d-block w-100"

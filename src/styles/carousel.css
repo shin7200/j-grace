@@ -140,10 +140,12 @@
 
 @media only screen and (max-width: 650px) {
     .carousel-one-title, .carousel-two-title {
-        font-size: 25px;
+        font-size: 22px;
+        margin-left: 0;
     }
     .carousel-one-subtitle {
-        font-size: 20px
+        font-size: 18px;
+        margin-left: 0;
     }
     .carousel-one-content {
         font-size: 17px;

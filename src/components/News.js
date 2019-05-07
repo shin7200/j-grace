@@ -34,7 +34,7 @@ export default class News extends Component {
                     </div>
                 </div>
                 <div className="announcement-outer-container">
-                    <div className="announcement-container" data-aos="fade-down">
+                    <div className="announcement-container" >
                         <div className="announcement-header">
                             <h1>교회소식 <i className="fas fa-bullhorn" style={{fontSize: '40px'}}></i></h1>
                         </div>

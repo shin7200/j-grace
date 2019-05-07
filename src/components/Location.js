@@ -13,7 +13,7 @@ export default class Location extends Component {
                 </div>
                 <div className="location-wrapper">
                     <div id="location" className="google-map">
-                        <div className="location-description" data-aos="fade-down" data-aos-duration="1300">
+                        <div className="location-description" >
                             <div className="address">
                                 <h3>예배장소</h3>
                                 <p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p>
