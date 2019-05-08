@@ -21,7 +21,7 @@ class App extends Component {
         <Carousel />
         <Mission />
         <Footer /> */}
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL} >
           {/* <NavBar /> */}
           <Route path="/" component={NavBar} />
           <Route exact path="/" component={Carousel} />

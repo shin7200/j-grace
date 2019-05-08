@@ -139,15 +139,19 @@
 }
 
 @media only screen and (max-width: 650px) {
-    .carousel-one-title, .carousel-two-title {
+    .carousel-one-title {
         font-size: 22px;
         margin-left: 0;
+    }
+    .carousel-two-title {
+        font-size: 22px;
     }
     .carousel-one-subtitle {
         font-size: 18px;
         margin-left: 0;
     }
-    .carousel-one-content {
-        font-size: 17px;
+    .carousel-two-subtitle {
+        font-size: 18px;
     }
+
 }

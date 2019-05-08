@@ -46,7 +46,7 @@ export default class Content extends Component {
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        {/* <Carousel.Item>
+                        <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-two-image"
                             src="image-two"
@@ -69,7 +69,7 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item> */}
+                        </Carousel.Item>
                         {/* <Carousel.Item>
                             <img
                             className="d-block w-100"

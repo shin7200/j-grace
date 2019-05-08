@@ -7,7 +7,7 @@ export default class About extends Component {
     render() {
         return(
             <div>
-                <div className="about-header" data-aos="fade-down" data-aos-duration="1500">
+                <div className="about-header">
                     <p className="header-title"><span><i className="fas fa-quote-left" style={{fontSize: '40px', padding: '0 20px 35px 0'}}></i></span>한 사람</p><br/>
                     <p className="header-pop">한 영혼<span><i className="fas fa-quote-right" style={{fontSize: '40px', paddingLeft: '20px', position: 'absolute'}}></i></span></p>
                     <div className="hover-space"></div>
