@@ -2,7 +2,7 @@
   "name": "redux-practice",
   "version": "0.1.0",
   "private": true,
-
+  "homepage": "http://j-grace.org",
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^4.3.1",
@@ -28,5 +28,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "npm-install-webpack-plugin": "^4.0.5"
+  }
 }

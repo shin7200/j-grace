@@ -13,7 +13,9 @@ import 'aos/dist/aos.css';
 
 
 class App extends Component {
+  
   render() {
+    const baseUrl = process.env.PUBLIC_URL;
     AOS.init();
     return (
       <React.Fragment>
@@ -21,18 +23,18 @@ class App extends Component {
         <Carousel />
         <Mission />
         <Footer /> */}
-        <BrowserRouter basename={process.env.PUBLIC_URL} >
+        <BrowserRouter>
           {/* <NavBar /> */}
-          <Route path="/" component={NavBar} />
-          <Route exact path="/" component={Carousel} />
-          <Route exact path="/" component={Mission} />
+          <Route path={baseUrl + '/'} component={NavBar} />
+          <Route exact path={baseUrl + '/'} component={Carousel} />
+          <Route exact path={baseUrl + '/'} component={Mission} />
           
           
-          <Route exact path="/about" component={About} />
-          <Route exact path="/location" component={Location} />
-          <Route exact path="/news" component={News} />
+          <Route exact path={baseUrl + '/about'} component={About} />
+          <Route exact path={baseUrl + '/location'} component={Location} />
+          <Route exact path={baseUrl + '/news'} component={News} />
           {/* <Route exact path="/:params" component={ErrorPage} /> */}
-          <Route path="/" component={Footer} />
+          <Route path={baseUrl + '/'} component={Footer} />
           {/* <Footer /> */}
         </BrowserRouter>
       </React.Fragment>
