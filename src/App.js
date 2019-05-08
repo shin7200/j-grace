@@ -25,16 +25,16 @@ class App extends Component {
         <Footer /> */}
         <BrowserRouter>
           {/* <NavBar /> */}
-          <Route path={baseUrl + '/'} component={NavBar} />
-          <Route exact path={baseUrl + '/'} component={Carousel} />
-          <Route exact path={baseUrl + '/'} component={Mission} />
+          <Route path={baseUrl + '/j-grace/'} component={NavBar} />
+          <Route exact path={baseUrl + '/j-grace/'} component={Carousel} />
+          <Route exact path={baseUrl + '/j-grace/'} component={Mission} />
           
           
-          <Route exact path={baseUrl + '/about'} component={About} />
-          <Route exact path={baseUrl + '/location'} component={Location} />
-          <Route exact path={baseUrl + '/news'} component={News} />
+          <Route exact path={baseUrl + '/j-grace/about'} component={About} />
+          <Route exact path={baseUrl + '/j-grace/location'} component={Location} />
+          <Route exact path={baseUrl + '/j-grace/news'} component={News} />
           {/* <Route exact path="/:params" component={ErrorPage} /> */}
-          <Route path={baseUrl + '/'} component={Footer} />
+          <Route path={baseUrl + '/j-grace/'} component={Footer} />
           {/* <Footer /> */}
         </BrowserRouter>
       </React.Fragment>
