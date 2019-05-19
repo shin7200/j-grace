@@ -143,12 +143,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .about-mission-statement-welcome {
+    /* .about-mission-statement-welcome {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmall.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
+    } */
 }
 
 @media only screen and (max-width: 850px) {
@@ -167,12 +167,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .about-mission-statement-welcome {
+    /* .about-mission-statement-welcome {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmaller.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    }
+    } */
     .about-mission-statement {
         width: 90%;
     }
@@ -190,6 +190,14 @@
     .pastor-image {
         width: 180px;
         height: 190px;
+    }
+    .header-title {
+        margin-right: 2em;
+    }
+    .header-pop {
+        transform: translateY(-210%);
+        opacity: 1;
+        left: 35%;
     }
 }
 

@@ -7,7 +7,7 @@ import About from './components/About'
 import Location from './components/Location';
 import News from './components/News';
 // import ErrorPage from './components/ErrorPage';
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,28 +16,35 @@ class App extends Component {
   
   render() {
     const baseUrl = process.env.PUBLIC_URL;
+    console.log(baseUrl);
     AOS.init();
     return (
-      <React.Fragment>
-        {/* <NavBar />
-        <Carousel />
-        <Mission />
-        <Footer /> */}
-        <BrowserRouter>
-          {/* <NavBar /> */}
-          <Route path={baseUrl + '/j-grace/'} component={NavBar} />
-          <Route exact path={baseUrl + '/j-grace/'} component={Carousel} />
-          <Route exact path={baseUrl + '/j-grace/'} component={Mission} />
+      // <div>
+      //   <NavBar />
+      //   <Carousel />
+      //   <Mission />
+      //   <Footer />
+      // </div>
+        // <BrowserRouter>
+
+          
+          <div>
+          <Route path='/' component={NavBar} />
           
           
-          <Route exact path={baseUrl + '/j-grace/about'} component={About} />
-          <Route exact path={baseUrl + '/j-grace/location'} component={Location} />
-          <Route exact path={baseUrl + '/j-grace/news'} component={News} />
-          {/* <Route exact path="/:params" component={ErrorPage} /> */}
-          <Route path={baseUrl + '/j-grace/'} component={Footer} />
-          {/* <Footer /> */}
-        </BrowserRouter>
-      </React.Fragment>
+          <Route exact path='/' component={Carousel} />
+          <Route exact path='/' component={Mission} />
+          <Route path='/about' component={About} />
+          <Route path='/location' component={Location} />
+          <Route path='/news' component={News} />
+          
+          
+          <Route path='/' component={Footer} />
+          </div>
+          
+          
+        // </BrowserRouter>
+
     );
   }
 }

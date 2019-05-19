@@ -19,7 +19,7 @@ export default class Content extends Component {
         return(
             <div>
                 <div data-aos="fade-down" data-aos-duration="1500">
-                    <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a>
+                    {/* <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a> */}
                     <Carousel fade={true} pauseOnHover={false} interval={4500}>
                         
                         <Carousel.Item>
@@ -32,8 +32,8 @@ export default class Content extends Component {
                             <Carousel.Caption>
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
-                                    <span style={{fontSize: '20px'}}>주일예배</span><br/>
-                                    <span>하나님의 마음</span>
+                                    <p className="carousel-one-title-top" style={{fontSize: '20px'}}>주일예배</p>
+                                    <p>하나님의 마음</p>
                                 </div>
                                 <div className="carousel-one-subtitle">
                                     <span>예레미아 29장 11-14절</span><br/><br/>

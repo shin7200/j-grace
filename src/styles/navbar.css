@@ -36,7 +36,7 @@
 .nav-home, .resp-nav-home {
     margin-left: 10em;
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     transition: 0.5s;
     color: #fff;
@@ -55,7 +55,7 @@
 }
 
 .JGCC {
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 22px;
 }
 

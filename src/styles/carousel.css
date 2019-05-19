@@ -19,7 +19,7 @@
 }
 
 .carousel-one {
-    padding-bottom: 13em;
+    padding-bottom: 12em;
     text-align: left;
     color: #fff;
     width: 80%;
@@ -130,24 +130,31 @@
         align-items: center;
         text-align: center;
     }
-    .carousel-one-subtitle {
-        padding-bottom: 1em;
-    }
-    .carousel-one-content {
-        line-height: 1.5em;
+    .carousel-one {
+        padding-bottom: 8em;
     }
 }
 
 @media only screen and (max-width: 650px) {
+    .carousel-one {
+        padding-bottom: 14em;
+    }
+    .carousel-two {
+        padding-bottom: 11em;
+    }
     .carousel-one-title {
         font-size: 22px;
         margin-left: 0;
+    
+    }
+    .carousel-one-title-top {
+        margin-bottom: 1em;
     }
     .carousel-two-title {
         font-size: 22px;
     }
     .carousel-one-subtitle {
-        font-size: 18px;
+        font-size: 20px;
         margin-left: 0;
     }
     .carousel-two-subtitle {

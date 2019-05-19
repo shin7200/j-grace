@@ -53,6 +53,7 @@ i {
     padding-top: 9em;
     padding-bottom: 9em;
     color: #ECF0F1;
+    height: auto;
 }
 
 .service-container {
@@ -264,6 +265,19 @@ i {
     .mission-statement p {
         line-height: 1.5em;
     }
+    /* .outer-service-container {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/serviceSmall.jpeg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .this-month-container {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/thisMonthSmall.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    } */
 }
 
 @media only screen and (max-width: 565px) {

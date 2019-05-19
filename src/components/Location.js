@@ -19,7 +19,7 @@ export default class Location extends Component {
                                 <p>7837 Canada Way<br/>Burnaby, BC, V3N 3K8</p>
                             </div>
                             <div className="address-office">
-                                <h3>비전센터 (사무실)</h3>
+                                <h3>J 센터 (사무실)</h3>
                                 <p>#208-931 Brunette Ave<br/>Coquitlam, BC, V3K 6T5</p>
                             </div>
                             <div className="parking">
@@ -33,7 +33,7 @@ export default class Location extends Component {
                             </div>
                             <div className="phone">
                                 <h3>Phone</h3>
-                                <p>604-123-1234</p>
+                                <p>604-961-4711</p>
                             </div>
                         </div>
                         <iframe
