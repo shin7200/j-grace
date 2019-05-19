@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../styles/respNav.css'
-import Navbar from './Navbar';
 
 export default class RespNav extends Component {
     render() {

@@ -47,7 +47,7 @@
     background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
 }
 
-.google-map, .location-reason {
+.location-container {
     display: flex;
     justify-content: space-evenly;
     width: 85%;
