@@ -25,6 +25,9 @@ export default class News extends Component {
         this.setState({lastWeeklyUpdateClicked: !this.state.lastWeeklyUpdateClicked});
         // console.log(this.state.lastWeeklyUpdateClicked);
     }
+    popupClose = () => {
+        this.setState({lastWeeklyUpdateClicked: !this.state.lastWeeklyUpdateClicked});
+    }
     render() {
         return(
             <div>
@@ -49,31 +52,44 @@ export default class News extends Component {
                                 <p className="announcements-title">환영합니다!</p>
                                 <p className="announcements-detail">주은혜교회 새교우로 등록하시길 원하시는 분은 새교우실로 오셔서</p>
                                 <p className="announcements-detail">등록카드를 작성해 주시기 바랍니다</p>
-                                <p className="announcements-detail">(문의: 김영훈 권사 604.781.3535)</p>
+                                <p className="announcements-detail">(문의: 김영훈 604.781.3535)</p>
                             </div>
                         </div>
                         <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
-                                    5/10 금<br/>7 PM
+                                    5/31 금<br/>8 PM
                                 </div>
                             </div>
                             <div className="announcements-place-detail-container">
-                                <p className="announcements-title">첫 양육 제자 훈련</p>
-                                <p className="announcements-detail">@ 주은혜교회 사무실</p>
-                                <p className="announcements-detail">(복있는 삶으로의 초대) 모임</p>
+                                <p className="announcements-title">Family Praise Night(가족찬양제)</p>
+                                <p className="announcements-detail">@ 주은혜교회 예배홀</p>
+                                <p className="announcements-detail">주제: 내 평생의 찬양</p>
+                                <p className="announcements-detail">대상: 모든 주은혜교회 가족</p>
                             </div>
                         </div>
                         <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
-                                    매주<br/>토요일<br/>9:30 AM
+                                    안내
                                 </div>
                             </div>
                             <div className="announcements-place-detail-container">
-                                <p className="announcements-title">지성소 기도회</p>
-                                <p className="announcements-detail">@ 주은혜교회 사무실</p>
-                                <p className="announcements-detail">매주 주일예배를 위해서 중보기도하는 시간을 가집니다.</p>
+                                <p className="announcements-title">2019 Camp Squeah</p>
+                                <p className="announcements-detail">주은혜교회 다음세대 6yr - 17yr 대상으로 여름캠프를 안내드립니다</p>
+                                <p className="announcements-detail">(관련 브로셔 / 문의: 권은영 604.807.3475)</p>
+                            </div>
+                        </div>
+                        <div className="announcements">
+                            <div className="date-box-container">
+                                <div className="date-box">
+                                    안내
+                                </div>
+                            </div>
+                            <div className="announcements-place-detail-container">
+                                <p className="announcements-title">주일간식 도네이션</p>
+                                <p className="announcements-detail">안내테이블 간식배정표 기재</p>
+                                <p className="announcements-detail">(관문의: 김선민 778.235.1314)</p>
                             </div>
                         </div>
                         <div className="weekly-paper">
@@ -86,7 +102,7 @@ export default class News extends Component {
                         </div>
                     </div> */}
                 </div>
-                {this.state.lastWeeklyUpdateClicked ? <LastWeeklyUpdatePopup /> : null }
+                {this.state.lastWeeklyUpdateClicked ? <LastWeeklyUpdatePopup popupClose={this.popupClose} /> : null }
             </div>
         )
     }

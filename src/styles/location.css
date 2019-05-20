@@ -102,11 +102,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    .google-map {
+    .location-container {
         flex-direction: column-reverse;
         align-items: center;
         padding-top: 0;
         padding-bottom: 2em;
+        width: 100%;
     }
     /* .phone {
         margin-bottom: 3em;

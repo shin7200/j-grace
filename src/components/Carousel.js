@@ -33,11 +33,11 @@ export default class Content extends Component {
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
                                     <p className="carousel-one-title-top" style={{fontSize: '20px'}}>주일예배</p>
-                                    <p>하나님의 마음</p>
+                                    <p>생수의 강 시리즈 2<br/>치유의 강</p>
                                 </div>
                                 <div className="carousel-one-subtitle">
-                                    <span>예레미아 29장 11-14절</span><br/><br/>
-                                    <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>김낙선 목사</span>
+                                    <span>열왕기하 5장 1-14절</span><br/><br/>
+                                    <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span>
                                 </div>
                                 {/* <div className="carousel-one-content">
                                     <p>장소<br/>7837 Canada Way</p>

@@ -12,5 +12,42 @@
     align-items: center;
     justify-content: center;
     z-index: 10000;
+    transition: 0.5s;
 }
 
+.last-weekly-update-popup {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-weekly-update-container button {
+    background: #333;
+    color: #fff;
+    font-size: 14px;
+}
+
+.last-weekly-update-container img {
+    width: 650px;
+    height: 850px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .last-weekly-update-container img {
+        width: 600px;
+        height: 800px
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .last-weekly-update-container img{
+        width: 550px;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .last-weekly-update-container img {
+        width: 350px;
+        height: 500px
+    }
+}

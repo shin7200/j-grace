@@ -21,7 +21,7 @@ export default class Mission extends Component {
                 <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-down" data-aos-easing="linear">
                     <div id="korean" className="mission-statement">
                         <p>하나님의 은혜와 영광을 경험하는<br/><span>예배 공동체</span></p>
-                        <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>나눔 공동체</span></p>
+                        <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>셀 공동체</span></p>
                         <p>약속의 말씀에 기쁨으로 순종하는<br/><span>제자 공동체</span></p>
                         <p>하나님 나라의 소원이 이루어지게 하는<br/><span>미션 공동체</span></p>
 
@@ -34,14 +34,14 @@ export default class Mission extends Component {
                     <div id="korean" className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
                             <p className="service-type">주일예배 | <span>일요일 1시</span></p>
-                            <p className="service-type">새벽기도 | <span>미정</span></p>
-                            <p className="service-type">금요예배 | <span>미정</span></p>
+                            <p className="service-type">제자양육 | <span>매주 금요일 7시</span></p>
+                            <p className="service-type">금요부흥회 | <span>매월 금요일 3째 주</span></p>
                         </div>
                         <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
                                 <i className="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
                                 <ul>
-                                    <li><b>location (장소) <a href="/location">오시는 길</a></b></li>
+                                    <li><b>location (장소) <a href="/#/location">오시는 길</a></b></li>
                                     <li>Burnaby Hall</li>
                                     <li>7837 Canada Way | Burnaby BC</li>
                                 </ul>
@@ -56,7 +56,7 @@ export default class Mission extends Component {
                             <div className="main-page-phone">
                                 <i className="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
                                 <ul>
-                                    <li>604-123-1234</li>
+                                    <li>604-961-4711</li>
                                 </ul>
                             </div>
                         </div>

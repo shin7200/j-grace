@@ -167,12 +167,12 @@
 }
 
 @media only screen and (max-width: 600px) {
-    /* .about-mission-statement-welcome {
+    .about-mission-statement-welcome {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmaller.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    } */
+    }
     .about-mission-statement {
         width: 90%;
     }

@@ -54,6 +54,7 @@ i {
     padding-bottom: 9em;
     color: #ECF0F1;
     height: auto;
+    width: 100%;
 }
 
 .service-container {
@@ -147,6 +148,7 @@ i {
     padding: 5em 0 5em 0;
     color: #fff;
     border-top: 1px solid #fff;
+    width: 100%;
 }
 
 .this-month-title {
@@ -229,8 +231,11 @@ i {
         padding-left: 0;
         
     }
+    .this-month-scripture , .this-month-hymn  {
+        border-left: 2px solid #fff;
+        padding-left: 1em;
+    }
     .this-month-scripture b, .this-month-hymn b {
-        border-bottom: 2px solid #fff;
         padding-left: 0;
     }
 }
@@ -243,7 +248,7 @@ i {
     .service-time-container {
         margin-bottom: 3em;
     }
-    .this-month-scripture, .this-month-hymn, .this-month-word {
+    .service-type, .service-type span, .this-month-scripture, .this-month-hymn, .this-month-word {
         font-size: 18px;
     }
 
@@ -265,7 +270,8 @@ i {
     .mission-statement p {
         line-height: 1.5em;
     }
-    /* .outer-service-container {
+
+    .outer-service-container {
         background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/serviceSmall.jpeg');
         background-attachment: fixed;
         background-position: center;
@@ -277,12 +283,12 @@ i {
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
-    } */
+    }
 }
 
 @media only screen and (max-width: 565px) {
-    .mission-statement, .vision-statement {
-        font-size: 17px;
+    .mission-statement, .vision-statement, .this-month-scripture, .this-month-hymn, .this-month-word {
+        font-size: 15px;
     }
     .mission-statement {
         width: 100%;
@@ -298,6 +304,9 @@ i {
     .mission-image {
         width: 300px;
         height: 300px;
+    }
+    .main-page-location-container {
+        font-size: 15px;
     }
     .this-month-scripture, .this-month-hymn, .this-month-word {
         width: 90%;

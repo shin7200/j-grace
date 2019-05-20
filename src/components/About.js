@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/about.css';
-import PastorImage from '../images/pastor.jpeg';
+import PastorImage from '../images/pastorFamily2.jpeg';
 // import PastorFamilyImage from '../images/pastorFamily.jpeg';
 
 export default class About extends Component {
