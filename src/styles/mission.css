@@ -21,10 +21,11 @@
 }
 
 .mission-statement h2, .mission-statement span {
-    width: fit-content;
+    width: 100%;
     background: #154360;
     color: #fff;
     padding: 0.05em 0.5em;
+    
     /* margin-bottom: 1em; */
     /* border-radius: 3px; */
 }
@@ -241,6 +242,9 @@ i {
 }
 
 @media only screen and (max-width: 850px) {
+    .mission-container {
+        padding-bottom: 0;
+    }
     .service-container {
         flex-direction: column;
         align-items: center;
@@ -265,7 +269,7 @@ i {
     .mission-statement, .vision-statement {
         text-align: center;
         font-size: 18px;
-        width: 85%;
+        width: 95%;
     }
     .mission-statement p {
         line-height: 1.5em;

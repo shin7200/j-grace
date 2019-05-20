@@ -15,7 +15,11 @@ export default class Mission extends Component {
                     <div className="vision-statement">
                         <h2>Vision Statement</h2>
                         <p>A church that transforms homes into Christ-centered families</p>
-                        <p id="korean"><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는 <span style={{background: '#E67E22', color: '#333', padding: '0.3em'}}>가족 공동체 교회</span></p>
+                        <div id="korean">
+                            <p><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는<span style={{background: '#E67E22', color: '#333', padding: '0.3em', width: 'fit-content'}}>가족 공동체 교회</span></p>
+                            
+                            
+                        </div>
                     </div>
                 </div>
                 <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-down" data-aos-easing="linear">

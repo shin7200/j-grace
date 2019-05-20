@@ -141,6 +141,9 @@
         line-height: 0.5em;
         padding: 0.2em 0.4em;
     }
+    .location-description {
+        width: 100%;
+    }
     .location-description p {
         padding-left: 0;
     }
@@ -155,5 +158,11 @@
     }
     .location-header h2 {
         font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .location-description {
+        font-size: 15px;
     }
 }
