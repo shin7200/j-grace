@@ -46,7 +46,7 @@ i {
 }
 
 .outer-service-container {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/service.jpeg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/service.png');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,6 @@ i {
     padding-top: 9em;
     padding-bottom: 9em;
     color: #ECF0F1;
-    height: auto;
     width: 100%;
 }
 
@@ -93,16 +92,30 @@ i {
 .service-type {
     display: flex;
     align-items: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
     padding-bottom: 0.5em;
     width: fit-content;
 }
 
+.service-type type, .service-type type4, .service-type type5 {
+    border-right: 4px solid #fff;
+    line-height: 0.8;
+    padding-right: 0.7em;
+}
+
+.service-type type4 {
+    padding-right: 2.85em;
+}
+
+.service-type type5 {
+    padding-right: 1.94em;
+}
+
 .service-type span {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: normal;
-    padding-left: 1em;
+    padding-left: 0.7em;
 }
 
 .service-time {
@@ -140,9 +153,7 @@ i {
 }
 
 .this-month-container {
-    /* background: -webkit-linear-gradient(to right, #3A6073, #16222A); 
-    background: linear-gradient(to right, #3A6073, #16222A);  */
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/thisMonth.jpeg');
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3) ), url('../images/thisMonth.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -150,6 +161,7 @@ i {
     color: #fff;
     border-top: 1px solid #fff;
     width: 100%;
+    height: auto;
 }
 
 .this-month-title {
@@ -180,6 +192,10 @@ i {
 
 .this-month-scripture > *, .this-month-hymn > *, .this-month-word > * {
     padding-left: 2em;
+}
+
+.this-month-word-author {
+    line-height: 0;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -245,6 +261,9 @@ i {
     .mission-container {
         padding-bottom: 0;
     }
+    .service {
+        padding-bottom: 2em;
+    }
     .service-container {
         flex-direction: column;
         align-items: center;
@@ -254,6 +273,9 @@ i {
     }
     .service-type, .service-type span, .this-month-scripture, .this-month-hymn, .this-month-word {
         font-size: 18px;
+    }
+    .outer-service-container, .this-month-container {
+        background-attachment: initial;
     }
 
 }
@@ -271,23 +293,14 @@ i {
         font-size: 18px;
         width: 95%;
     }
+    .vision-statement-korean {
+        width: 95%;
+    }
     .mission-statement p {
         line-height: 1.5em;
+        width: 100%;
     }
 
-    .outer-service-container {
-        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/serviceSmall.jpeg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .this-month-container {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/thisMonthSmall.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
 }
 
 @media only screen and (max-width: 565px) {
@@ -309,10 +322,21 @@ i {
         width: 300px;
         height: 300px;
     }
+
+    .service {
+        padding-bottom: 1.5em;
+    }
     .main-page-location-container {
         font-size: 15px;
     }
     .this-month-scripture, .this-month-hymn, .this-month-word {
         width: 90%;
+    }
+
+    .email-icon {
+        margin-top: 0.3em !important;
+    }
+    .phone-icon {
+        margin-top: 0.1em !important;
     }
 }

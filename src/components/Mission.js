@@ -15,10 +15,8 @@ export default class Mission extends Component {
                     <div className="vision-statement">
                         <h2>Vision Statement</h2>
                         <p>A church that transforms homes into Christ-centered families</p>
-                        <div id="korean">
-                            <p><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는<span style={{background: '#E67E22', color: '#333', padding: '0.3em', width: 'fit-content'}}>가족 공동체 교회</span></p>
-                            
-                            
+                        <div className="vision-statement-korean" id="korean">
+                            <p><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는<span style={{background: '#E67E22', color: '#333', padding: '0.3em', width: 'fit-content'}}>가족 공동체 교회</span></p>  
                         </div>
                     </div>
                 </div>
@@ -35,11 +33,12 @@ export default class Mission extends Component {
                 <div className="outer-service-container">
                     <div className="service-liner"></div>
                     <p className="service" data-aos="fade-down">예배 안내</p>
-                    <div id="korean" className="service-container">
+                    <div className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
-                            <p className="service-type">주일예배 | <span>일요일 1시</span></p>
-                            <p className="service-type">제자양육 | <span>매주 금요일 7시</span></p>
-                            <p className="service-type">금요부흥회 | <span>매월 금요일 3째 주</span></p>
+                            <p className="service-type"><type4>주일예배</type4><span>일요일 오후 1시</span></p>
+                            <p className="service-type"><type4>제자양육</type4><span>매주 금요일 오후 7시</span></p>
+                            <p className="service-type"><type5>금요부흥회</type5><span>매월 금요일 3째 주</span></p>
+                            <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 930시</span></p>
                         </div>
                         <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
@@ -51,14 +50,14 @@ export default class Mission extends Component {
                                 </ul>
                             </div>
                             <div className="main-page-email">
-                                <i className="far fa-envelope" style={{fontSize: '16px', marginTop: '0.4em'}}></i>
+                                <i className="far fa-envelope email-icon" style={{fontSize: '16px', marginTop: '0.45em'}}></i>
                                 <ul>
                                     <li><b>email</b></li>
                                     <li><a href="mailto:jgrace.info@gmail.com">jgrace.info@gmail.com</a></li>
                                 </ul>
                             </div>
                             <div className="main-page-phone">
-                                <i className="fas fa-mobile-alt" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
+                                <i className="fas fa-mobile-alt phone-icon" style={{fontSize: '20px', marginTop: '0.25em', paddingLeft: '0.1em'}}></i>
                                 <ul>
                                     <li>604-961-4711</li>
                                 </ul>
@@ -69,19 +68,21 @@ export default class Mission extends Component {
                 <div className="this-month-container">
                     <div data-aos="fade-down">
                         <div className="this-month-title">
-                            <p>5월 말씀과 찬양</p>
+                            <p>6월 말씀과 찬양</p>
                         </div>
-                        <div id="korean" className="this-month-scripture" >
-                            <b>잠언 25:13</b>
-                            <p>충성된 사자는 그를 보낸 이에게 마치 추수하는 날에 얼음 냉수 같아서 <br/>능히 그 주인의 마음을 시원하게 하느니라</p>
+                        <div className="this-month-scripture" >
+                            <b>빌립보서 4:6-7</b>
+                            <p>아무것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라 <br/>
+                            그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라
+                            </p>
                         </div>
-                        <div id="korean" className="this-month-hymn">
-                            <b>찬송가 481장</b> 
-                            <p>십자가를 질 수 있나</p>
+                        <div className="this-month-hymn">
+                            <b>찬송가 288장</b> 
+                            <p>예수를 나의 구주 삼고 / 우물가의 여인처럼 난 구했네</p>
                         </div>
-                        <div id="korean" className="this-month-word">
-                            <p>"기도는 하늘에 계신 아버지의 품 안에서 영혼이 호흡하는 것이다"</p>
-                            <p className="this-month-word-author">- 토마스 왓슨</p>
+                        <div className="this-month-word">
+                            <p>"인생의 큰 비극은 응답받지 못한 기도가 아니라, 드려지지 않는 기도다"</p>
+                            <p className="this-month-word-author">- F.B. 마이어</p>
                         </div>
                     </div>
                 </div>

@@ -18,6 +18,7 @@
 .last-weekly-update-popup {
     display: flex;
     flex-direction: column;
+    
 }
 
 .last-weekly-update-container button {
@@ -27,8 +28,9 @@
 }
 
 .last-weekly-update-container img {
-    width: 650px;
-    height: 850px;
+    width: 750px;
+    max-height: 850px;
+    
 }
 
 @media only screen and (max-width: 1024px) {

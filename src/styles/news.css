@@ -162,7 +162,7 @@
 }
 @media only screen and (max-width: 850px) {
     .announcements {
-        width: 90%;
+        width: 95%;
         justify-content: center;
     }
     .date-box-container {
@@ -226,7 +226,7 @@
 @media only screen and (max-width: 500px) {
     .date-box {
         height: 120px;
-        width: 80px;
+        width: 70px;
         font-size: 15px;
     }
 }

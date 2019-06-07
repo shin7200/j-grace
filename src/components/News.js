@@ -50,12 +50,11 @@ export default class News extends Component {
                             </div>
                             <div className="announcements-place-detail-container">
                                 <p className="announcements-title">환영합니다!</p>
-                                <p className="announcements-detail">주은혜교회 새교우로 등록하시길 원하시는 분은 새교우실로 오셔서</p>
-                                <p className="announcements-detail">등록카드를 작성해 주시기 바랍니다</p>
+                                <p className="announcements-detail">주은혜교회 새교우로 등록하시길 원하시는 분은 새교우실로 오셔서 등록카드를 작성해 주시기 바랍니다</p>
                                 <p className="announcements-detail">(문의: 김영훈 604.781.3535)</p>
                             </div>
                         </div>
-                        <div className="announcements">
+                        {/* <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
                                     5/31 금<br/>8 PM
@@ -67,6 +66,20 @@ export default class News extends Component {
                                 <p className="announcements-detail">주제: 내 평생의 찬양</p>
                                 <p className="announcements-detail">대상: 모든 주은혜교회 가족</p>
                             </div>
+                        </div> */}
+                        <div className="announcements">
+                            <div className="date-box-container">
+                                <div className="date-box">
+                                    6/2 주일<br/>11 AM
+                                </div>
+                            </div>
+                            <div className="announcements-place-detail-container">
+                                <p className="announcements-title">주은혜가족 야외예배 안내</p>
+                                <p className="announcements-detail">주제: 주안에 우린 하나</p>
+                                <p className="announcements-detail">대상: 주은혜교회 교우 및 초청대상자</p>
+                                <p className="announcements-detail">장소: Mundy Park Picnic Shelter (587 Hilcrest St)</p>
+                                <p className="announcements-detail">(문의: 김현철 604.385.0020)</p>
+                            </div>
                         </div>
                         <div className="announcements">
                             <div className="date-box-container">
@@ -76,7 +89,8 @@ export default class News extends Component {
                             </div>
                             <div className="announcements-place-detail-container">
                                 <p className="announcements-title">2019 Camp Squeah</p>
-                                <p className="announcements-detail">주은혜교회 다음세대 6yr - 17yr 대상으로 여름캠프를 안내드립니다</p>
+                                <p className="announcements-detail">주은혜교회 다음세대 6yr - 17yr</p>
+                                <p className="announcements-detail">대상으로 여름캠프를 안내드립니다</p>
                                 <p className="announcements-detail">(관련 브로셔 / 문의: 권은영 604.807.3475)</p>
                             </div>
                         </div>
@@ -88,8 +102,9 @@ export default class News extends Component {
                             </div>
                             <div className="announcements-place-detail-container">
                                 <p className="announcements-title">주일간식 도네이션</p>
-                                <p className="announcements-detail">안내테이블 간식배정표 기재</p>
-                                <p className="announcements-detail">(관문의: 김선민 778.235.1314)</p>
+                                <p className="announcements-detail">주일간식 도네이션에 마음있으신 분은 간식배정표를 기재해주시면 감사합니다</p>
+                                {/* <p className="announcements-detail"></p> */}
+                                <p className="announcements-detail">(관련문의: 김선민 778.235.1314)</p>
                             </div>
                         </div>
                         <div className="weekly-paper">

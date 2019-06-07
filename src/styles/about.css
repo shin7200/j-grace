@@ -66,7 +66,7 @@
     justify-content: center;
     font-family: 'Indie Flower', cursive;
     font-size: 60px;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamily.jpeg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ),url('../images/newFamily.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -113,17 +113,7 @@
     padding-left: 20px;
 }
 
-.new-family-container {
-    padding: 7em 0 7em 0;
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamily.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 500px;
-    color: #fff;
-    /* display: flex;
-    align-items: center; */
-}
+
 
 .new-family {
     display: flex;
@@ -142,14 +132,6 @@
     background: #fff;
 }
 
-@media only screen and (max-width: 1200px) {
-    /* .about-mission-statement-welcome {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmall.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    } */
-}
 
 @media only screen and (max-width: 850px) {
     .about-header {
@@ -157,6 +139,9 @@
     }
     .header-pop {
         left: 40%;
+    }
+    .about-mission-statement-welcome {
+        background-attachment: initial;
     }
     .about-mission-statement h3 {
         font-size: 22px;
@@ -167,12 +152,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .about-mission-statement-welcome {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url('../images/newFamilySmaller.jpeg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-    }
     .about-mission-statement {
         width: 90%;
     }
