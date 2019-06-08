@@ -21,8 +21,7 @@ export default class Content extends Component {
                 <div data-aos="fade-down" data-aos-duration="1500">
                     {/* <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a> */}
                     <Carousel fade={true} pauseOnHover={false} interval={4500}>
-                        
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-one-image"
                             alt="image-one"
@@ -41,31 +40,35 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
                         <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-three-image"
                             alt="image-one"
-                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(50%)'}}
+                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(90%)'}}
                             >
                             </div>
                             <Carousel.Caption>
-                            <div className="carousel-three" style={{fontFamily: 'Gamja Flower, cursive'}}>
+                            <div className="carousel-three">
                                 <div className="carousel-three-title">
-                                    <b style={{paddingLeft: '0.5em'}}>주은혜가족 야외예배 !</b>
+                                    <p className="carousel-one-title-top" style={{fontSize: '20px'}}>주은혜교회</p>
+                                    <p>세이레 기도<br/><span className="subtitle0" style={{color: '#E67E22'}}>1 1 1 / 1 5 3</span></p>
                                 </div>
                                 <div className="carousel-three-subtitle">
-                                    <p>
-                                        <span>주제</span> 주안에 우린 하나<br/>
-                                        <span>대상</span> 모든 주은혜교회 교우 <linebreak>및 초청대상자</linebreak><br/>
-                                        <span>일시</span> 6/2 주일 11 AM<br/>
-                                        <span>장소</span> Mundy Park Picnic Shelter <linebreak>(587 Hilcrest St)</linebreak>
-                                    </p>
+                                    <span className="subtitle1-hidden">매일 <span style={{color: '#E67E22'}}>1</span>분 1가지 기도<br/></span>
+                                    <span className="subtitle1-hidden">매일 <span style={{color: '#E67E22'}}>5</span>분 3번 기도<br/>(아침, 점심, 저녁)</span>
+                                    <span className="subtitle1">매일 <span style={{color: '#E67E22'}}>1</span>분 한가지 기도제목으로 기도<br/></span>
+                                    <span className="subtitle1">매일 <span style={{color: '#E67E22'}}>5</span>분 세번 기도(아침, 점심, 저녁)</span><br/>
+                                    <span className="subtitle2" style={{borderLeft: '0.2em solid #fff', paddingLeft: '0.5em'}}>렘 33:3<br/>
+                                    너는 내게 부르짖으라 내가 네게 응답하겠고<br/>
+                                    네가 알지 못하는 크고 은밀한 일을 네가 보이리라
+                                    </span>
                                 </div>
                             </div>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
+                    
+                        {/* <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-two-image"
                             src="image-two"
@@ -88,7 +91,7 @@ export default class Content extends Component {
                                 </div>
                             </div>
                             </Carousel.Caption>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
                     </Carousel>
                     
                 </div>

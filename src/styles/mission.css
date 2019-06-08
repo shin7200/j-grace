@@ -98,18 +98,11 @@ i {
     width: fit-content;
 }
 
-.service-type type, .service-type type4, .service-type type5 {
+.service-type type {
     border-right: 4px solid #fff;
     line-height: 0.8;
-    padding-right: 0.7em;
-}
-
-.service-type type4 {
-    padding-right: 2.85em;
-}
-
-.service-type type5 {
-    padding-right: 1.94em;
+    /* padding-right: 0.7em; */
+    width: 180px
 }
 
 .service-type span {
@@ -267,12 +260,16 @@ i {
     .service-container {
         flex-direction: column;
         align-items: center;
+        width: 95%;
     }
     .service-time-container {
         margin-bottom: 3em;
     }
     .service-type, .service-type span, .this-month-scripture, .this-month-hymn, .this-month-word {
         font-size: 18px;
+    }
+    .service-type type {
+        width: 120px;
     }
     .outer-service-container, .this-month-container {
         background-attachment: initial;
@@ -322,12 +319,12 @@ i {
         width: 300px;
         height: 300px;
     }
-
     .service {
         padding-bottom: 1.5em;
+        font-size: 30px;
     }
-    .main-page-location-container {
-        font-size: 15px;
+    .main-page-location-container, .service-type span {
+        font-size: 16px;
     }
     .this-month-scripture, .this-month-hymn, .this-month-word {
         width: 90%;

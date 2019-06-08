@@ -15,13 +15,13 @@ export default class Mission extends Component {
                     <div className="vision-statement">
                         <h2>Vision Statement</h2>
                         <p>A church that transforms homes into Christ-centered families</p>
-                        <div className="vision-statement-korean" id="korean">
+                        <div className="vision-statement-korean">
                             <p><b style={{color: '#E67E22'}}>예수 그리스도</b>의 은혜로 가정이 변화되는<span style={{background: '#E67E22', color: '#333', padding: '0.3em', width: 'fit-content'}}>가족 공동체 교회</span></p>  
                         </div>
                     </div>
                 </div>
                 <div className="mission-community-container" style={{marginTop: '1em', width: '70%'}}  data-aos="fade-down" data-aos-easing="linear">
-                    <div id="korean" className="mission-statement">
+                    <div className="mission-statement">
                         <p>하나님의 은혜와 영광을 경험하는<br/><span>예배 공동체</span></p>
                         <p>복음안에서 삶을 나누고 인생이 성숙해지는<br/><span>셀 공동체</span></p>
                         <p>약속의 말씀에 기쁨으로 순종하는<br/><span>제자 공동체</span></p>
@@ -35,10 +35,10 @@ export default class Mission extends Component {
                     <p className="service" data-aos="fade-down">예배 안내</p>
                     <div className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
-                            <p className="service-type"><type4>주일예배</type4><span>일요일 오후 1시</span></p>
-                            <p className="service-type"><type4>제자양육</type4><span>매주 금요일 오후 7시</span></p>
-                            <p className="service-type"><type5>금요부흥회</type5><span>매월 금요일 3째 주</span></p>
-                            <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 930시</span></p>
+                            <p className="service-type"><type>주일예배</type><span>매주 일요일 오후 1시</span></p>
+                            <p className="service-type"><type>제자양육</type><span>매주 금요일 오후 7시</span></p>
+                            <p className="service-type"><type>금요부흥회</type><span>매월 금요일 3째 주</span></p>
+                            <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 9 30시</span></p>
                         </div>
                         <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
