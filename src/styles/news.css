@@ -1,3 +1,6 @@
+.space375, .space320, .space411 {
+    display: none;
+}
 .news-header {
     width: 100%;
     height: auto;
@@ -150,7 +153,7 @@
     }
     .announcements {
         padding-left: 0;
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
     }
 }
@@ -195,7 +198,6 @@
         padding: 10em 0 10em 0;
     }
     .announcements-place-detail-container {
-
         font-size: 17px;
     }
     .announcements-place-detail-container p {
@@ -228,5 +230,36 @@
         height: 120px;
         width: 70px;
         font-size: 15px;
+    }
+    .announcements-place-detail-container {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+    .space411 {
+        display: initial;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .space411 {
+        display: none;
+    }
+    .space375 {
+        display: initial;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .space411 {
+        display: none;
+    }
+    .space375 {
+        display: none;
+    }
+    .space320 {
+        display: initial;
     }
 }

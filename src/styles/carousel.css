@@ -1,3 +1,7 @@
+.space {
+    display: none;
+}
+
 .carousel {
     width: 100%;
 }
@@ -13,7 +17,7 @@
 }
 
 .carousel-one-image {
-    background: url('../images/carouselOne.jpeg');
+    background: url('../images/carouselOne.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -114,7 +118,7 @@
 }
 
 .carousel-three-image {
-    background: url('../images/carouselThree.jpg');
+    background: url('../images/carouselThree.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -140,7 +144,7 @@
 .carousel-three-subtitle {
     font-size: 25px;
     margin-left: 100px;
-    width: fit-content;
+    width: 90%;
 }
 .subtitle1-hidden {
     display: none;
@@ -151,13 +155,14 @@
 }
 .subtitle2 {
     font-size: 20px;
+    width: 60%;
 }
 
 
 
 @media only screen and (max-width: 1024px) {
     .carousel-one-image {
-        background: url('../images/carouselOneSmall.jpeg');
+        background: url('../images/carouselOneSmall.png');
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -176,6 +181,10 @@
     .carousel-one {
         padding-bottom: 8em;
     }
+    .carousel-one-title, .carousel-one-subtitle {
+        margin-left: 0;
+    }
+
     .carousel-three {
         padding-left: 0em;
         padding-bottom: 9em;
@@ -241,26 +250,38 @@
         padding-bottom: 10em;
         width: 90%;
     }
+    /* .carousel-three-image {
+        background: url('../images/carouselThreeSmall.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
     .carousel-three-title {
         font-size: 25px
     }
     .carousel-three-subtitle {
         padding-left: 0em;
         font-size: 20px;
+        width: 100%;
     }
 
 }
 
 @media only screen and (max-width: 450px) {
     .carousel-three {
-        padding-bottom: 6em;
-        width: 95%;
+        padding-bottom: 8em;
+        width: 100%;
     }
     .subtitle1 {
         display: none;
     }
     .subtitle1-hidden {
         display: initial;
-        font-size: 18px;
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .space {
+        display: initial;
     }
 }
