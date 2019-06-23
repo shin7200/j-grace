@@ -23,7 +23,7 @@
 }
 
 .carousel-one {
-    padding-bottom: 10em;
+    padding-bottom: 13.5em;
     text-align: left;
     color: #fff;
     width: 80%;
@@ -73,7 +73,7 @@
 
 .carousel-two {
     text-align: center;
-    padding-bottom: 10em;
+    padding-bottom: 13em;
     
 }
 
@@ -124,7 +124,7 @@
 }
 
 .carousel-three {
-    padding-bottom: 9em;
+    padding-bottom: 13em;
     text-align: left;
     color: #fff;
     width: 80%;
@@ -144,7 +144,7 @@
 .carousel-three-subtitle {
     font-size: 25px;
     margin-left: 100px;
-    width: 90%;
+    width: 100%;
 }
 .subtitle1-hidden {
     display: none;
@@ -178,16 +178,16 @@
         align-items: center;
         text-align: center;
     }
-    .carousel-one {
+    /* .carousel-one {
         padding-bottom: 8em;
-    }
+    } */
     .carousel-one-title, .carousel-one-subtitle {
         margin-left: 0;
     }
 
     .carousel-three {
         padding-left: 0em;
-        padding-bottom: 9em;
+        /* padding-bottom: 9em; */
     }
     .carousel-three-title {
         font-size: 35px;
@@ -222,10 +222,10 @@
 
 @media only screen and (max-width: 650px) {
     .carousel-one {
-        padding-bottom: 14em;
+        padding-bottom: 16em;
     }
     .carousel-two {
-        padding-bottom: 11em;
+        padding-bottom: 15em;
     }
     .carousel-one-title {
         font-size: 22px;
@@ -247,7 +247,7 @@
     }
 
     .carousel-three {
-        padding-bottom: 10em;
+        padding-bottom: 13em;
         width: 90%;
     }
     /* .carousel-three-image {
@@ -268,7 +268,7 @@
 
 @media only screen and (max-width: 450px) {
     .carousel-three {
-        padding-bottom: 8em;
+        padding-bottom: 13em;
         width: 100%;
     }
     .subtitle1 {

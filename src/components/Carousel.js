@@ -18,24 +18,24 @@ export default class Content extends Component {
     render() {
         return(
             <div>
-                <div data-aos="fade-down" data-aos-duration="1500">
+                <div data-aos="fade-down" data-aos-duration="2000">
                     {/* <a href="#mission"><i style={{top: '13em', zIndex: '2', color: '#fff'}} className="fas fa-chevron-down"></i></a> */}
-                    <Carousel fade={true} pauseOnHover={false} interval={4500}>
+                    <Carousel fade={true} pauseOnHover={false} interval={5000}>
                         <Carousel.Item>
                             <div
                             className="d-block w-100 carousel-one-image"
                             alt="image-one"
-                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(50%)'}}
+                            style={{width:'100%', height:'850px', WebkitFilter: 'brightness(80%)'}}
                             >
                             </div>
                             <Carousel.Caption>
                             <div className="carousel-one">
                                 <div className="carousel-one-title">
                                     <p className="carousel-one-title-top" style={{fontSize: '20px'}}>주일예배</p>
-                                    <p>풍성한 주 은혜<br className="space" /> 시리즈 1<br/>"예비하시는 은혜"</p>
+                                    <p>찾아오시는 은혜<br className="space" /> 시리즈 2<br/>"예비하시는 은혜"</p>
                                 </div>
                                 <div className="carousel-one-subtitle">
-                                    <span>창세기 22장 11-14절</span><br/><br/>
+                                    <span>누가복음 19장 1-10절</span><br/><br/>
                                     <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ export default class Content extends Component {
                             <div
                             className="d-block w-100 carousel-three-image"
                             alt="image-one"
-                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(70%)'}}
+                            style={{width:'100%', height:'850px', WebkitFilter: 'brightness(50%)'}}
                             >
                             </div>
                             <Carousel.Caption>
@@ -72,7 +72,7 @@ export default class Content extends Component {
                             <div
                             className="d-block w-100 carousel-two-image"
                             src="image-two"
-                            style={{width:'100%', height:'750px', WebkitFilter: 'brightness(60%)'}}
+                            style={{width:'100%', height:'850px', WebkitFilter: 'brightness(60%)'}}
                             >
                             </div>
                             <Carousel.Caption>

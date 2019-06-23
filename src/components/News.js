@@ -66,7 +66,7 @@ export default class News extends Component {
                                 <p className="announcements-detail">남성장년: 김현철<br/>여성장년: 최교숙<br/>청년: 유관욱, 남혜림</p>
                             </div>
                         </div>
-                        <div className="announcements">
+                        {/* <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
                                     6/23, 30 <br/>주일<br/>오후
@@ -76,19 +76,6 @@ export default class News extends Component {
                                 <p className="announcements-title">주은혜가족 모임안내</p>
                                 <p className="announcements-detail">주은혜 새가족모임을<br className="space375" /><br className="space320" />  6/23, 6/30 <br className="space411" />오후에 있습니다.</p>
                                 <p className="announcements-detail">(문의: 김영훈 604.781.3535)</p>
-                            </div>
-                        </div>
-                        {/* <div className="announcements">
-                            <div className="date-box-container">
-                                <div className="date-box">
-                                    안내
-                                </div>
-                            </div>
-                            <div className="announcements-place-detail-container">
-                                <p className="announcements-title">2019 Camp Squeah</p>
-                                <p className="announcements-detail">주은혜교회 다음세대 6yr - 17yr</p>
-                                <p className="announcements-detail">대상으로 여름캠프를 안내드립니다.</p>
-                                <p className="announcements-detail">(관련 브로셔 / 문의: 권은영 604.807.3475)</p>
                             </div>
                         </div> */}
 
@@ -103,10 +90,10 @@ export default class News extends Component {
                             <p className="announcements-title">주은혜교회 양육을 위한 도서나눔 모임 안내</p>
                                 <p className="announcements-detail">6월-7월 선정도서: Not a Fan<br className="space375" /><br className="space320" />(팬인가, 제자인가) -카일 아이들먼</p>
                                 <p className="announcements-detail">모임 장소: J-Center</p>
-                                <p className="announcements-detail">(문의: 김낙선 778.554.3920</p>
+                                <p className="announcements-detail">(문의: 김낙선 778.554.3920)</p>
                             </div>
                         </div>
-                        <div className="announcements">
+                        {/* <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
                                     6/21  금<br/>
@@ -117,9 +104,8 @@ export default class News extends Component {
                                 <p className="announcements-title">금요부흥회 안내</p>
                                 <p className="announcements-detail">주제: 일곱 번 엎드림 <br className="space320" />(왕상 18: 41-46)</p>
                                 <p className="announcements-detail">모임 장소: 주일예배처소</p>
-                                
                             </div>
-                        </div>
+                        </div> */}
                         <div className="announcements">
                             <div className="date-box-container">
                                 <div className="date-box">
