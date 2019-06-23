@@ -14,20 +14,18 @@ import 'aos/dist/aos.css';
 
 class App extends Component {
   
+  componentDidMount() {
+    document.addEventListener('readystatechange', (event) => {
+      document.getElementById('root').style.visibility = "visible";
+  });
+  }
   render() {
-    const baseUrl = process.env.PUBLIC_URL;
-    console.log(baseUrl);
+    if (document.readyState === 'loading') {
+      document.getElementById('root').style.visibility = "hidden";
+    } 
+
     AOS.init();
     return (
-      // <div>
-      //   <NavBar />
-      //   <Carousel />
-      //   <Mission />
-      //   <Footer />
-      // </div>
-        // <BrowserRouter>
-
-          
           <div>
           <Route path='/' component={NavBar} />
           

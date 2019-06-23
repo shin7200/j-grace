@@ -4,6 +4,7 @@ import MissionCommunity from '../images/mission.png';
 
 export default class Mission extends Component {
     render() {
+        
         return(
             <div id="mission" className="outer-mission-container">
                 <div className="mission-container" data-aos="fade-right" data-aos-easing="linear">
