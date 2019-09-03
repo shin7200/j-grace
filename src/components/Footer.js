@@ -36,10 +36,10 @@ export default class Footer extends Component {
                 </div>
                 <div className="resp-footer-middle">
                     <div className="contact">
-                        <p>예배장소<span>|</span>7837 Canada Way Burnaby BC</p>
-                        <p>J 센터(사무실)<span>|</span>#208-931 Brunette Ave. Coquitlam BC</p>
-                        <p>Email<span>|</span>jgrace.info@gmail.com</p>
-                        <p>Phone<span>|</span>604 961 4711</p>
+                        <p><footerlist>예배장소</footerlist><span>|</span>7837 Canada Way Burnaby BC</p>
+                        <p><footerlist>J 센터</footerlist><span>|</span>#208-931 Brunette Ave. Coquitlam BC(사무실)</p>
+                        <p><footerlist>Email</footerlist><span>|</span>jgrace.info@gmail.com</p>
+                        <p><footerlist>Phone</footerlist><span>|</span>604 961 4711</p>
                     </div>
                 </div>
                 <div className="resp-footer-end">

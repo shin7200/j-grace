@@ -8,17 +8,17 @@ export default class About extends Component {
         return(
             <div>
                 <div id="/#/about" className="about-header" data-aos="fade-down" data-aos-duration="1500">
-                    <p className="header-title"><span><i className="fas fa-quote-left" style={{fontSize: '40px', padding: '0 20px 35px 0'}}></i></span>한 사람</p><br/>
-                    <p className="header-pop">한 영혼<span><i className="fas fa-quote-right" style={{fontSize: '40px', paddingLeft: '20px', position: 'absolute'}}></i></span></p>
-                    <div className="hover-space"></div>
+                    <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                        <p className="header-title"><i className="fas fa-quote-left" style={{fontSize: '35px', padding: '0 20px 35px 0'}}></i>한 사람</p>
+                        <p className="header-pop">한 영혼<span><i className="fas fa-quote-right" style={{fontSize: '35px', paddingLeft: '20px', position: 'absolute'}}></i></span></p>                    </div>
                 </div>
                 
-                <div className="about-mission-statement-container" data-aos="fade-down" data-aos-duration="1500">
-                    <div className="about-mission-statement-welcome">
-                        <p>Welcome!</p>
+                <div className="about-mission-statement-container">
+                    <div className="about-mission-statement-welcome" data-aos="fade-down" data-aos-duration="1500">
+                        <p >Welcome!</p>
                         <p style={{fontFamily: 'Nanum Pen Script, cursive'}}>환영합니다!</p>
                     </div>
-                    <div className="about-liner"></div>
+                    {/* <div className="about-liner"></div> */}
                     <div id="korean" className="about-mission-statement">
                         <div className="about-images-container">
                             <img className="pastor-image" src={PastorImage} />

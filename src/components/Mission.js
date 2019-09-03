@@ -3,8 +3,10 @@ import '../styles/mission.css';
 import MissionCommunity from '../images/mission.png';
 
 export default class Mission extends Component {
+    locationLinkClicked = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'});
+    }
     render() {
-        
         return(
             <div id="mission" className="outer-mission-container">
                 <div className="mission-container" data-aos="fade-right" data-aos-easing="linear">
@@ -45,7 +47,7 @@ export default class Mission extends Component {
                             <div className="main-page-location">
                                 <i className="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
                                 <ul>
-                                    <li><b>location (장소) <a href="/#/location">오시는 길</a></b></li>
+                                    <li><b>location (장소) <a onClick={this.locationLinkClicked} href="/#/location">오시는 길</a></b></li>
                                     <li>Burnaby Hall</li>
                                     <li>7837 Canada Way | Burnaby BC</li>
                                 </ul>
@@ -69,17 +71,17 @@ export default class Mission extends Component {
                 <div className="this-month-container">
                     <div data-aos="fade-down">
                         <div className="this-month-title">
-                            <p>6월 말씀과 찬양</p>
+                            <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>빌립보서 4:6-7</b>
-                            <p>아무것도 염려하지 말고 다만 모든 일에 기도와 간구로, 너희 구할 것을 감사함으로 하나님께 아뢰라 <br/>
-                            그리하면 모든 지각에 뛰어난 하나님의 평강이 그리스도 예수 안에서 너희 마음과 생각을 지키시리라
+                            <b>고린도후서 6:9-10</b>
+                            <p>무명한 자 같으나 유명한 자요 죽은 자 같으나 보라 우리가 살아 있고 징계를 받는 자 같으나 죽임을 당하지 아니하고 <br/>
+                            근심하는 자 같으나 항상 기뻐하고 가난한 자 같으나 많은 사람을 부요하게 하고 아무 것도 없는 자 같으나 모든 것을 가진 자로다
                             </p>
                         </div>
                         <div className="this-month-hymn">
-                            <b>찬송가 288장</b> 
-                            <p>예수를 나의 구주 삼고 / 우물가의 여인처럼 난 구했네</p>
+                            <b>이번 달 찬양</b> 
+                            <p>주를 향한 나의 사랑을 by Geoff Bullock</p>
                         </div>
                         <div className="this-month-word">
                             <p>"인생의 큰 비극은 응답받지 못한 기도가 아니라, 드려지지 않는 기도다"</p>

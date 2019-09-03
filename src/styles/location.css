@@ -1,6 +1,6 @@
 .location-header {
     width: 100%;
-    height: 500px;
+    height: 80vh;
 }
 
 .location-header:hover > h2 > span {
@@ -8,17 +8,12 @@
     transition: 0.5s;
 }
 
-.location-header::after {
-    content: ' ';
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+.location-header {
     background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url("../images/location.png");
     background-repeat: no-repeat;
     -ms-background-size: cover;
     background-size: cover;
+    background-position: right;
 }
 
 .fas.fa-chevron-down, .location-header h2 {
@@ -26,7 +21,7 @@
     text-align: center;
     left: 0;
     right: 0;
-    top: 4em;
+    top: 32vh;
     color: #fff;
     font-weight: bold;
     font-size: 60px;
@@ -34,7 +29,7 @@
 }
 
 .fas.fa-chevron-down {
-    top: 8.5em;
+    top: 62vh;
     font-size: 50px;
 }
 
@@ -121,12 +116,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .location-header::after {
-        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url("../images/locationSmall.png");
-        background-repeat: no-repeat;
-        -ms-background-size: cover;
-        background-size: cover;
-    }
     
     .address, .address-office, .parking, .email, .phone {
         display: flex;
@@ -150,12 +139,6 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .location-header::after {
-        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1) ), url("../images/locationSmaller.png");
-        background-repeat: no-repeat;
-        -ms-background-size: cover;
-        background-size: cover;
-    }
     .location-header h2 {
         font-size: 50px;
     }

@@ -3,10 +3,11 @@
 }
 .news-header {
     width: 100%;
-    height: auto;
+    height: 80vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url("../images/news.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .news-title {
@@ -14,9 +15,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
-    padding-bottom: 5em;
-    height: 500px;
+    align-items: center;    
+    height: 60vh;
     font-size: 20px;
     width: 60%;
 }
@@ -82,16 +82,9 @@
 
 }
 
-.announcements-num {
-    /* background: #2471A3;
-    padding: 0.1em;
-    color: #fff; */
-}
-
 .announcements-date-place, .announcements-title {
     font-weight: bold;
 }
-
 
 .weekly-paper {
     display: flex;
@@ -102,7 +95,6 @@
 .weekly-paper span {
     padding: 1em 2em;
     cursor: pointer;
-    /* border-radius: 5px; */
     background: #2471A3;
     color: #fff;
     transition: 0.5s;
@@ -130,11 +122,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .news-header {
-        background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url("../images/newsSmall.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .announcement-outer-container {
         display: inherit;
 
@@ -183,11 +170,6 @@
 }
 
 @media only screen and (max-width: 750px) {
-    .news-header {
-        background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url("../images/newsSmaller.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
     .date-box {
         height: 150px;
         width: 100px;
@@ -261,5 +243,11 @@
     }
     .space320 {
         display: initial;
+    }
+    .date-box {
+        width: 65px;
+    }
+    .announcements-detail {
+        font-size: 13px;
     }
 }

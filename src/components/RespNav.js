@@ -12,12 +12,15 @@ export default class RespNav extends Component {
                 <li className="resp-nav-item">
                     <a onClick={this.props.respNavMenuClicked} className="resp-nav-link" href="/#/about">환영합니다!</a>
                 </li>
+                <li className="resp-nav-item">
+                    <a onClick={this.props.respNavMenuClicked} className="resp-nav-link" href="/#/sermon">설교 말씀</a>
+                </li>
                 {/* <li className="resp-nav-item">
                     <a className="resp-nav-link disabled" href="/people">섬기는 사람들</a>
                 </li> */}
-                <li className="resp-nav-item">
+                {/* <li className="resp-nav-item">
                     <a onClick={this.props.respNavMenuClicked} className="resp-nav-link" href="/#/news">교회소식</a>
-                </li>
+                </li> */}
                 <li className="resp-nav-item">
                     <a onClick={this.props.respNavMenuClicked} className="resp-nav-link" href="/#/location">오시는 길</a>
                 </li>

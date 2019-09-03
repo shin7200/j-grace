@@ -10,7 +10,7 @@
 .outer-mission-container {
     background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
     background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
-    padding-top: 10em
+    padding-top: 5em
 }
 
 .mission-statement, .vision-statement {
@@ -150,7 +150,9 @@ i {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    padding: 5em 0 5em 0;
+    background-position: center;
+    padding: 9em 0 9em 0;
+    
     color: #fff;
     border-top: 1px solid #fff;
     width: 100%;

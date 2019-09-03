@@ -29,14 +29,7 @@ export default class NavBar extends Component {
     };
 
     respNavClicked = () => {
-        const currentScroll = window.scrollY;
-        // window.scrollTo({top: 0, behavior: 'smooth'});
         this.setState({respNavClicked: !this.state.respNavClicked, background: '#333'});
-        // if (this.state.respNavClicked || currentScroll <= 0) {
-        //     this.setState({background: '#333'})
-        // } else {
-        //     this.setState({background: 'transparent'})
-        // }
     }
 
     respNavMenuClicked = () => {
@@ -76,11 +69,14 @@ export default class NavBar extends Component {
                         <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/about">환영합니다!</a>
                     </li>
                     <li className="nav-item">
-                        <a onClick={this.navMenuClicked} style={{color: 'grey'}} className="nav-link disabled" href="/#/people">섬기는 사람들</a>
+                        <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/sermon">설교 말씀</a>
                     </li>
                     <li className="nav-item">
-                        <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/news">교회소식</a>
+                        <a onClick={this.navMenuClicked} style={{color: 'grey'}} className="nav-link" href="/#/people">섬기는 사람들</a>
                     </li>
+                    {/* <li className="nav-item">
+                        <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/news">교회소식</a>
+                    </li> */}
                     <li className="nav-item">
                         <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/location">오시는 길</a>
                     </li>
