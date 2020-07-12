@@ -7,6 +7,8 @@ import About from './components/About'
 import Location from './components/Location';
 import News from './components/News';
 import Sermon from './components/Sermon';
+import CarouselPopup from './components/CarouselPopup';
+import EMPS from './components/EMPS';
 // import ErrorPage from './components/ErrorPage';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import AOS from 'aos';
@@ -14,7 +16,7 @@ import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import image1 from './images/about.jpeg';
+// import image1 from './images/about.jpeg';
 // import image9 from './images/location.png';
 // import image10 from './images/locationSmall.png';
 // import image11 from './images/locationSmaller.png';
@@ -25,15 +27,22 @@ import image1 from './images/about.jpeg';
 
 
 class App extends Component {
-  
+  state = {
+    carouselPopup: true,    
+  }
+
   componentDidMount() {
     window.onload = function() {
       document.getElementById('root').style.visibility = "visible";
     }
   //   document.addEventListener('readystatechange', (event) => {
   //     document.getElementById('root').style.visibility = "visible";
-  // });
+  // });  
   }
+  popupClose = () => {
+    this.setState({ carouselPopup: !this.state.carouselPopup })
+  }
+
   render() {
     
     if (document.readyState === 'loading') {
@@ -43,21 +52,7 @@ class App extends Component {
     AOS.init();
     return (
           <div>
-          <img src={image1} style={{display: 'none'}} />
-          {/* <img src={image2} style={{display: 'none'}} />
-          <img src={image3} style={{display: 'none'}} />
-          <img src={image4} style={{display: 'none'}} />
-          <img src={image5} style={{display: 'none'}} />
-          <img src={image6} style={{display: 'none'}} />
-          <img src={image7} style={{display: 'none'}} />
-          <img src={image8} style={{display: 'none'}} /> */}
-          {/* <img src={image9} style={{display: 'none'}} />
-          <img src={image10} style={{display: 'none'}} />
-          <img src={image11} style={{display: 'none'}} /> */}
-          {/* <img src={image12} style={{display: 'none'}} /> */}
-          {/* <img src={image13} style={{display: 'none'}} /> */}
-          {/* <img src={image14} style={{display: 'none'}} />
-          <img src={image15} style={{display: 'none'}} /> */}
+          {/* <img src={image1} style={{display: 'none'}} /> */}
           
         
 
@@ -70,6 +65,7 @@ class App extends Component {
           <Route path='/location' component={Location} />
           <Route path='/news' component={News} />
           <Route path='/sermon' component={Sermon} />
+          {/* <Route path='/emps' component={EMPS} /> */}
           
           
           <Route path='/' component={Footer} />

@@ -3,39 +3,66 @@
 }
 
 .slick-slider {
-    height: 90vh;
+    height: 85vh;
 }
+
 
 .carousel-one-image {
     background: url('../images/carouselOne.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;    
-    /* -webkit-filter: brightness(70%);
-    filter: brightness(70%); */
+    height: 85vh;
 }
 
 .carousel-one {
     overflow-y: hidden;
     color: #fff;
-    padding-top: 27vh;
-    padding-left: 45vh;
+    padding-top: 28vh;
+    padding-left: 47vh;
     height: inherit;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    text-align: center;
+    padding-left: 0; */
 }
 
 .carousel-one-title {
     font-size: 40px;
-    font-weight: bold;    
-    margin-left: 100px;
+    font-weight: bold;  
+}
+
+.carousel-one-title-top {
+    font-size: 18px;
+    font-weight: initial;
 }
 
 .carousel-one-subtitle {
+    width: 80%;
+}
+
+.carousel-liner {
+    display: block;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-top: 5px solid #fff;
+}
+
+/* .carousel-one-subtitle {
     font-size: 25px;
-    padding-top: 1em;
-    margin-left: 100px;
-    border-top: 2px solid;
     width: fit-content;
+    text-align: center;
+} */
+.cos-one {    
+    font-size: 20px;
+    /* border-left: 5px solid;
+    padding-left: 10px; */
+}
+.cos-two {
+    font-size: 18px;
 }
 
 .carousel-one-subtitle span{
@@ -45,33 +72,34 @@
 /* Carousel Two css */
 
 .carousel-two-image {
-    background: url('../images/carouselTwo.png');
+    background: url('../images/carouselTwo.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center 10%;
-    height: 90vh;
+    background-position: center;
+    height: 85vh;
     width: 90%;
 }
 
 .carousel-two {
     overflow-y: hidden;
     color: #fff;
-    padding-top: 27vh;
-    padding-left: 45vh;
+    padding-top: 22vh;
+    padding-left: 47vh;
     height: inherit;
 }
 
 .carousel-two-title {
     font-size: 40px;
     font-weight: bold;    
-    margin-left: 100px;
+}
+
+.carousel-two-title-top {
+    font-size: 20px;
+    font-weight: initial;
 }
 
 .carousel-two-subtitle {
-    font-size: 25px;
-    padding-top: 1em;
-    margin-left: 100px;
-    border-top: 2px solid;
+    font-size: 22px;
     width: fit-content;
 }
 
@@ -86,29 +114,30 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 90vh;
+    height: 85vh;
     width: 90%;
 }
 
 .carousel-three {
     overflow-y: hidden;
     color: #fff;
-    padding-top: 27vh;
-    padding-left: 45vh;
+    padding-top: 22vh;
+    padding-left: 47vh;
     height: inherit;
 }
 
 .carousel-three-title {
     font-size: 40px;
-    font-weight: bold;    
-    margin-left: 100px;
+    font-weight: bold;        
+}
+
+.carousel-three-title-top {
+    font-size: 20px;
+    font-weight: initial;
 }
 
 .carousel-three-subtitle {
-    font-size: 25px;
-    padding-top: 1em;
-    margin-left: 100px;
-    border-top: 2px solid;
+    font-size: 22px;
     width: fit-content;
 }
 
@@ -116,53 +145,138 @@
     line-height: 2em;
 }
 
-@media only screen and (max-width: 1440px) {
-    .carousel-one-title, .carousel-two-title, .carousel-three-title {
-        font-size: 35px;
-    }
-    .carousel-one-subtitle, .carousel-two-subtitle, .carousel-three-subtitle {
-        font-size: 20px;
-    }
+.carousel-three a, .carousel-two a, .carousel-one a {
+    display: inline-block;
+    color: #fff;
+    margin-top: 0.6em;
+    padding: 0.3em 1.2em;
+    background-color: #333;
+    text-decoration: none;
+    /* border: 1px solid #E67E22; */
+    cursor: pointer;
+    font-size: 22px;
 }
 
 
+
+@media only screen and (max-width: 1440px) {
+    .carousel-one-title-top {
+        font-size: 16px;
+    }
+    .carousel-one-title, .carousel-two-title, .carousel-three-title {
+        font-size: 35px;
+    }
+    .carousel-two-subtitle, .carousel-three-subtitle {
+        font-size: 20px;
+    }
+    .cos-one {
+        font-size: 18px;
+    }
+    .cos-two {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .carousel-two, .carousel-three, .carousel-one {
+        padding-left: 40vh;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel-one {
+        padding-left: 17vh;
+    }
+
+}
+
 @media only screen and (max-width: 1024px) {    
-    .carousel-one, .carousel-two, .carousel-three {
+    .carousel-one {
+        padding-left: 5vh;
+    }
+    .carousel-two, .carousel-three {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         padding-left: 0;
     }
+    .carousel-one-title-top, .carousel-two-title-top, .carousel-three-title-top {
+        font-size: 18px;
+    }
     .carousel-one-title, .carousel-two-title, .carousel-three-title, .carousel-three-title {
         margin-left: 0;
         font-size: 35px;
     }
-    .carousel-one-subtitle, .carousel-two-subtitle, .carousel-three-subtitle {
+    .carousel-two-subtitle, .carousel-three-subtitle {
         margin-left: 0;
-        font-size: 22px;
-    }
-}
-
-@media only screen and (max-width: 850px) {
-    .carousel-one-subtitle, .carousel-two-subtitle, .carousel-three-subtitle {
         font-size: 20px;
     }
 }
 
+@media only screen and (max-width: 850px) {
+    .carousel-one-subtitle {
+        width: 90%;
+        
+    }
+    .carousel-one-subtitle, .carousel-two-subtitle, .carousel-three-subtitle {
+        font-size: 20px;
+    }
+    .carousel-one-subtitle p{
+        margin-left: 20vh;
+    }
+    
+}
+
 @media only screen and (max-width: 650px) {
-    .carousel-one-title, .carousel-two-title, .carousel-three-title {
-        font-size: 22px;
+    .carousel-one-title-top, .carousel-two-title-top, .carousel-three-title-top {
+        font-size: 16px;
+    }
+    .carousel-two-title, .carousel-three-title {
+        font-size: 25px;
         margin-left: 0;    
     }
-    /* .carousel-one-title-top, .carousel-two-title-top {
-        margin-bottom: 1em;
-    } */
-    .carousel-one-subtitle, .carousel-two-subtitle {
+    .carousel-one-subtitle p{
+        margin-left: 15vh;
+    }
+    .carousel-one-subtitle, .carousel-two-subtitle, .carousel-three-subtitle {
         font-size: 18px;
         margin-left: 0;
     }
 }
+
+@media only screen and (max-width: 500px) {
+    .space {
+        display: initial;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .carousel-one {
+        padding-left: 2vh;
+    }
+    .carousel-one-title {
+        font-size: 25px;
+    }
+
+    .cos-one, .carousel-one a, .carousel-two a, .carousel-three a {
+        font-size: 17px;
+    }
+    .cos-two {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .carousel-one {
+        padding-top: 20vh;
+    }
+    .space {
+        display: initial;
+    }
+}
+
 
 
 /* height settings for mobile */

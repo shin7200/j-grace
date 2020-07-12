@@ -14,33 +14,77 @@
     z-index: 10000;
 }
 
-.close {
-    color: #333;
-    opacity: 1;
-    transition: 0.3s;
-}
-
-.close:hover {
-    color: #E67E22;
-}
-
 .sermon-popup-container {
-    /* width: 60%; */
+    width: fit-content;
     height: fit-content;
     padding: 1em;
     background-color: #fff;
+}
+
+.sermon-video-popup-container {
+    width: 50%;    
+}
+
+.sermon-video-popup-container video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    outline: none;
+}
+
+.sermon-close, .sermon-video-close {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    float: right;
+}
+
+.sermon-video-close span {
+    color: #fff;
+    outline: none;
+    transition: 0.3s;
+}
+
+.sermon-close span {
+    color: #333;
+    outline: none;
+    transition: 0.3s;
+}
+
+.sermon-close span:hover, .sermon-video-close span:hover {
+    color: #E67E22;
+    outline: none;
 }
 
 .sermon-popup-container img {
     border-radius: 50%;
 }
 
+.sermon-popup-container p {
+    padding-left: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.sermonVideoRefButton {
+    border-style: none;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
 .sermon-popup-container audio {
     padding-top: 0.5em;
-    display: block;
-    float: bottom;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .sermon-popup-container audio:focus {
     outline: none;
 }
+

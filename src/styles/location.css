@@ -1,6 +1,6 @@
 .location-header {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
 }
 
 .location-header:hover > h2 > span {
@@ -53,11 +53,12 @@
 }
 
 .google-map-api {
-    width: 600px;
+    width: 800px;
     height: 500px;
     border: none;
     margin: auto 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 
 .location-description {
@@ -80,6 +81,9 @@
 
 .parking h3 {
     border-color: #E67E22;
+}
+.parking p {
+    width: 80%
 }
 
 .email h3, .phone h3 {
@@ -113,10 +117,6 @@
         margin-bottom: 5em;
         border-top: 1px solid #333;
     }
-}
-
-@media only screen and (max-width: 1024px) {
-    
     .address, .address-office, .parking, .email, .phone {
         display: flex;
         flex-direction: column;
@@ -126,6 +126,9 @@
         width: 90%;
         margin: 0 auto;
     }
+}
+
+@media only screen and (max-width: 1024px) {    
     .location-description h3 {
         line-height: 0.5em;
         padding: 0.2em 0.4em;

@@ -8,7 +8,7 @@ export default class Location extends Component {
             <div>
                 <div className="location-header" data-aos="fade-down" data-aos-duration="1500">
                     {/* <h1 id="korean">오시는 길</h1> */}
-                    <h2>Come Visit <span>!!</span></h2>
+                    <h2>오시는 길</h2>
                     <a href="#location"><i className="fas fa-chevron-down"></i></a>
                 </div>
                 <div className="location-wrapper">
@@ -24,12 +24,11 @@ export default class Location extends Component {
                             </div>
                             <div className="parking">
                                 <h3>주차안내</h3>
-                                <p>외부 주차장은 Canada Way 거리에서 진입 가능합니다.<br/>
-                                지하 주차장은 외부 주차장 진입 후 끝편에서부터 진입하실 수 있습니다.</p>
+                                <p>외부 주차장은 Canada Way 거리에서 진입 가능합니다. 건물내 지하 주차장이 만차일 경우, 건녀편 11th Ave 거리나 윗편 12th Ave 에 주차 하실 수 있습니다.</p>
                             </div>
                             <div className="email">
                                 <h3>Email</h3>
-                                <p>jgrace.info@gmail.com</p>
+                                <p>j-gcc.info@j-grace.org</p>
                             </div>
                             <div className="phone">
                                 <h3>Phone</h3>

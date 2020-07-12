@@ -3,7 +3,7 @@
 }
 .news-header {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url("../images/news.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,14 +17,14 @@
     justify-content: flex-end;
     align-items: center;    
     height: 60vh;
-    font-size: 20px;
+    font-size: 18px;
     width: 60%;
 }
 
 .announcement-outer-container {
     background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3); 
     background: linear-gradient(to right, #fdfcfb, #e2d1c3); 
-    padding: 10em 10em 10em 10em;
+    padding: 5em 10em 10em 10em;
     color: #333;
     display: flex;
     justify-content: space-between;
@@ -44,7 +44,7 @@
     display: flex;
     width: 100%;
     padding-left: 5em;
-    padding-bottom: 3em;
+    padding-bottom: 2em;
 }
 
 .news-liner {
@@ -96,6 +96,15 @@
     padding: 1em 2em;
     cursor: pointer;
     background: #2471A3;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+.pdf-popup-btn {
+    padding: 1em;
+    cursor:pointer;
+    background: #333;
     color: #fff;
     transition: 0.5s;
 }
@@ -177,7 +186,7 @@
     }
 
     .announcement-outer-container {
-        padding: 10em 0 10em 0;
+        padding: 5em 0 5em 0;
     }
     .announcements-place-detail-container {
         font-size: 17px;
@@ -188,19 +197,18 @@
     .announcements {
         justify-content: space-around;
     }
-    .announcements-place-detail-container span {
+    /* .announcements-place-detail-container span {
         padding-left: 0;
-    }
+    } */
     .news-title {
         width: 100%;
         text-align: end;
-        font-size: 18px;
     }
 }
 
 @media only screen and (min-width: 1500px) {
     .announcements {
-        padding-left: 15em;
+        padding-left: 7em;
     }
     .announcement-header {
         padding-left: 17em;
@@ -208,6 +216,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .news-title {
+        font-size: 16px;
+    }
     .date-box {
         height: 120px;
         width: 70px;

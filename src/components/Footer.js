@@ -25,7 +25,7 @@ export default class Footer extends Component {
                     <div className="contact-info">
                         <p>7837 Canada Way Burnaby BC</p>
                         <p>#208-931 Brunette Ave. Coquitlam BC</p>
-                        <p>jgrace.info@gmail.com</p>
+                        <p>j-gcc.info@j-grace.org</p>
                         <p>604 961 4711</p>
                     </div>
                 </div>
@@ -38,12 +38,12 @@ export default class Footer extends Component {
                     <div className="contact">
                         <p><footerlist>예배장소</footerlist><span>|</span>7837 Canada Way Burnaby BC</p>
                         <p><footerlist>J 센터</footerlist><span>|</span>#208-931 Brunette Ave. Coquitlam BC(사무실)</p>
-                        <p><footerlist>Email</footerlist><span>|</span>jgrace.info@gmail.com</p>
+                        <p><footerlist>Email</footerlist><span>|</span>j-gcc.info@j-grace.org</p>
                         <p><footerlist>Phone</footerlist><span>|</span>604 961 4711</p>
                     </div>
                 </div>
                 <div className="resp-footer-end">
-                    <p>예수 그리스도의 은혜로 가정이 변화되는 가족 공동체 교회</p>
+                    <p>예수 그리스도 중심의 삶으로 각 사람을 변화시키는<br className="space500"/> 가족 공동체 교회</p>
                     <p>&copy; 2019 J-Grace Community Church</p>
                 </div>
             </div>
