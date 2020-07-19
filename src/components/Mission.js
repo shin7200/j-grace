@@ -74,14 +74,14 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>빌립보서 1:20</b>
+                            <b>요한복음 15:7</b>
                             <p>
-                            나의 간절한 기대와 소망을 따라 아무 일에든지 부끄러워하지 아니하고 지금도 전과 같이 온전히 담대하여 살든지 죽든지 내 몸에서 그리스도가 존귀하게 되게 하려 하나니
+                            너희가 내 안에 거하고 내 말이 너희 안에 거하면 무엇이든지 원하는 대로 구하라 그리하면 이루리라
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>내 맘에 한 노래 있어(찬410)<br/>복이라(어노인팅)<br/>주님과 함께 하는 이 고요한 시간</p>
+                            <p>마음속에 근심 있는 사람(찬365)<br/>유월절 어린양의 피로<br/>임재</p>
                         </div>
 
                     </div>
