@@ -50,6 +50,7 @@ export default class Sermon extends Component {
                     <table className="sermon-lists">
                         <tbody>
                             <tr>
+                                <th onClick={() => this.sermonClicked('20200726')} style={{backgroundImage: `url(${imagePath('20200726')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20200719')} style={{backgroundImage: `url(${imagePath('20200719')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20200712')} style={{backgroundImage: `url(${imagePath('20200712')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20200705')} style={{backgroundImage: `url(${imagePath('20200705')})`}}></th>

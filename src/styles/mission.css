@@ -101,8 +101,8 @@ i {
 .service-type type {
     border-right: 4px solid #fff;
     line-height: 0.8;
-    /* padding-right: 0.7em; */
-    width: 180px
+    padding-right: 0.7em;
+    width: fit-content
 }
 
 .service-type span {

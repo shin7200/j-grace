@@ -42,14 +42,14 @@ export default class Carousel extends Component {
                 <div className="carousel-two-image">
                     <div className="carousel-two">
                         <div className="carousel-two-title">
-                            <p className="carousel-two-title-top">7/19 주일예배</p>
+                            <p className="carousel-two-title-top">7/26 주일예배</p>
                             <p>   
-                                기름부음의 기도 6<br/>                             
-                                응답없는 잘못된 기도
+                                기름부음의 기도 7<br/>                             
+                                응답하시는 하나님
                             </p>                                
                         </div>
                         <div className="carousel-two-subtitle">
-                            <span>열왕기상 18장 17-31절</span><br />
+                            <span>열왕기상 18장 33-44절</span><br />
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
                             <a onClick={() => this.buttonClicked()}>예배영상 보기</a>
                         </div>
@@ -149,7 +149,7 @@ export default class Carousel extends Component {
                     </div> */}
 
                 </Slider>
-                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20200719'} /> : null }
+                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20200726'} /> : null }
             {/* {this.state.carouselPopup ? <SermonPopup clickedDate={'20190908'} popupClose={this.popupClose} /> : null} */}
             </div>
         )

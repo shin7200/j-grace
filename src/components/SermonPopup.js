@@ -30,7 +30,8 @@ export default class SermonPopup extends Component {
             20200628: "75EOmNKFCbE",
             20200705: "6KV5A3RDi2k",
             20200712: "i9g_u0fKfRk",
-            20200719: "lttnwiQmylg"
+            20200719: "lttnwiQmylg",
+            20200726: "X3vHi0SdbFo"
         }
         var video = false;
         var link;        

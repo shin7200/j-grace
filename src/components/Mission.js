@@ -38,7 +38,7 @@ export default class Mission extends Component {
                     <p className="service" data-aos="fade-down">예배 안내</p>
                     <div className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
-                            <p className="service-type"><type>주일예배</type><span>매주 일요일 오후 1시</span></p>
+                            <p className="service-type"><type>온라인 주일예배</type><span>매주 일요일 오전 11시</span></p>
                             <p className="service-type"><type>진리와 자유</type><span>격주 수요일 오후 7시30분</span></p>
                             <p className="service-type"><type>금요부흥회</type><span>매월 마지막주 금요일</span></p>
                             <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 9시30분</span></p>
@@ -74,14 +74,14 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>요한복음 15:7</b>
+                            <b>이사야 57:15</b>
                             <p>
-                            너희가 내 안에 거하고 내 말이 너희 안에 거하면 무엇이든지 원하는 대로 구하라 그리하면 이루리라
+                            지극히 존귀하며 영원히 거하시며 거룩하다 이름하는 이가 이와 같이 말씀하시되 내가 높고 거룩한 곳에 있으며 또한 통회하고 마음이 겸손한 자와 함께 있나니 이는 겸손한 자의 영을 소생시키며 통회하는 자의 마음을 소생시키려 함이라
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>마음속에 근심 있는 사람(찬365)<br/>유월절 어린양의 피로<br/>임재</p>
+                            <p>주님의 마음을 본받는 자(찬455)<br/>지극히 높은 주님의</p>
                         </div>
 
                     </div>
