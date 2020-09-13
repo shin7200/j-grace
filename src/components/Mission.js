@@ -38,7 +38,7 @@ export default class Mission extends Component {
                     <p className="service" data-aos="fade-down">예배 안내</p>
                     <div className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
-                            <p className="service-type"><type>온라인 주일예배</type><span>매주 일요일 오전 11시</span></p>
+                            <p className="service-type"><type>온라인 예배</type><span>매주 일요일 오전 11시</span></p>
                             <p className="service-type"><type>진리와 자유</type><span>격주 수요일 오후 7시30분</span></p>
                             <p className="service-type"><type>금요부흥회</type><span>매월 마지막주 금요일</span></p>
                             <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 9시30분</span></p>
@@ -48,8 +48,8 @@ export default class Mission extends Component {
                                 <i className="fas fa-map-pin" style={{fontSize: '20px', marginTop: '0.2em', marginRight: '4.75px'}}></i>
                                 <ul>
                                     <li><b>location (장소) <a onClick={this.locationLinkClicked} href="/#/location">오시는 길</a></b></li>
-                                    <li>Burnaby Hall</li>
-                                    <li>7837 Canada Way | Burnaby BC</li>
+                                    {/* <li>Burnaby Hall</li> */}
+                                    <li>#203 - 931 Brunette Ave | Coquitlam BC</li>
                                 </ul>
                             </div>
                             <div className="main-page-email">
@@ -74,14 +74,16 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>이사야 57:15</b>
+                            <b>디모데후서 1:12</b>
                             <p>
-                            지극히 존귀하며 영원히 거하시며 거룩하다 이름하는 이가 이와 같이 말씀하시되 내가 높고 거룩한 곳에 있으며 또한 통회하고 마음이 겸손한 자와 함께 있나니 이는 겸손한 자의 영을 소생시키며 통회하는 자의 마음을 소생시키려 함이라
+                            이로 말미암아 내가 또 이 고난을 받되 부끄러워하지 아니함은 내가 믿는 자를 내가 알고 또한 내가 의탁한 것을 그 날까지 그가 능히 지키실 줄을 확신함이라
+                            
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>주님의 마음을 본받는 자(찬455)<br/>지극히 높은 주님의</p>
+                            <p>How great is our god / Show me your ways<br/> 
+                            예수를 나의 구주삼고(찬559장)<br/>주 은혜임을<br/>나는 찬양하리라</p>
                         </div>
 
                     </div>

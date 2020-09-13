@@ -42,14 +42,14 @@ export default class Carousel extends Component {
                 <div className="carousel-two-image">
                     <div className="carousel-two">
                         <div className="carousel-two-title">
-                            <p className="carousel-two-title-top">7/26 주일예배</p>
+                            <p className="carousel-two-title-top">9/13 주일예배</p>
                             <p>   
-                                기름부음의 기도 7<br/>                             
-                                응답하시는 하나님
+                                다시 복음 앞에 2<br/>                             
+                                새술은 새부대에
                             </p>                                
                         </div>
                         <div className="carousel-two-subtitle">
-                            <span>열왕기상 18장 33-44절</span><br />
+                            <span>고린도전서 5장 31-39절</span><br />
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
                             <a onClick={() => this.buttonClicked()}>예배영상 보기</a>
                         </div>
@@ -75,7 +75,7 @@ export default class Carousel extends Component {
                     </div>
                 </div> */}
 
-                <div className="carousel-three-image">
+                {/* <div className="carousel-three-image">
                     <div className="carousel-three">
                         <div className="carousel-three-title">
                             <p style={{marginTop: '3em'}} className="carousel-three-title-top">Microsoft Teams App</p>
@@ -88,13 +88,13 @@ export default class Carousel extends Component {
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>교회 소식을 이용해주세요</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
                 
                 {/* this carousel has diff css style */}
-                <div className="carousel-one-image">
+                {/* <div className="carousel-one-image">
                     <div className="carousel-one">
                         <div className="carousel-one-title">
                             <p className="carousel-one-title-top"><b>e-Transfer 헌금 안내</b></p>
@@ -108,7 +108,7 @@ export default class Carousel extends Component {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 
 
@@ -149,7 +149,7 @@ export default class Carousel extends Component {
                     </div> */}
 
                 </Slider>
-                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20200726'} /> : null }
+                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20200913'} /> : null }
             {/* {this.state.carouselPopup ? <SermonPopup clickedDate={'20190908'} popupClose={this.popupClose} /> : null} */}
             </div>
         )
