@@ -33,23 +33,46 @@ export default class Carousel extends Component {
             autoplaySpeed: 6000,
             pauseOnHover: false,
             arrows: false,
-                  
+            swipeToSlide: true,
         }
         return(
             <div data-aos="fade-down" data-aos-duration="1500">
                 <Slider {...sliderSettings}>
 
+                <div className="carousel-three-image">
+                    <div className="carousel-three">
+                        <div className="carousel-three-container"> 
+                            <div className="carousel-three-title">금요 HOPE 지성소 기도회</div>
+                            <div className="carousel-three-subtitle">
+                                <span>
+                                    주여 이제 내가 무엇을 바라리요 <br className="carousel-three-subtitle-breakpoint"/>나의 소망은 주께 있나이다
+                                </span>
+                                <span>
+                                    But now, Lord, what do I look for? <br className="carousel-three-subtitle-breakpoint"/>My hope is in you
+                                </span>
+                                <span>[시편39:7]</span>
+                            </div>
+                            <ul>
+                                <li><b>일시</b>: 10/9 (금) 8PM [매주 금요일]</li>
+                                <li><b>장소</b>: 주은혜교회 기도의 집[HOPE] #203-931 brunette Ave. Coquitlam</li>
+                                <li><b>말씀</b>: 사도행전 </li>
+                            </ul>
+                            <div>Teams App을 사용하시는 주은혜 가족분들은 실시간 화상기도회를  드리실 수 있습니다.</div>
+                        </div>
+                    </div>
+                </div> 
+
                 <div className="carousel-two-image">
                     <div className="carousel-two">
                         <div className="carousel-two-title">
-                            <p className="carousel-two-title-top">9/13 주일예배</p>
+                            <p className="carousel-two-title-top">10/4 주일예배</p>
                             <p>   
-                                다시 복음 앞에 2<br/>                             
-                                새술은 새부대에
+                                다시 복음 앞에 5<br/>                             
+                                New Blessing
                             </p>                                
                         </div>
                         <div className="carousel-two-subtitle">
-                            <span>고린도전서 5장 31-39절</span><br />
+                            <span>누가복음 6장 20-26절</span><br />
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
                             <a onClick={() => this.buttonClicked()}>예배영상 보기</a>
                         </div>
@@ -94,7 +117,7 @@ export default class Carousel extends Component {
 
                 
                 {/* this carousel has diff css style */}
-                {/* <div className="carousel-one-image">
+                <div className="carousel-one-image">
                     <div className="carousel-one">
                         <div className="carousel-one-title">
                             <p className="carousel-one-title-top"><b>e-Transfer 헌금 안내</b></p>
@@ -108,31 +131,11 @@ export default class Carousel extends Component {
                             </ul>
                         </div>
                     </div>
-                </div> */}
+                </div>
 
                 
 
-                {/* <div className="carousel-three-image">
-                    <div className="carousel-three">
-                        <div className="carousel-three-title">
-                            <p className="carousel-three-title-top">2020년 신앙주제</p>
-                            <p>예수 그리스도의 심장으로</p><br/>With the compassion of Christ Jesus
-                            
-                        </div>
-                        <div className="carousel-three-subtitle">
-                            <span>빌립보서 1장 8절</span><br />
-                            <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
-                            <a href="/#/sermon">말씀 듣기</a>
-                        </div>
-                    </div>
-                </div>     */}
-
-
-
-                    
-                    
-
-
+                   
                     {/* <div className="carousel-two-image">
                         <div className="carousel-two">
                             <div className="carousel-two-title">
@@ -149,7 +152,7 @@ export default class Carousel extends Component {
                     </div> */}
 
                 </Slider>
-                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20200913'} /> : null }
+                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20201004'} /> : null }
             {/* {this.state.carouselPopup ? <SermonPopup clickedDate={'20190908'} popupClose={this.popupClose} /> : null} */}
             </div>
         )

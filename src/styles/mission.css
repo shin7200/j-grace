@@ -273,10 +273,7 @@ i {
     }
     .service-type, .service-type span, .this-month-scripture, .this-month-hymn, .this-month-word {
         font-size: 18px;
-    }
-    .service-type type {
-        width: 120px;
-    }
+    }`
     .outer-service-container, .this-month-container {
         background-attachment: initial;
     }

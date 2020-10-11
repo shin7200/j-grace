@@ -38,10 +38,10 @@ export default class Mission extends Component {
                     <p className="service" data-aos="fade-down">예배 안내</p>
                     <div className="service-container">
                         <div className="service-time-container" data-aos="fade-down">
-                            <p className="service-type"><type>온라인 예배</type><span>매주 일요일 오전 11시</span></p>
+                            <p className="service-type"><type>1부 주일 예배</type><span>매주 일요일 오전 9시</span></p>
+                            <p className="service-type"><type>2부 주일 예배</type><span>매주 일요일 오전 11시</span></p>
                             <p className="service-type"><type>진리와 자유</type><span>격주 수요일 오후 7시30분</span></p>
-                            <p className="service-type"><type>금요부흥회</type><span>매월 마지막주 금요일</span></p>
-                            <p className="service-type"><type>지성소 기도회</type><span>매주 토요일 오전 9시30분</span></p>
+                            <p className="service-type"><type>금요지성소 기도회</type><span>매주 오후 8시</span></p>
                         </div>
                         <div className="main-page-location-container" data-aos="fade-down">
                             <div className="main-page-location">
@@ -74,16 +74,15 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>디모데후서 1:12</b>
+                            <b>열왕기상 8:29</b>
                             <p>
-                            이로 말미암아 내가 또 이 고난을 받되 부끄러워하지 아니함은 내가 믿는 자를 내가 알고 또한 내가 의탁한 것을 그 날까지 그가 능히 지키실 줄을 확신함이라
-                            
+                            주께서 전에 말씀하시기를 내 이름이 거기 있으리라 하신 곳 이 성전을 향하여 주의 눈이 주야로 보시오며 주의 종이 이 곳을 향하여 비는 기도를 들으시옵소서
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>How great is our god / Show me your ways<br/> 
-                            예수를 나의 구주삼고(찬559장)<br/>주 은혜임을<br/>나는 찬양하리라</p>
+                            <p>He is God<br/> 
+                            주예수보다 귀한 것은 없네(찬94장)<br/>복에 근원 강림하사(찬28장)<br/>내 평생 사는 동안</p>
                         </div>
 
                     </div>

@@ -16,16 +16,6 @@ import 'aos/dist/aos.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// import image1 from './images/about.jpeg';
-// import image9 from './images/location.png';
-// import image10 from './images/locationSmall.png';
-// import image11 from './images/locationSmaller.png';
-// import image12 from './images/newFamily.jpg';
-// import image13 from './images/news.jpeg';
-// import image14 from './images/newsSmall.jpeg';
-// import image15 from './images/newsSmaller.jpeg';
-
-
 class App extends Component {
   state = {
     carouselPopup: true,    
@@ -52,12 +42,8 @@ class App extends Component {
     AOS.init();
     return (
           <div>
-          {/* <img src={image1} style={{display: 'none'}} /> */}
-          
-        
-
           <Route path='/' component={NavBar} />
-          
+          {this.state.carouselPopup && <CarouselPopup popupClose={this.popupClose}/>}
           
           <Route exact path='/' component={Carousel} />
           <Route exact path='/' component={Mission} />

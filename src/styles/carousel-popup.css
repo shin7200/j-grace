@@ -16,15 +16,14 @@
 }
 
 .carousel-popup-container {
-    /* max-height: 100%; */
-    
-    /* position: inherit; */
+    overflow: scroll;
+    max-height: 550px;
     top: 10%;
-    /* margin-top: 5em; */
     background: url('../images/covid19.jpg');
     background-size: cover;
     width: 70%;
     padding: 1em;
+    margin-top: 10em;
 }
 
 .covid-19-container {
@@ -33,6 +32,7 @@
 }
 
 .bottom {
+    margin-top: 2em;
     text-align: center;
 }
 
@@ -77,32 +77,9 @@
     }
 }
 
-@media only screen and (max-width: 700px) {
-    .carousel-popup-container {
-        margin-top: 40em;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .carousel-popup-container {
         width: 95%;
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .carousel-popup-container {
-        margin-top: 50em;
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .carousel-popup-container {
-        margin-top: 60em;
-    }
-}
-
-@media only screen and (max-width: 350px) {
-    .carousel-popup-container {
-        margin-top: 70em;
-    }
-}
