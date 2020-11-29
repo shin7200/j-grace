@@ -42,6 +42,13 @@ export default class SermonPopup extends Component {
             20200920: "mB5MD0AQ9x0",
             20200927: "BDKP5oT2Q6w",
             20201004: "AFd-Z5i7L4U",
+            20201011: "vaCR5Y5qjTQ",
+            20201018: "dlVC3ZlgrpM",
+            20201025: "IqUpm6Dqbis",
+            20201101: "XVKXnht_vm4",
+            20201108: "W6f-6JJ7fhY",
+            20201115: "IkUcSEFyt1g",
+            20201122: "ernTPfzQmi8",
         }
         var video = false;
         var link;        
@@ -111,9 +118,7 @@ export default class SermonPopup extends Component {
                         :
                         (
                             <div>
-
-                                <div style={{display: 'flex', width: '100%'}}>
-                                    
+                                <div style={{display: 'flex', width: '100%'}}>                                    
                                     <img src={SermonLogo} />
                                     <p>{dateArray[1]}월 {dateArray[2]}일 말씀({dateArray[0]})<br/> 
                                     {parseInt(date) == 20200410 ? 
@@ -130,7 +135,6 @@ export default class SermonPopup extends Component {
                             </div>
                         )
                         }
-
                     </div>
                     )
                 }               

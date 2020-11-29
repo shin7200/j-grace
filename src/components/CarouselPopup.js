@@ -16,7 +16,22 @@ export default class CarouselPopup extends Component {
 
 
                     <div className="covid-19-container">
-                    주은혜교회 예배 및 모임 참석자 안전수칙<br/><br/>
+                    주님안에서 사랑하는 주은혜 가족분들께 소식을 전합니다.<br /><br />
+                    현재 BC 주의 코로나19 확산세가 커지고 있어서 보건수칙이 강화되어 앞으로 2주간 지금부터 12월 7일까지 종교예배 모임이 금지되어 2주동안 대면예배를 할 수 없게 되었습니다.<br />
+                    이로인하여 주일예배와 금요 지성소 기도모임도 2주동안은 쉬게 됩니다. 일정에 참고해 주시기 바랍니다.
+
+                    주일예배는 인터넷 방송으로 대신합니다. <br />
+                    코로나 바이러스의 마지막 기승에 위축되지 마시기 바라고 이 상황에 어떤 기도를 하기를 원하시는가 기도하던 중에 주신 말씀을 나눕니다. <br /><br />
+                    예레미야 31:2-3<br />
+                    여호와께서 이같이 말씀하시니라 칼에서 벗어난 백성이 광야에서 은혜를 입었나니 곧 내가 이스라엘로 안식을 얻게 하러 갈 때에라
+                    옛적에 여호와께서 나에게 나타나사 내가 영원한 사랑으로 너를 사랑하기에 인자함으로 너를 이끌었다 하였노라<br />
+                    This is what the LORD says: "The people who survive the sword will find favor in the desert; I will come to give rest to Israel."
+                    The LORD appeared to us in the past, saying: "I have loved you with an everlasting love; I have drawn you with loving-kindness.
+                     <br /><br />
+                    코로나 바이러스의 칼로 인하여 들어선 광야에서 하나님을 깊이 독대하는 안식의 시간이 되시길 바라고 영원한 사랑으로 우리를 사랑하시는 하나님의 이끄심을 경험하는 시간되시길 간절히 마음모아 기도합니다.
+
+
+                    {/* 주은혜교회 예배 및 모임 참석자 안전수칙<br/><br/>
 
                     주 정부의 완화 정책에 의해 50명 미만 교회 예배참석이 가능하게 되어 현장예배를 기도의 집, 제이센터(#203, #204  931 brunette ave. Coquitlam)에서 시작하게 되었습니다. 
                     교회에서는 WorkSafeBC 지침에 따라 교회의 Safety Plan과 예배 참석 지침을 알려드리고자 합니다. 예배 참석자 분들께서는 다음의 안전수칙을 지켜주시기 바랍니다.<br/><br/>
@@ -37,7 +52,7 @@ export default class CarouselPopup extends Component {
                     4] 좌석간 거리를 유지해 주세요(2M) <br/>
                     5] 인사는 목례를 권해드립니다<br/>
 
-                    이상의 안전수칙을 잘 지켜 주셔서 모두가 쾌적하고 건강한 주일예배가 되시길 바랍니다.<br/>
+                    이상의 안전수칙을 잘 지켜 주셔서 모두가 쾌적하고 건강한 주일예배가 되시길 바랍니다.<br/> */}
                         
                         <div className="bottom">
                             <img src={Logo} style={{width: '35px', height: '35px', marginRight: '10px'}}/>

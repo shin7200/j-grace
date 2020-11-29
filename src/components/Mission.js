@@ -74,15 +74,15 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>열왕기상 8:29</b>
+                            <b>고린도전서 1:24</b>
                             <p>
-                            주께서 전에 말씀하시기를 내 이름이 거기 있으리라 하신 곳 이 성전을 향하여 주의 눈이 주야로 보시오며 주의 종이 이 곳을 향하여 비는 기도를 들으시옵소서
+                            오직 부르심을 받은 자들에게는 유대인이나 헬라인이나 그리스도는 하나님의 능력이요 하나님의 지혜니라
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>He is God<br/> 
-                            주예수보다 귀한 것은 없네(찬94장)<br/>복에 근원 강림하사(찬28장)<br/>내 평생 사는 동안</p>
+                            <p>너와 나의 모습이(몸찬양)<br/> 
+                            변찮는 주님의 사랑과(찬270장)<br/>모든 상황속에서<br/>많은 사람들<br/>내가 만민중에</p>
                         </div>
 
                     </div>

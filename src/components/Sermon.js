@@ -50,6 +50,13 @@ export default class Sermon extends Component {
                     <table className="sermon-lists">
                         <tbody>
                             <tr>
+                                <th onClick={() => this.sermonClicked('20201122')} style={{backgroundImage: `url(${imagePath('20201122')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201115')} style={{backgroundImage: `url(${imagePath('20201115')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201108')} style={{backgroundImage: `url(${imagePath('20201108')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201101')} style={{backgroundImage: `url(${imagePath('20201101')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201025')} style={{backgroundImage: `url(${imagePath('20201025')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201018')} style={{backgroundImage: `url(${imagePath('20201018')})`}}></th>
+                                <th onClick={() => this.sermonClicked('20201011')} style={{backgroundImage: `url(${imagePath('20201011')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20201004')} style={{backgroundImage: `url(${imagePath('20201004')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20200927')} style={{backgroundImage: `url(${imagePath('20200927')})`}}></th>
                                 <th onClick={() => this.sermonClicked('20200920')} style={{backgroundImage: `url(${imagePath('20200920')})`}}></th>
