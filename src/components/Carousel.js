@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/carousel.css';
 import Pdf from '../pdf/2020Mission.pdf';
 import Slider from 'react-slick';
-import Sermon from './SermonPopup'
+import Sermon from './SermonVideo'
 
 export default class Carousel extends Component {
     state = {
@@ -51,7 +51,7 @@ export default class Carousel extends Component {
                         <div className="carousel-two-subtitle">
                             <span>누가복음 7장 31-35절</span><br />
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
-                            <a onClick={() => this.buttonClicked()}>예배영상 보기</a>
+                            <a href='/#/sermon'>예배영상 보기/듣기</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@ export default class Carousel extends Component {
                     </div> */}
 
                 </Slider>
-                {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20201122'} /> : null }
+                {/* {this.state.sermonAudioClicked ? <Sermon sermonPopupClose={this.buttonClicked} clickedDate={'20201122'} /> : null } */}
             {/* {this.state.carouselPopup ? <SermonPopup clickedDate={'20190908'} popupClose={this.popupClose} /> : null} */}
             </div>
         )

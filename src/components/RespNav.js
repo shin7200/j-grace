@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import '../styles/respNav.css'
-import Video from './SermonPopup';
+import Video from './SermonVideo';
 
 export default class RespNav extends Component {
     render() {

@@ -1,0 +1,9 @@
+.confirm-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    background: #e7bb42;
+    color: #fff;
+    font-weight: bold;
+}

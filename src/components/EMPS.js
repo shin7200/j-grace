@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/EMPS.css';
-import SermonAudio from './SermonPopup';
+import SermonAudio from './SermonAudio';
 
 
 export default class EMPS extends Component {

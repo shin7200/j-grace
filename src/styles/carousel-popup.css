@@ -12,11 +12,11 @@
     align-items: center;
     justify-content: center;
     z-index: 10000;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .carousel-popup-container {
-    overflow: scroll;
+    overflow: auto;
     max-height: 550px;
     top: 10%;
     background: url('../images/covid19.jpg');

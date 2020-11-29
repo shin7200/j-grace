@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../styles/navbar.css';
 import Logo from '../images/logo.png'
 import RespNav from './RespNav';
-import Video from './SermonPopup';
+import Video from './SermonVideo';
 
 
 export default class NavBar extends Component {
@@ -70,8 +70,8 @@ export default class NavBar extends Component {
                     </div>
                 </a>
                 <i onClick={this.respNavClicked} className="fas fa-bars nav-menu"></i>
-                {this.state.respNavClicked ? <RespNav respNavMenuClicked={this.respNavMenuClicked} AnniVideoClicked={this.AnniVideoClicked} clickedDate={"20190908"}/> : null}
-                {this.state.AnniVideoClicked ? <Video sermonPopupClose={this.AnniVideoClicked} clickedDate={"20190908"}/> : null}
+                {/* {this.state.respNavClicked ? <RespNav respNavMenuClicked={this.respNavMenuClicked} AnniVideoClicked={this.AnniVideoClicked} clickedDate={"20190908"}/> : null}
+                {this.state.AnniVideoClicked ? <Video sermonPopupClose={this.AnniVideoClicked} clickedDate={"20190908"}/> : null} */}
                 <ul className="nav">
                     <li className="nav-item">
                         <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/about">환영합니다!</a>
