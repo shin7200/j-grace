@@ -181,7 +181,39 @@
     line-height: 2em;
 }
 
-.carousel-three a, .carousel-two a, .carousel-one a {
+/* caroulel four */
+
+.carousel-four-image {
+    background: url('../images/carouselFour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85vh;
+    width: 90%;
+}
+
+.carousel-four {
+    overflow-y: hidden;
+    color: #fff;
+    padding-top: 25vh;
+    /* padding-left: 47vh; */
+    height: inherit;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-four-title {
+    margin-bottom: 3em;
+}
+.carousel-four-content {
+    margin-bottom: 1em;
+    font-size: 24px;
+}
+
+.carousel-three a, .carousel-two a, .carousel-one a, .carousel-four a {
     display: inline-block;
     color: #fff;
     margin-top: 0.6em;

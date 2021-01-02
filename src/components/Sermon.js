@@ -40,8 +40,7 @@ export default class Sermon extends Component {
         this.setState({
             sermonClicked: false,
             confirmAudioClicked: !this.state.confirmAudioClicked,
-            videoAttachmentExist: false,
-            videoAttachmentUrl: ''                       
+                                  
         });
     }
 
@@ -55,12 +54,14 @@ export default class Sermon extends Component {
         this.setState({
             confirmVideoClicked: false,
             confirmAudioClicked: false,
+            videoAttachmentExist: false,
+            videoAttachmentUrl: ''
         });
     }
 
     sermonConfimPopupClose = () => {
         this.setState({
-            sermonClicked: !this.state.sermonClicked,
+            sermonClicked: !this.state.sermonClicked,             
         });
     }
     
@@ -79,6 +80,12 @@ export default class Sermon extends Component {
                     <table className="sermon-lists">
                         <tbody>
                             <tr>
+                                <th onClick={() => {this.confirmVideoClicked(); this.setDate('20201231')}} style={{backgroundImage: `url(${imagePath('20201231')})`}}></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20201227')}} style={{backgroundImage: `url(${imagePath('20201227')})`}}></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20201220'); this.setVideoRef('https://www.youtube.com/embed/DwPcxfqOJpQ')}} style={{backgroundImage: `url(${imagePath('20201220')})`}} ></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20201213')}} style={{backgroundImage: `url(${imagePath('20201213')})`}}></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20201206')}} style={{backgroundImage: `url(${imagePath('20201206')})`}}></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20201129')}} style={{backgroundImage: `url(${imagePath('20201129')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20201122')}} style={{backgroundImage: `url(${imagePath('20201122')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20201115')}} style={{backgroundImage: `url(${imagePath('20201115')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20201108')}} style={{backgroundImage: `url(${imagePath('20201108')})`}}></th>
@@ -112,7 +119,7 @@ export default class Sermon extends Component {
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200426')}} style={{backgroundImage: `url(${imagePath('20200426')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200419')}} style={{backgroundImage: `url(${imagePath('20200419')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200412')}} style={{backgroundImage: `url(${imagePath('20200412')})`}}></th>
-                                <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200410')}} style={{backgroundImage: `url(${imagePath('20200410')})`}}></th>
+                                <th onClick={() => {this.confirmAudioClicked(); this.setDate('20200410')}} style={{backgroundImage: `url(${imagePath('20200410')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200405')}} style={{backgroundImage: `url(${imagePath('20200405')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200329')}} style={{backgroundImage: `url(${imagePath('20200329')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20200322')}} style={{backgroundImage: `url(${imagePath('20200322')})`}}></th>
@@ -137,7 +144,7 @@ export default class Sermon extends Component {
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20191027')}} style={{backgroundImage: `url(${imagePath('20191027')})`}}></th>
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20191020')}} style={{backgroundImage: `url(${imagePath('20191020')})`}}></th>
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20191013')}} style={{backgroundImage: `url(${imagePath('20191013')})`}}></th>
-                                <th onClick={() => {this.confirmAudioClicked(); this.setDate('20191006'); this.setVideoRef('20191006', 'https://www.youtube.com/embed/l1WSfsm2KSs')}} style={{backgroundImage: `url(${imagePath('20191006')})`}}></th>
+                                <th onClick={() => {this.confirmAudioClicked(); this.setDate('20191006'); this.setVideoRef('https://www.youtube.com/embed/l1WSfsm2KSs')}} style={{backgroundImage: `url(${imagePath('20191006')})`}}></th>
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20190929')}} style={{backgroundImage: `url(${imagePath('20190929')})`}}></th>
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20190922')}} style={{backgroundImage: `url(${imagePath('20190922')})`}}></th>
                                 <th onClick={() => {this.confirmAudioClicked(); this.setDate('20190915')}} style={{backgroundImage: `url(${imagePath('20190915')})`}}></th>

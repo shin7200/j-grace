@@ -74,15 +74,15 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>고린도전서 1:24</b>
+                            <b>디모데후서 4:2</b>
                             <p>
-                            오직 부르심을 받은 자들에게는 유대인이나 헬라인이나 그리스도는 하나님의 능력이요 하나님의 지혜니라
+                            너는 말씀을 전파하라 때를 얻든지 못 얻든지 항상 힘쓰라 범사에 오래 참음과 가르침으로 경책하며 경계하며 권하라
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
-                            <p>너와 나의 모습이(몸찬양)<br/> 
-                            변찮는 주님의 사랑과(찬270장)<br/>모든 상황속에서<br/>많은 사람들<br/>내가 만민중에</p>
+                            <p>10,000 Reasons(몸찬양)<br/> 
+                            다 찬양하여라(찬21장)<br/>예수 열방의 소망<br/>주 여호와는 광대하시도다</p>
                         </div>
 
                     </div>

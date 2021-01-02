@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import SermonLogo from '../images/sermonImages/sermonAudioLogo.png';
 
 const SermonAudio = ({clickedDate, videoAttachmentExist, videoAttachmentUrl, onClose}) => {
+    console.log(videoAttachmentExist, videoAttachmentUrl);
+    
     const [showVideoAttachment, setShowVideoAttachment] = useState(false);
     var dateArray = [];
     var date = clickedDate;
