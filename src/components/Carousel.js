@@ -39,31 +39,34 @@ export default class Carousel extends Component {
             <div>
                 <Slider {...sliderSettings}>
 
-                {/* <div className="carousel-two-image">
-                    <div className="carousel-two">
-                        <div className="carousel-two-title">
-                            <p className="carousel-two-title-top">12/27 주일예배</p>
-                            <p>   
-                                다시 복음 앞에 17<br/>                             
-                                하나님의 큰일
-                            </p>                                
-                        </div>
-                        <div className="carousel-two-subtitle">
-                            <span>누가복음 8장 26-56절</span><br />
-                            <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
-                            <a href='/#/sermon'>예배영상 보기/듣기</a>
-                        </div>
-                    </div>
-                </div> */}
-
                 <div className="carousel-four-image">
                     <div className="carousel-four">                        
                         <span className="carousel-four-title">2021년 신앙 주제</span>
                         <span className="carousel-four-content">예레미아 1:9</span>
-                        <span className="carousel-four-content">내 말을 네 입에 두었노라</span>
-                        <a href='/#/sermon'>예배영상 보기</a>
+                        <span className="carousel-four-content">내 말을 네 입에 두었노라</span> 
+                        <span className="carousel-four-content" style={{fontSize: '18px', textAlign: 'center'}}>"BEHOLD, I HAVE PUT MY WORDS IN YOUR MOUTH"</span>                       
                     </div>
                 </div>
+
+
+                <div className="carousel-two-image">
+                    <div className="carousel-two">
+                        <div className="carousel-two-title">
+                            <p className="carousel-two-title-top">1/10 주일예배</p>
+                            <p>   
+                                은혜의 여정 2<br/>                             
+                                정체성 2
+                            </p>                                
+                        </div>
+                        <div className="carousel-two-subtitle">
+                            <span>창세기 27장 18-20절</span><br />
+                            <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>송관빈 목사</span><br/>
+                            <a href='/#/sermon'>예배영상 보기/듣기</a>
+                        </div>
+                    </div>
+                </div>
+
+                
 
                 {/* <div className="carousel-three-image">
                     <div className="carousel-three">

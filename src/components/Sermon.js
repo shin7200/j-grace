@@ -80,6 +80,8 @@ export default class Sermon extends Component {
                     <table className="sermon-lists">
                         <tbody>
                             <tr>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20210110')}} style={{backgroundImage: `url(${imagePath('20210110')})`}}></th>
+                                <th onClick={() => {this.sermonClicked(); this.setDate('20210103')}} style={{backgroundImage: `url(${imagePath('20210103')})`}}></th>
                                 <th onClick={() => {this.confirmVideoClicked(); this.setDate('20201231')}} style={{backgroundImage: `url(${imagePath('20201231')})`}}></th>
                                 <th onClick={() => {this.sermonClicked(); this.setDate('20201227')}} style={{backgroundImage: `url(${imagePath('20201227')})`}}></th>
                                 <th onClick={() => {this.sermonClicked(); this.setDate('20201220'); this.setVideoRef('https://www.youtube.com/embed/DwPcxfqOJpQ')}} style={{backgroundImage: `url(${imagePath('20201220')})`}} ></th>
