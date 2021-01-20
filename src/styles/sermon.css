@@ -32,6 +32,15 @@
     padding-left: 7em;
 }
 
+.sermon-tab-year-container {
+    display: flex;
+}
+
+.sermon-tab-year {
+    padding: 10px;
+    cursor: pointer;        
+}
+
 .sermon-lists {
     height: 100%;
     width: 80%;
