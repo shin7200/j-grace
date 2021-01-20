@@ -82,9 +82,10 @@ export default class Sermon extends Component {
                     
                 </div>
                 <div className="sermon-container">
+                    <div className="sermon-header-container">
                     <h1>설교말씀</h1>
                     <div className="sermon-tab-year-container">
-                    <span className="sermon-tab-year" 
+                        <span className="sermon-tab-year" 
                             onClick={() => this.setSelectedYear('2021')} 
                             style={this.state.selectedYear === '2021' ? {borderLeft: '5px solid #E67E22'}: {}}>
                                 2021
@@ -98,14 +99,15 @@ export default class Sermon extends Component {
                             onClick={() => this.setSelectedYear('2019')} 
                             style={this.state.selectedYear === '2019' ? {borderLeft: '5px solid #E67E22'}: {}}>
                                 2019
-                        </span>
-                        
+                        </span>                        
+                    </div>
                     </div>
                     <table className="sermon-lists">
                         <tbody>
                             <tr>
                                 {this.state.selectedYear === '2021' &&
                                     <>
+                                        <th onClick={() => {this.sermonClicked(); this.setDate('20210117')}} style={{backgroundImage: `url(${imagePath('20210117')})`}}></th>
                                         <th onClick={() => {this.sermonClicked(); this.setDate('20210110')}} style={{backgroundImage: `url(${imagePath('20210110')})`}}></th>
                                         <th onClick={() => {this.sermonClicked(); this.setDate('20210103')}} style={{backgroundImage: `url(${imagePath('20210103')})`}}></th>
                                     </>

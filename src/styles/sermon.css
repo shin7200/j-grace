@@ -27,9 +27,13 @@
     padding-bottom: 4em;
 }
 
+.sermon-header-container {
+    width: 55%;
+    margin: 0 auto;
+}
+
 .sermon-container h1 {
-    font-family: 'Do Hyeon', sans-serif;
-    padding-left: 7em;
+    font-family: 'Do Hyeon', sans-serif;    
 }
 
 .sermon-tab-year-container {
@@ -81,6 +85,9 @@
     .sermon-container h1  {
         padding-left: 0;
         text-align: center;
+    }
+    .sermon-tab-year-container {
+        justify-content: center;
     }
 }
 
