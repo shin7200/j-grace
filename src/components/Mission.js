@@ -74,16 +74,17 @@ export default class Mission extends Component {
                             <p>이번주 말씀과 찬양</p>
                         </div>
                         <div className="this-month-scripture" >
-                            <b>로마서 12:2(새번역)</b>
+                            <b>시편 34:1, 10</b>
                             <p>
-                            여러분은 이 시대의 풍조를 본받지 말고, 마음을 새롭게 함으로 변화를 받아서, 하나님의 선하시고 기뻐하시고 완전하신 뜻이 무엇인지를 분별하도록 하십시오.
+                            1 내가 여호와를 항상 송축함이여 내 입술로 항상 주를 찬양하리이다 <br />
+                            10 젊은 사자는 궁핍하여 주릴지라도 여호와를 찾는 자는 모든 좋은 것에 부족함이 없으리로다
                             </p>
                         </div>
                         <div className="this-month-hymn">
                             <b>찬양곡</b> 
                             <p>
-                                Love your Lord(몸찬양)<br/> 
-                                태산을 넘어 험곡에 가도(찬445장)<br/>밤이나 낮이나<br/>주 음성외에는(찬446장)</p>
+                                Lord I lift your name on high(몸찬양)<br/> 
+                                주와 같이 길가는 것(찬430장)<br/>내 눈 주의 영광을 보내<br/>주를 찬양(세상 유혹 시험이)</p>
                         </div>
 
                     </div>
