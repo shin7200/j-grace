@@ -125,11 +125,48 @@ export default class Sermon extends Component {
               </span>
             </div>
           </div>
+
           <table className="sermon-lists">
             <tbody>
               <tr>
                 {this.state.selectedYear === "2021" && (
                   <>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210214");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210214")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210207");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210207")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210131");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210131")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210124");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210124")})`,
+                      }}
+                    ></th>
                     <th
                       onClick={() => {
                         this.sermonClicked();
@@ -159,6 +196,7 @@ export default class Sermon extends Component {
                     ></th>
                   </>
                 )}
+
                 {this.state.selectedYear === "2020" && (
                   <>
                     <th
