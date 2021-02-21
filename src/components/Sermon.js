@@ -134,6 +134,15 @@ export default class Sermon extends Component {
                     <th
                       onClick={() => {
                         this.sermonClicked();
+                        this.setDate("20210221");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210221")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
                         this.setDate("20210214");
                       }}
                       style={{
