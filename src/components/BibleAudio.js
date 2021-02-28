@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/bibleAudio.css";
-import { oldBookSet } from "../utilities/constVariables";
+import { oldBookSet, newBookSet } from "../utilities/constVariables";
 import SermonLogo from "../images/sermonImages/sermonAudioLogo.png";
 
 const BibleAudio = () => {
@@ -35,6 +35,12 @@ const BibleAudio = () => {
           `${oldBookSet[currentBook].koreanName}_0${idx + 1}장.mp3`;
   };
 
+  const generateNewTestamentUrl = (idx) => {
+    return idx >= 9
+      ? newTestamentUrl + `${newBookSet[currentBook].name}+${idx + 1}.mp3`
+      : newTestamentUrl + `${newBookSet[currentBook].name}+0${idx + 1}.mp3`;
+  };
+
   const play = (url, idx) => {
     setCurrentPage(idx + 1);
     setCurrentlyPlaying((prevState) =>
@@ -65,6 +71,24 @@ const BibleAudio = () => {
         })
       );
     }
+
+    if (
+      currentPage > 0 &&
+      currentMenu === "new" &&
+      currentPage < newBookSet[currentBook].pageNumber
+    ) {
+      let audio = document.getElementById("audio");
+      audio.src = await generateNewTestamentUrl(currentPage);
+      audio.load();
+      audio.play();
+      setCurrentPage(currentPage + 1);
+      setCurrentlyPlaying((prevState) =>
+        Object.assign({}, prevState, {
+          currentBook,
+          currentPage: currentPage + 1,
+        })
+      );
+    }
   };
 
   return (
@@ -72,9 +96,9 @@ const BibleAudio = () => {
       <div className="bible-audio-banner">
         {" "}
         <p>
-          태초에 말씀이 계시니라
-          <br />이 말씀이 하나님과 함께 계셨으니
-          <br />이 말씀은 곧 하나님이시니라
+          그러므로 믿음은 들음에서 나며
+          <br />
+          들음은 그리스도의 말씀으로 말미암았느니라
         </p>
       </div>
       <div className="bible-audio-container">
@@ -83,7 +107,10 @@ const BibleAudio = () => {
             style={
               currentMenu === "old" ? { borderLeft: "5px solid #E67E22" } : {}
             }
-            onClick={() => setCurrentMenu("old")}
+            onClick={() => {
+              setCurrentMenu("old");
+              setCurrentBook("");
+            }}
           >
             구약성경
           </span>
@@ -91,7 +118,10 @@ const BibleAudio = () => {
             style={
               currentMenu === "new" ? { borderLeft: "5px solid #E67E22" } : {}
             }
-            onClick={() => setCurrentMenu("new")}
+            onClick={() => {
+              setCurrentMenu("new");
+              setCurrentBook("");
+            }}
           >
             신약성경
           </span>
@@ -101,7 +131,7 @@ const BibleAudio = () => {
           <div className="audio-container">
             <div className="audio-details">
               <i
-                class="fas fa-headphones-alt"
+                className="fas fa-headphones-alt"
                 style={{ fontSize: "25px", marginRight: "10px" }}
               ></i>
               <span>
@@ -115,41 +145,94 @@ const BibleAudio = () => {
             </audio>
           </div>
         </div>
-        <div className="books-container">
-          {currentMenu === "old" && (
-            <div className="books-menu-outer-container">
-              <div className="books-menu-container">
-                {Object.keys(oldBookSet).map((e) => {
-                  return (
-                    <span
-                      style={
-                        currentBook === e
-                          ? { borderLeft: "5px solid #E67E22" }
-                          : {}
-                      }
-                      onClick={() => setCurrentBook(e)}
-                    >
-                      {e}
-                    </span>
-                  );
-                })}
-              </div>
 
-              <div className="audio-list-container">
-                {Array.apply(null, {
-                  length: currentBook ? oldBookSet[currentBook].pageNumber : 0,
-                }).map((_, idx) => {
-                  return (
-                    <span
-                      onClick={() => {
-                        play(generateOldTestamentUrl(idx), idx);
-                      }}
-                    >{`${oldBookSet[currentBook].koreanName} ${idx + 1}`}</span>
-                  );
-                })}
-              </div>
-            </div>
-          )}
+        <div className="books-container">
+          <div className="books-menu-outer-container">
+            {currentMenu === "old" && (
+              <>
+                <div className="books-menu-container">
+                  {Object.keys(oldBookSet).map((e) => {
+                    return (
+                      <span
+                        key={e}
+                        className="book"
+                        style={
+                          currentBook === e
+                            ? { borderLeft: "5px solid #E67E22" }
+                            : {}
+                        }
+                        onClick={() => setCurrentBook(e)}
+                      >
+                        {e}
+                      </span>
+                    );
+                  })}
+                </div>
+
+                <div className="audio-list-container">
+                  {Array.apply(null, {
+                    length: currentBook
+                      ? oldBookSet[currentBook].pageNumber
+                      : 0,
+                  }).map((_, idx) => {
+                    return (
+                      <span
+                        key={idx}
+                        className="page"
+                        onClick={() => {
+                          play(generateOldTestamentUrl(idx), idx);
+                        }}
+                      >{`${oldBookSet[currentBook].koreanName} ${
+                        idx + 1
+                      }`}</span>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+            {currentMenu === "new" && (
+              <>
+                <div className="books-menu-container">
+                  {Object.keys(newBookSet).map((e) => {
+                    return (
+                      <span
+                        key={e}
+                        className="book"
+                        style={
+                          currentBook === e
+                            ? { borderLeft: "5px solid #E67E22" }
+                            : {}
+                        }
+                        onClick={() => setCurrentBook(e)}
+                      >
+                        {e}
+                      </span>
+                    );
+                  })}
+                </div>
+
+                <div className="audio-list-container">
+                  {Array.apply(null, {
+                    length: currentBook
+                      ? newBookSet[currentBook].pageNumber
+                      : 0,
+                  }).map((_, idx) => {
+                    return (
+                      <span
+                        key={idx}
+                        className="page"
+                        onClick={() => {
+                          play(generateNewTestamentUrl(idx), idx);
+                        }}
+                      >{`${newBookSet[currentBook].koreanName} ${
+                        idx + 1
+                      }`}</span>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+          </div>
         </div>
       </div>
     </>

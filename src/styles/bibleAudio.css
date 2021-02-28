@@ -46,6 +46,12 @@
   margin: 0 auto;
   margin-top: 30px;
 }
+@media only screen and (max-width: 768px) {
+  .audio-outer-container {
+    flex-direction: column;
+    align-items: start;
+  }
+}
 
 .audio-outer-container img {
   margin-right: 20px;
@@ -68,19 +74,25 @@
 
 .books-menu-outer-container {
   display: flex;
-  justify-content: center;
 }
 
 .books-menu-container {
   display: flex;
   flex-direction: column;
-  width: 10%;
+  min-width: 140px;
+  max-width: 140px;
+}
+
+.book {
+  cursor: pointer;
+  padding: 5px;
 }
 
 .audio-list-container {
-  width: 90%;
+  width: 80%;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  height: fit-content;
 }
 
 .audio-list-container span {
@@ -88,6 +100,12 @@
   width: fit-content;
 }
 
-.books-menu-container span {
-  padding: 5px;
+.page {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  color: #fff;
+  background: #e67e22;
+  height: fit-content;
+  border-radius: 4px;
 }

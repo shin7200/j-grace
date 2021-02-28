@@ -195,4 +195,140 @@ export const oldBookSet = {
     koreanName: "말라기",
   },
 };
-export const newBookSet = {};
+export const newBookSet = {
+  마태복음: {
+    pageNumber: 28,
+    name: "Matthew",
+    koreanName: "마태복음",
+  },
+  마가복음: {
+    pageNumber: 16,
+    name: "Mark",
+    koreanName: "마가복음",
+  },
+  누가복음: {
+    pageNumber: 24,
+    name: "Luke",
+    koreanName: "누가복음",
+  },
+  요한복음: {
+    pageNumber: 21,
+    name: "John",
+    koreanName: "요한복음",
+  },
+  사도행전: {
+    pageNumber: 28,
+    name: "Acts",
+    koreanName: "사도행전",
+  },
+  로마서: {
+    pageNumber: 16,
+    name: "Romans",
+    koreanName: "로마서",
+  },
+  고린도전서: {
+    pageNumber: 16,
+    name: "1+Corinthians",
+    koreanName: "고린도전서",
+  },
+  고린도후서: {
+    pageNumber: 13,
+    name: "2+Corinthians",
+    koreanName: "고린도전서",
+  },
+  갈라디아서: {
+    pageNumber: 6,
+    name: "Galatians",
+    koreanName: "갈라디아서",
+  },
+  에베소서: {
+    pageNumber: 6,
+    name: "Ephesians",
+    koreanName: "에베소서",
+  },
+  빌립보서: {
+    pageNumber: 4,
+    name: "Philippians",
+    koreanName: "빌립보서",
+  },
+  골로새서: {
+    pageNumber: 4,
+    name: "Colossians",
+    koreanName: "골로새서",
+  },
+  데살로니가전서: {
+    pageNumber: 5,
+    name: "1+Thessalonians",
+    koreanName: "데살로니가전서",
+  },
+  데살로니가후서: {
+    pageNumber: 3,
+    name: "2+Thessalonians",
+    koreanName: "데살로니가후서",
+  },
+  디모데전서: {
+    pageNumber: 6,
+    name: "1+Timothy",
+    koreanName: "디모데전서",
+  },
+  디모데후서: {
+    pageNumber: 4,
+    name: "2+Timothy",
+    koreanName: "디모데후서",
+  },
+  디도서: {
+    pageNumber: 3,
+    name: "Titus",
+    koreanName: "디도서",
+  },
+  빌레몬서: {
+    pageNumber: 1,
+    name: "Philemon",
+    koreanName: "빌레몬서",
+  },
+  히브리서: {
+    pageNumber: 13,
+    name: "Hebrews",
+    koreanName: "히브리서",
+  },
+  야고보서: {
+    pageNumber: 5,
+    name: "James",
+    koreanName: "야고보서",
+  },
+  베드로전서: {
+    pageNumber: 5,
+    name: "1+Peter",
+    koreanName: "베드로전서",
+  },
+  베드로후서: {
+    pageNumber: 3,
+    name: "2+Peter",
+    koreanName: "베드로후서",
+  },
+  요한일서: {
+    pageNumber: 5,
+    name: "1+John",
+    koreanName: "요한일서",
+  },
+  요한이서: {
+    pageNumber: 1,
+    name: "2+John",
+    koreanName: "요한이서",
+  },
+  요한삼서: {
+    pageNumber: 1,
+    name: "3+John",
+    koreanName: "요한삼서",
+  },
+  유다서: {
+    pageNumber: 1,
+    name: "Jude",
+    koreanName: "유다서",
+  },
+  요한계시록: {
+    pageNumber: 22,
+    name: "Revelation",
+    koreanName: "요한계시록",
+  },
+};
