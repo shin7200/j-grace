@@ -20,6 +20,11 @@
   font-size: 18px;
   text-align: end;
 }
+@media only screen and (max-width: 768px) {
+  .bible-audio-banner p {
+    width: 95%;
+  }
+}
 
 .bible-audio-container {
   background: -webkit-linear-gradient(to right, #fdfcfb, #e2d1c3);
