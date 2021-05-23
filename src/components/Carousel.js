@@ -55,14 +55,14 @@ export default class Carousel extends Component {
           <div className="carousel-two-image">
             <div className="carousel-two">
               <div className="carousel-two-title">
-                <p className="carousel-two-title-top">5/16 주일예배</p>
+                <p className="carousel-two-title-top">5/23 주일예배</p>
                 <p>
-                  변화된 삶, 변화된 세상 8<br />
-                  주의 손이 함께 하는 바나바
+                  변화된 삶, 변화된 세상 9<br />
+                  자유케 된 베드로
                 </p>
               </div>
               <div className="carousel-two-subtitle">
-                <span>사도행전 11장 19-26절</span>
+                <span>사도행전 12장 1-7절</span>
                 <br />
                 <span
                   style={{ borderLeft: "4px solid #fff", paddingLeft: "0.5em" }}
@@ -82,15 +82,19 @@ export default class Carousel extends Component {
                 <div className="carousel-three-subtitle">
                   <span>
                     <br />
-                    "주님과의 동행 <br className="carousel-three-subtitle-breakpoint" />그리고 인도하심"
-                                </span>
-
+                    "주님과의 동행{" "}
+                    <br className="carousel-three-subtitle-breakpoint" />
+                    그리고 인도하심"
+                  </span>
                 </div>
                 <ul>
-                  <li><b>일시</b>: 매주 금요일 8PM</li>
-                  <li><b>장소</b>: 주은혜교회 기도의 집[HOPE] / Teams App</li>
+                  <li>
+                    <b>일시</b>: 매주 금요일 8PM
+                  </li>
+                  <li>
+                    <b>장소</b>: 주은혜교회 기도의 집[HOPE] / Teams App
+                  </li>
                 </ul>
-
               </div>
             </div>
           </div>
@@ -171,7 +175,6 @@ export default class Carousel extends Component {
                     액수를 적어주세요. 만약 헌금번호가 없다면 본인의 주소와
                     전화번호를 써넣어주시기 바랍니다.
                   </li>
-
                 </ul>
               </div>
             </div>
