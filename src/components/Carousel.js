@@ -55,14 +55,14 @@ export default class Carousel extends Component {
           <div className="carousel-two-image">
             <div className="carousel-two">
               <div className="carousel-two-title">
-                <p className="carousel-two-title-top">3/7 주일예배</p>
+                <p className="carousel-two-title-top">5/16 주일예배</p>
                 <p>
-                  은혜의 여정 10<br />
-                  마지막이 아름다운 은혜
+                  변화된 삶, 변화된 세상 8<br />
+                  주의 손이 함께 하는 바나바
                 </p>
               </div>
               <div className="carousel-two-subtitle">
-                <span>창세기 35,47,48장</span>
+                <span>사도행전 11장 19-26절</span>
                 <br />
                 <span
                   style={{ borderLeft: "4px solid #fff", paddingLeft: "0.5em" }}
@@ -75,34 +75,31 @@ export default class Carousel extends Component {
             </div>
           </div>
 
-          {/* <div className="carousel-three-image">
-                    <div className="carousel-three">
-                        <div className="carousel-three-container"> 
-                            <div className="carousel-three-title">금요 HOPE 지성소 기도회</div>
-                            <div className="carousel-three-subtitle">
-                                <span>
-                                    주여 이제 내가 무엇을 바라리요 <br className="carousel-three-subtitle-breakpoint"/>나의 소망은 주께 있나이다
-                                </span>
-                                <span>
-                                    But now, Lord, what do I look for? <br className="carousel-three-subtitle-breakpoint"/>My hope is in you
-                                </span>
-                                <span>[시편39:7]</span>
-                            </div>
-                            <ul>
-                                <li><b>일시</b>: 매주 금요일</li>
-                                <li><b>장소</b>: 주은혜교회 기도의 집[HOPE] #203-931 brunette Ave. Coquitlam</li>
-                                <li><b>말씀</b>: 사도행전</li>
-                            </ul>
-                            
-                        </div>
-                    </div>
-                </div>  */}
-
           <div className="carousel-three-image">
             <div className="carousel-three">
               <div className="carousel-three-container">
+                <div className="carousel-three-title">금요 지성소 기도회</div>
+                <div className="carousel-three-subtitle">
+                  <span>
+                    <br />
+                    "주님과의 동행 <br className="carousel-three-subtitle-breakpoint" />그리고 인도하심"
+                                </span>
+
+                </div>
+                <ul>
+                  <li><b>일시</b>: 매주 금요일 8PM</li>
+                  <li><b>장소</b>: 주은혜교회 기도의 집[HOPE] / Teams App</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="carousel-three-image">
+            <div className="carousel-three">
+              <div className="carousel-three-container">
                 <div className="carousel-three-title">
-                  성경 익스프레스 Bible Express
+                  금요 지성소 기도회
                 </div>
                 <div className="carousel-three-subtitle">
                   <div
@@ -115,9 +112,9 @@ export default class Carousel extends Component {
                   >
                     <span>
                       <br />
-                      말씀위의 서는 삶의 양육 첫번째 과정으로 신구약 성경 전체를
+                      "말씀위의 서는 삶의 양육 첫번째 과정으로 신구약 성경 전체를
                       살펴보는 성경 익스프레스 과정을 매주 금요일 오후 8시
-                      금요일 금요 지성소 기도회 시간에 시작할 계획입니다.
+                      금요일 금요 지성소 기도회 시간에 시작할 계획입니다."
                       <br />
                       <br />
                       성경을 통독해가다가 레위기에 좌절하고 마태복음 족보에서
@@ -129,18 +126,16 @@ export default class Carousel extends Component {
                 </div>
                 <ul>
                   <li>
-                    <b>일시</b>: 매주 금요일
+                    <b>일시</b>: 매주 금요일 8PM
                   </li>
                   <li>
-                    <b>장소</b>: Teams 온라인 미팅
+                    <b>장소</b>: 주은혜교회 HOPE / Teams app
                   </li>
-                  <li>
-                    <b>말씀</b>: 신약 전체
-                  </li>
+                 
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className="carousel-three-image">
                     <div className="carousel-three">
@@ -176,11 +171,7 @@ export default class Carousel extends Component {
                     액수를 적어주세요. 만약 헌금번호가 없다면 본인의 주소와
                     전화번호를 써넣어주시기 바랍니다.
                   </li>
-                  <li className="cos-one">
-                    비밀번호(security information)는 되도록 jgrace로 설정해
-                    주시고, 만약 다른 비밀번호로 설정하셨으면 주은혜교회
-                    헌금이메일로 보내주세요.
-                  </li>
+
                 </ul>
               </div>
             </div>

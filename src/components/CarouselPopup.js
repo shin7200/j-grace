@@ -4,22 +4,22 @@ import Logo from '../images/logo.png';
 
 export default class CarouselPopup extends Component {
     render() {
-        return(
+        return (
             <div className="carousel-popup">
                 <div className="carousel-popup-container">
                     <button onClick={() => this.props.popupClose()} type="button" className="sermon-video-close" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
-                    </button><br/>
+                    </button><br />
                     {/* <video controls="controls"  
                         name="Video Name" src="https://j-grace.s3-us-west-2.amazonaws.com/20190908.mov">
                     </video>                        */}
 
 
                     <div className="covid-19-container">
-                    새해를 시작하며 새로운 기대가 있었지만 BC주 사적 모임 금지령이 재차 2월5일까지 연장되어 그 때까지 대면예배를 할 수 없게 되었습니다. <br/>
+                        {/* 새해를 시작하며 새로운 기대가 있었지만 BC주 사적 모임 금지령이 재차 2월5일까지 연장되어 그 때까지 대면예배를 할 수 없게 되었습니다. <br/>
                     그러나 사적 모임이 아닌 목적이 있는 모임, 학원수업과 같은 모임이나 코어버블안에서 2명 이내의 모임이 개인 가정이 아닌 목적된 장소안에서 마스크를 착용하고 가능하기에 기본적인 성경공부는 진행하고자 합니다.  <br/>
                     먼저 이번주 금요일(1/15)부터 종전에 했던 성경 익스프레스 과정을 Teams로 매주 금요일 오후 8PM에 시작하도록 하겠습니다. <br/>
-                    그리고 주은혜교회 첫번째 성경공부 복 있는 삶  Blessed to Bless 과정도 일대일로 진행하도록 하겠습니다. <br/><br />
+                    그리고 주은혜교회 첫번째 성경공부 복 있는 삶  Blessed to Bless 과정도 일대일로 진행하도록 하겠습니다. <br/><br /> */}
                     예레미야 31:2-3<br />
                     여호와께서 이같이 말씀하시니라 칼에서 벗어난 백성이 광야에서 은혜를 입었나니 곧 내가 이스라엘로 안식을 얻게 하러 갈 때에라
                     옛적에 여호와께서 나에게 나타나사 내가 영원한 사랑으로 너를 사랑하기에 인자함으로 너를 이끌었다 하였노라<br />
@@ -51,11 +51,11 @@ export default class CarouselPopup extends Component {
                     5] 인사는 목례를 권해드립니다<br/>
 
                     이상의 안전수칙을 잘 지켜 주셔서 모두가 쾌적하고 건강한 주일예배가 되시길 바랍니다.<br/> */}
-                        
+
                         <div className="bottom">
-                            <img src={Logo} style={{width: '35px', height: '35px', marginRight: '10px'}}/>
-                             주은혜교회<br/>       
-                         </div>
+                            <img src={Logo} style={{ width: '35px', height: '35px', marginRight: '10px' }} />
+                             주은혜교회<br />
+                        </div>
                     </div>
                 </div>
             </div>

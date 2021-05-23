@@ -131,7 +131,97 @@ export default class Sermon extends Component {
               <tr>
                 {this.state.selectedYear === "2021" && (
                   <>
-                  <th
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210516");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210516")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210509");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210509")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210502");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210502")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210425");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210425")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210418");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210418")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210411");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210411")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210404");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210404")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210328");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210328")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210321");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210321")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210314");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210314")})`,
+                      }}
+                    ></th>
+                    <th
                       onClick={() => {
                         this.sermonClicked();
                         this.setDate("20210307");

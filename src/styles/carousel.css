@@ -116,10 +116,10 @@
 /* Carousel Three Css */
 
 .carousel-three-image {
-    background: url('../images/carouselThree.jpg');
+    background: url('../images/carouselThree.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     height: 85vh;
     width: 90%;
 }
@@ -127,7 +127,7 @@
 .carousel-three {
     overflow-y: hidden;
     color: #fff;
-    padding-top: 22vh;
+    padding-top: 30vh;
     /* padding-left: 47vh; */
     height: inherit;
 }
