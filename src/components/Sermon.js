@@ -90,6 +90,7 @@ export default class Sermon extends Component {
           <div className="sermon-header-container">
             <h1>설교말씀</h1>
             <div className="sermon-tab-year-container">
+
               <span
                 className="sermon-tab-year"
                 onClick={() => this.setSelectedYear("2021")}
@@ -131,6 +132,51 @@ export default class Sermon extends Component {
               <tr>
                 {this.state.selectedYear === "2021" && (
                   <>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210627");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210627")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210620");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210620")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210613");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210613")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210606");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210606")})`,
+                      }}
+                    ></th>
+                    <th
+                      onClick={() => {
+                        this.sermonClicked();
+                        this.setDate("20210530");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210530")})`,
+                      }}
+                    ></th>
                     <th
                       onClick={() => {
                         this.sermonClicked();

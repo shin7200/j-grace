@@ -136,22 +136,21 @@ export default class Mission extends Component {
               <p>이번주 말씀과 찬양</p>
             </div>
             <div className="this-month-scripture">
-              <b>요한일서 2:17</b>
+              <b>시편 39:7 새번역</b>
               <p>
-                이 세상도, 그 정욕도 지나가되 오직 하나님의 뜻을 행하는 자는
-                영원히 거하느니라
+                그러므로 주님, 이제, 내가 무엇을 바라겠습니까? 내 희망은 오직 주님뿐입니다.
               </p>
             </div>
             <div className="this-month-hymn">
               <b>찬양곡</b>
               <p>
-                내가 매일 기쁘게(찬191장)
+                주와 같이 길 가는 것(찬250장)
                 <br />
-                마지막 날에
+                사랑해요 목소리 높여
                 <br />
-                날마다 숨쉬는 순간마다
+                주가 보이신 생명의 길
                 <br />
-                주의 임재앞에 잠잠해
+                임재
               </p>
             </div>
           </div>
