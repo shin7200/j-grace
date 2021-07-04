@@ -136,21 +136,25 @@ export default class Mission extends Component {
               <p>이번주 말씀과 찬양</p>
             </div>
             <div className="this-month-scripture">
-              <b>시편 39:7 새번역</b>
+              <b>마태복음 6:33</b>
               <p>
-                그러므로 주님, 이제, 내가 무엇을 바라겠습니까? 내 희망은 오직 주님뿐입니다.
+              그런즉 너희는 먼저 그의 나라와 그의 의를 구하라 그리하면 이 모든 것을 너희에게 더하시리라
               </p>
             </div>
             <div className="this-month-hymn">
               <b>찬양곡</b>
               <p>
-                주와 같이 길 가는 것(찬250장)
+                죄에서 자유를 얻게 함은(찬268장)
                 <br />
-                사랑해요 목소리 높여
+                주님의 시간에
                 <br />
-                주가 보이신 생명의 길
+                주의 거룩하심 생각할 때            
                 <br />
-                임재
+                주님의 성령
+                <br />
+                기도할 수 있는데
+                <br />
+                주께서 다스리네
               </p>
             </div>
           </div>

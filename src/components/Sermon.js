@@ -132,6 +132,15 @@ export default class Sermon extends Component {
               <tr>
                 {this.state.selectedYear === "2021" && (
                   <>
+                  <th
+                      onClick={() => {
+                        this.confirmVideoClicked();
+                        this.setDate("20210704");
+                      }}
+                      style={{
+                        backgroundImage: `url(${imagePath("20210704")})`,
+                      }}
+                    ></th>
                     <th
                       onClick={() => {
                         this.sermonClicked();
