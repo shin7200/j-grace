@@ -136,25 +136,23 @@ export default class Mission extends Component {
               <p>이번주 말씀과 찬양</p>
             </div>
             <div className="this-month-scripture">
-              <b>마태복음 6:33</b>
+              <b>빌립보서 3:11 새번역</b>
               <p>
-              그런즉 너희는 먼저 그의 나라와 그의 의를 구하라 그리하면 이 모든 것을 너희에게 더하시리라
+                그리하여 나는 어떻게 해서든지, 죽은 사람들 가운데서 살아나는 부활에 이르고 싶습니다.
               </p>
             </div>
             <div className="this-month-hymn">
               <b>찬양곡</b>
               <p>
-                죄에서 자유를 얻게 함은(찬268장)
+                변찮는 주님의 사랑과(찬270장)
                 <br />
-                주님의 시간에
+                주품에(Still)
                 <br />
-                주의 거룩하심 생각할 때            
+                아무것도 두려워 말라
                 <br />
-                주님의 성령
+                하나님이시여
                 <br />
-                기도할 수 있는데
-                <br />
-                주께서 다스리네
+                하나님의 그늘아래
               </p>
             </div>
           </div>
