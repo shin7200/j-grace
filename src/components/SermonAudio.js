@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import SermonLogo from "../images/sermonImages/sermonAudioLogo.png";
 
 const SermonAudio = ({
   clickedDate,
@@ -40,7 +39,7 @@ const SermonAudio = ({
             ></iframe>
           )}
           <div style={{ display: "flex", width: "100%" }}>
-            <img src={SermonLogo} />
+            <img src="https://j-grace.s3-us-west-2.amazonaws.com/sermonImages/sermonAudioLogo.png" />
             <p>
               {dateArray[1]}월 {dateArray[2]}일 말씀({dateArray[0]})<br />
               {parseInt(date) == 20200410 ? (

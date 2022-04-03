@@ -43,15 +43,15 @@ class App extends Component {
     return (
       <div>
         <Route path="/" component={NavBar} />
-        {this.state.carouselPopup && (
+        {/* {this.state.carouselPopup && (
           <CarouselPopup popupClose={this.popupClose} />
-        )}
+        )} */}
 
         <Route exact path="/" component={Carousel} />
         <Route exact path="/" component={Mission} />
         <Route path="/about" component={About} />
         <Route path="/location" component={Location} />
-        <Route path="/news" component={News} />
+        {/* <Route path="/news" component={News} /> */}
         <Route path="/sermon" component={Sermon} />
         <Route path="/bibleaudio" component={BibleAudio} />
         {/* <Route path='/emps' component={EMPS} /> */}

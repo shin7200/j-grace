@@ -137,7 +137,7 @@ export default class NavBar extends Component {
           {/* <li className="nav-item">
                         <a onClick={this.navMenuClicked} style={{color: this.state.color}} className="nav-link" href="/#/emps">새벽기도</a>
                     </li> */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a
               onClick={this.navMenuClicked}
               style={{ color: this.state.color }}
@@ -146,7 +146,7 @@ export default class NavBar extends Component {
             >
               교회소식
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a
               onClick={this.navMenuClicked}

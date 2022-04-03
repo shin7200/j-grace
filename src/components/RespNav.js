@@ -48,7 +48,7 @@ export default class RespNav extends Component {
         {/* <li className="resp-nav-item">
                     <a onClick={this.props.respNavMenuClicked} className="resp-nav-link" href="/#/emps">새벽기도</a>
                 </li> */}
-        <li className="resp-nav-item">
+        {/* <li className="resp-nav-item">
           <a
             onClick={this.props.respNavMenuClicked}
             className="resp-nav-link"
@@ -56,7 +56,7 @@ export default class RespNav extends Component {
           >
             교회소식
           </a>
-        </li>
+        </li> */}
         <li className="resp-nav-item">
           <a
             onClick={this.props.respNavMenuClicked}

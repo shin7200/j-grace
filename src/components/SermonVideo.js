@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "../styles/sermonPopup.css";
-import SermonLogo from "../images/sermonImages/sermonAudioLogo.png";
+
 
 export default class SermonVideo extends Component {
   state = {
@@ -82,7 +82,45 @@ export default class SermonVideo extends Component {
       20210620: "PW1zDH1JxrA",
       20210627: "UGT8xUtB-KU",
       20210704: "LKgegxTkQys",
-      20210711: "wWJYSCGey88"
+      20210711: "wWJYSCGey88",
+      20210718: "QIwi7Fql96I",
+      20210725: "E2TYfNMy7Vg",
+      20210801: "PnXzpojpn14",
+      20210808: "hUmie0PT-6U",
+      20210815: "liApDGDxC7c",
+      20210822: "K_VKUbqGJKc",
+      20210829: "s1gIOnvMA94",
+      20210905: "8JuloajjB7Y",
+      20210919: "CJE0GPKpnEs",
+      20210926: "SgtTmvRqLDA",
+      20211003: "10wgKC0BAj8",
+      20211010: "Vi-fCq6laLI",
+      20211017: "DJAyCLpOUY0",
+      20211024: "Jw0FoNkbJDQ",
+      20211031: "Vm7HtY6SRSg",
+      20211107: "e4CcSKqYjl0",
+      20211114: "3f2vik6-QXs",
+      20211121: "FiYwZwUm53Y",
+      20211128: "fhWhvb8TBqA",
+      20211205: "FwyygOGzlp4",
+      20211212: "jeWsJpzedxA",
+      20211219: "NJBpdcdUkVE",
+      20211226: "Zidym31ZkHc",
+      20211231: "uTDHa3w6plE",
+      20220102: "QnMK08bKwQI",
+      20220109: "ea682FY4gIw",
+      20220116: "WgFW_5e5MBI",
+      20220123: "Uur8sjmHPoI",
+      20220130: "3h-7fEg0gGg",
+      20220206: "ZyGkm8BB7cU",
+      20220213: "lwzAchwb5n8",
+      20220220: "qhkA6YEIOfs",
+      20220227: "VSMWfkqRJFI",
+      20220306: "Gs0H2doakrM",
+      20220313: "l2ikv9JF0zE",
+      20220320: "BGhtvlLDhfI",
+      20220327: "Qc33pmGur6g",
+      20220403: "VbFELwibylo"
     };
 
     var date = this.props.clickedDate;
@@ -111,6 +149,7 @@ export default class SermonVideo extends Component {
             msallowfullscreen="msallowfullscreen"
             oallowfullscreen="oallowfullscreen"
             webkitallowfullscreen="webkitallowfullscreen"
+            allow="fullscreen;"
           ></iframe>
         </div>
       </div>

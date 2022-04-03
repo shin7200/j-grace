@@ -36,7 +36,7 @@ export default class Carousel extends Component {
     return (
       <div>
         <Slider {...sliderSettings}>
-          <div className="carousel-four-image">
+          {/* <div className="carousel-four-image">
             <div className="carousel-four">
               <span className="carousel-four-title">2021년 신앙 주제</span>
               <span className="carousel-four-content">예레미아 1:9</span>
@@ -50,24 +50,25 @@ export default class Carousel extends Component {
                 "BEHOLD, I HAVE PUT MY WORDS IN YOUR MOUTH"
               </span>
             </div>
-          </div>
+          </div> */}
 
           <div className="carousel-two-image">
             <div className="carousel-two">
               <div className="carousel-two-title">
-                <p className="carousel-two-title-top">7/11 주일예배</p>
+                <p className="carousel-two-title-top">4/3 주일예배</p>
                 <p>
-                  변화된 삶, 변화된 세상 16<br />
-                  죽음을 넘어선 찬양
+                  복음의 능력 24
+                  <br />
+                  내가 확신하노니
                 </p>
               </div>
               <div className="carousel-two-subtitle">
-                <span>사도행전 16장</span>
+                <span>로마서 8장 31-39절</span>
                 <br />
                 <span
                   style={{ borderLeft: "4px solid #fff", paddingLeft: "0.5em" }}
                 >
-                  송관빈 목사
+                  송관빈 목사님
                 </span>
                 <br />
                 <a href="/#/sermon">예배영상 보기/듣기</a>
@@ -92,7 +93,7 @@ export default class Carousel extends Component {
                     <b>일시</b>: 매주 금요일 8PM
                   </li>
                   <li>
-                    <b>장소</b>: 주은혜교회 기도의 집[HOPE] / Teams App
+                    <b>장소</b>: 주은혜교회 기도의 집[HOPE]
                   </li>
                 </ul>
               </div>
@@ -142,19 +143,24 @@ export default class Carousel extends Component {
           </div> */}
 
           {/* <div className="carousel-three-image">
-                    <div className="carousel-three">
-                        <div className="carousel-three-title">
-                            <p style={{marginTop: '3em'}} className="carousel-three-title-top">Microsoft Teams App</p>
-                            <p>
-                                마이크로소프트 Teams <br/>
-                                앱 사용법 안내
-                            </p>
-                        </div>
-                        <div className="carousel-three-subtitle">                                
+            <div className="carousel-three">
+              <div className="carousel-three-title">
+                <p
+                  style={{ marginTop: "3em" }}
+                  className="carousel-three-title-top"
+                >
+                  주은혜교회 창립 2주년 야외예배
+                </p>
+                <p>
+                  주일 오전 10시 <br />
+                  장소: Blue mountain park
+                </p>
+              </div>
+              <div className="carousel-three-subtitle">                                
                             <span style={{borderLeft: '4px solid #fff', paddingLeft: '0.5em'}}>교회 소식을 이용해주세요</span>
                         </div>
-                    </div>
-                </div> */}
+            </div>
+          </div> */}
 
           {/* this carousel has diff css style */}
           <div className="carousel-one-image">

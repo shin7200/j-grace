@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../styles/bibleAudio.css";
 import { oldBookSet, newBookSet } from "../utilities/constVariables";
-import SermonLogo from "../images/sermonImages/sermonAudioLogo.png";
 
 const BibleAudio = () => {
   const [currentMenu, setCurrentMenu] = useState("old");
@@ -127,7 +126,7 @@ const BibleAudio = () => {
           </span>
         </div>
         <div className="audio-outer-container">
-          <img src={SermonLogo} alt={"audio-logo"} />
+          <img src="https://j-grace.s3-us-west-2.amazonaws.com/sermonImages/sermonAudioLogo.png" alt={"audio-logo"} />
           <div className="audio-container">
             <div className="audio-details">
               <i

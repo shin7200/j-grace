@@ -39,7 +39,7 @@ export default class EMPS extends Component {
     
     render() {
         console.log(this.state.isVideoSermon);
-        const imagePath = (date) => require('../images/sermonImages/' + date + '.png');
+        // const imagePath = (date) => require('../images/sermonImages/' + date + '.png');
         return(
             <div>
                 <div data-aos="fade-down" data-aos-duration="1500" className="EMPS-banner">

@@ -133,26 +133,28 @@ export default class Mission extends Component {
         <div className="this-month-container">
           <div data-aos="fade-down">
             <div className="this-month-title">
-              <p>이번주 말씀과 찬양</p>
+              <p>이번달 암송구절</p>
             </div>
             <div className="this-month-scripture">
-              <b>빌립보서 3:11 새번역</b>
+              <b>로마서 8:2, 8:28</b>
               <p>
-                그리하여 나는 어떻게 해서든지, 죽은 사람들 가운데서 살아나는 부활에 이르고 싶습니다.
+              2 이는 그리스도 예수 안에 있는 생명의 성령의 법이 죄와 사망의 법에서 너를 해방하였음이라 <br />
+              28 우리가 알거니와 하나님을 사랑하는 자 곧 그의 뜻대로 부르심을 입은 자들에게는 모든 것이 합력하여 선 이루느니라
               </p>
             </div>
             <div className="this-month-hymn">
-              <b>찬양곡</b>
+              <b>이번주 찬양</b>
               <p>
-                변찮는 주님의 사랑과(찬270장)
+                나의 죄를 씻기는 (새252장)
                 <br />
-                주품에(Still)
+                내 구주 예수를 더욱 사랑 (새314장)
                 <br />
-                아무것도 두려워 말라
+                사랑합니다 나의 예수님
                 <br />
-                하나님이시여
+                지존하신 주님 이름앞에
                 <br />
-                하나님의 그늘아래
+                아버지 사랑 내가 노래해(그 사랑)
+                      
               </p>
             </div>
           </div>
